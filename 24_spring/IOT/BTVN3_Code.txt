@@ -1,0 +1,75 @@
+#define ledR 13
+#define ledY 12
+#define ledG 11
+
+#define bt1 3
+#define bt2 2
+
+int flag = 0;
+
+void setup()
+{
+  pinMode(ledR, OUTPUT);
+  pinMode(ledY, OUTPUT);
+  pinMode(ledG, OUTPUT);  
+  pinMode(bt1, INPUT_PULLUP);  
+  pinMode(bt2, INPUT_PULLUP);  
+}
+
+void loop()
+{
+  int val_bt1 = digitalRead(bt1); //Nút Start
+  int val_bt2 = digitalRead(bt2); //Nút Stop
+    
+  // VD2: Nút Start Stop 
+  if (val_bt1 == 0) {
+    flag = 1;  // An button 1 chạy vòng lặp
+  }
+  if (val_bt2 == 0) {
+    flag = 0;  //An button 2 không chạy vòng lặp
+  }
+
+  if (flag == 1)
+  {
+    
+    digitalWrite(ledR, 0);
+    digitalWrite(ledY, 0);
+    digitalWrite(ledG, 1);
+    delay(200); 
+
+    
+    digitalWrite(ledR, 0);
+    digitalWrite(ledY, 1);
+    digitalWrite(ledG, 0);
+    delay(200); 
+
+   
+    digitalWrite(ledR, 1);
+    digitalWrite(ledY, 0);
+    digitalWrite(ledG, 0);
+    delay(200); 
+
+    // Tắt đèn đỏ
+    digitalWrite(ledR, 0);
+  }
+}
+//VD3.1: Đếm số lần nhấn nút
+  /*
+  if (val_bt1 == 0) {
+    mode++;
+    delay(200);
+  }
+  Serial.println(mode);
+  */
+  
+  //VD3.2 : Đếm số lần nhấn nhà,dùng flag
+ /*
+ if (val_bt1 == 0) { 
+    flag2 = 1;
+  }
+  if (flag2 == 1 && val_bt1 == 1) {
+    mode++;
+    flag2 = 0;
+    Serial.println(mode);
+  }
+  */

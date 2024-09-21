@@ -1,0 +1,161 @@
+Muc luc
+//enqueue
+//dequeue
+//reverse Node in queue(Đảo ngược)
+// Thêm phần tử vào cuối queue
+// Lấy phần tử đầu queue nhưng không xóa
+// Lấy và xóa phần tử đầu queue
+// Kiểm tra xem queue có rỗng hay không
+// Lấy kích thước của queue
+
+
+//enqueue
+    void enqueue(String xName, double xPrice, int xColor) {   
+        Laptop newLaptop = new Laptop(xName, xPrice, xColor);
+        Node newNode = new Node(newLaptop, null);
+        if (isEmpty())
+            front = newNode;
+        else
+            rear.setNext(newNode);    
+        rear = newNode;
+        size++;
+    }
+//dequeue
+    Laptop dequeue(){
+    if (isEmpty()) 
+        return null;
+    
+    Laptop removedLaptop = front.getInfo();
+    front = front.next;
+    if (front == null)
+        rear = null;
+    size--;
+        return removedLaptop; 
+    } 
+
+//reverse Node in queue
+    void reverse(){
+    Node prev = null;
+    Node current = front;
+    Node next;
+    while(current != null) {
+        next = current.next;
+        current.next = prev;
+        prev = current;
+        current = next;
+    }
+    rear = front;
+    front = prev;
+    }
+
+// Thêm phần tử vào cuối queue
+    public void add(Laptop laptop) {
+        Node newNode = new Node(laptop);
+        if (isEmpty()) {
+            front = rear = newNode;
+        } else {
+            rear.next = newNode;
+            rear = newNode;
+        }
+        size++;
+    }
+
+    // Lấy phần tử đầu queue nhưng không xóa
+    public Laptop peek() {
+        if (isEmpty()) return null;
+        return front.getInfo();
+    }
+
+    // Lấy và xóa phần tử đầu queue
+    public Laptop poll() {
+        if (isEmpty()) return null;
+        Laptop info = front.getInfo();
+        front = front.next;
+        if (front == null) rear = null;
+        size--;
+        return info;
+    }
+
+    // Kiểm tra xem queue có rỗng hay không
+    // Đã được định nghĩa ở trên
+
+    // Lấy kích thước của queue
+    public int size() {
+		int count =0;
+                Node p = front;
+        while(p != null) {
+            count++;
+            p = p.next;
+        }
+          return count;
+    }
+
+    // Xóa tất cả các phần tử trong queue
+    // Đã được định nghĩa ở trên
+
+    // Kiểm tra sự tồn tại của phần tử
+    public boolean contains(Laptop laptop) {
+        Node current = front;
+        while (current != null) {
+            if (current.getInfo().equals(laptop)) {
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
+    // Chuyển đổi sang mảng
+    public Laptop[] toArray() {
+        Laptop[] array = new Laptop[size];
+        Node current = front;
+        int index = 0;
+        while (current != null) {
+            array[index++] = current.getInfo();
+            current = current.next;
+        }
+        return array;
+    }
+
+    // Xóa phần tử cụ thể
+    public boolean remove(Laptop laptop) {
+        Node current = front;
+        Node previous = null;
+
+        while (current != null) {
+            if (current.getInfo().equals(laptop)) {
+                if (previous == null) {
+                    front = front.next;
+                    if (front == null) rear = null;
+                } else {
+                    previous.next = current.next;
+                    if (previous.next == null) rear = previous;
+                }
+                size--;
+                return true;
+            }
+            previous = current;
+            current = current.next;
+        }
+        return false;
+    }
+
+    // Lấy phần tử mà không xóa
+    // Phương thức này tương tự như peek()
+
+    // Thêm vào đầu queue
+    public void offerFirst(Laptop laptop) {
+        Node newNode = new Node(laptop);
+        if (isEmpty()) {
+            front = rear = newNode;
+        } else {
+            newNode.next = front;
+            front = newNode;
+        }
+        size++;
+    }
+
+    // Thêm vào cuối queue
+    public void offerLast(Laptop laptop) {
+        add(laptop); // Phương thức này giống hệt với add()
+    }

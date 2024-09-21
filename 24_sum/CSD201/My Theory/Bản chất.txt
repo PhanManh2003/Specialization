@@ -1,0 +1,9 @@
+- p, cur, head, tail , head.next, p.next , cur.next
+đều là biến reference tới 1 object Node của LinkedList.
+(Tóm lại là giống hệt với con trỏ trong C, chỉ cần hiểu như vậy là hiểu hết) 
+
+- Duyệt LinkedList:
+	Node p = head;
+	p = p.next;
+- Hàm đệ quy có thể được tưởng tượng như việc xây dựng một cây gọi là cây gọi đệ quy.
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 2</title>
+  </head>
+  <body>
+    <style>
+      #wrapper {
+        width: 300px;
+        border: 1px solid blue;
+        padding: 10px 20px 20px 10px;
+      }
+      h1 {
+        color: blue;
+        font-size: 20px;
+        padding-left: 60px;
+      }
+
+      label {
+        font-weight: 600;
+      }
+
+      input.input-box {
+        width: 120px;
+        height: 15px;
+        background-color: #e0ffff;
+        outline: none;
+        border: 1.5px solid #bdbdbd; /* Thiết lập cùng lúc cho tất cả các cạnh */
+        border-right-color: #f8f5f5; /* Chỉ thay đổi màu cho cạnh phải */
+        border-bottom-color: #f8f5f5; /* Chỉ thay đổi màu cho cạnh dưới */
+      }
+      input[type="radio"] + label {
+        font-style: italic;
+        font-size: 14px;
+      }
+
+      .buttons {
+        padding: 15px 70px;
+      }
+
+      .radio {
+        margin-top: 10px;
+      }
+    </style>
+    <div id="wrapper">
+      <h1>TÌM MAX VÀ MIN</h1>
+      <form action="">
+        <table>
+          <tr>
+            <td>
+              <label for="a">Nhập a:</label>
+            </td>
+            <td>
+              <input type="text" name="" id="a" class="input-box" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="b">Nhập b:</label>
+            </td>
+            <td>
+              <input type="text" name="" id="b" class="input-box" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="c">Nhập c:</label></td>
+            <td>
+              <input type="text" name="" id="c" class="input-box" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="result">Kết quả:</label>
+            </td>
+            <td>
+              <input type="text" name="" id="result" class="input-box" />
+            </td>
+          </tr>
+        </table>
+
+        <div class="radio">
+          <input type="radio" name="calculate" id="max" />
+          <label for="max">Tìm số lớn nhất</label>
+          <input type="radio" name="calculate" id="min" />
+          <label for="min">Tìm số nhỏ nhất</label>
+        </div>
+        <div class="buttons">
+          <button type="button" onclick="calculate()">Tìm</button>
+          <button type="button" onclick="resetForm()">Xóa</button>
+        </div>
+      </form>
+    </div>
+    <script></script>
+  </body>
+</html>
