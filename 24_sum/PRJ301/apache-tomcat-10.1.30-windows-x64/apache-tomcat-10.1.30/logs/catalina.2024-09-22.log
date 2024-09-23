@@ -1,0 +1,46 @@
+22-Sep-2024 19:58:37.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.30
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 20:26:16 UTC
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.30.0
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23+37-2369
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+22-Sep-2024 19:58:37.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\logging.properties
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-QNAFJA4
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Sep-2024 19:58:37.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Sep-2024 19:58:37.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Sep-2024 19:58:37.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+22-Sep-2024 19:58:37.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+22-Sep-2024 19:58:37.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\temp
+22-Sep-2024 19:58:37.355 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+22-Sep-2024 19:58:37.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+22-Sep-2024 19:58:37.678 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Sep-2024 19:58:37.693 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+22-Sep-2024 19:58:37.731 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Sep-2024 19:58:37.731 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.30]
+22-Sep-2024 19:58:37.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\docs]
+22-Sep-2024 19:58:37.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\docs] has finished in [218] ms
+22-Sep-2024 19:58:37.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\examples]
+22-Sep-2024 19:58:38.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\examples] has finished in [203] ms
+22-Sep-2024 19:58:38.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\host-manager]
+22-Sep-2024 19:58:38.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\host-manager] has finished in [21] ms
+22-Sep-2024 19:58:38.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\manager]
+22-Sep-2024 19:58:38.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\manager] has finished in [24] ms
+22-Sep-2024 19:58:38.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\ROOT]
+22-Sep-2024 19:58:38.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\ROOT] has finished in [13] ms
+22-Sep-2024 19:58:38.224 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Sep-2024 19:58:38.239 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [544] milliseconds
+22-Sep-2024 19:58:48.200 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml]
+22-Sep-2024 19:58:48.201 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex5] in deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml] has been ignored
+22-Sep-2024 19:58:48.225 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml] has finished in [25] ms
+22-Sep-2024 19:58:48.228 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FORUSER_Ex5]] after start() had already been called. The second call will be ignored.
