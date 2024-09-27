@@ -141,7 +141,7 @@ function App() {
           </select>
         </div>
       </div>
-      <div className="row mb-2" style={{ marginTop: "7rem" }}>
+      <div className="row mb-2">
         <label htmlFor="result" className="col-4 text-primary">
           Kết quả
         </label>

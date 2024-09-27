@@ -42,7 +42,7 @@ function App() {
                 <th>result</th>
               </tr>
             </thead>
-            <tbody className="table table-primary">
+            <tbody className="table-primary">
               <tr>
                 <td>1</td>
                 <td>2</td>
