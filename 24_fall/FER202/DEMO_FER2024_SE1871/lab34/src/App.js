@@ -32,7 +32,7 @@ function App() {
           INFORMATION DISCLOSURE
         </div>
         <form>
-          <div className="row mb-3">
+          <Row margin="3">
             <div className="col-6">
               <label htmlFor="name" className="form-label">
                 Name:
@@ -55,7 +55,7 @@ function App() {
                 placeholder="input your birthdate"
               />
             </div>
-          </div>
+          </Row>
           <div className="row">
             <div className="col-6">
               <label htmlFor="teaching" className="form-label">
