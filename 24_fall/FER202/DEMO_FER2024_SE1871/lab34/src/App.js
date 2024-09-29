@@ -1,101 +1,60 @@
+import { Container, Form, Row, Col, Table, Button } from "react-bootstrap";
+import { coursesOptions, teachingQualityOptions, teachingData } from "./Data";
+
 function App() {
-  // Array data for teaching quality and courses
-  const teachingQualityOptions = ["Very good", "Good", "Normal", "Bad"];
-  const coursesOptions = ["Java", "English", "ReactJs"];
-
-  // Example teaching information array
-  const teachingData = [
-    {
-      name: "Nguyen Van A",
-      birthdate: "12/01/2000",
-      quality: "Very good",
-      course: "Java",
-    },
-    {
-      name: "Nguyen Van B",
-      birthdate: "10/01/2001",
-      quality: "Good",
-      course: "English",
-    },
-    {
-      name: "Nguyen Van C",
-      birthdate: "15/03/2003",
-      quality: "Normal",
-      course: "ReactJs",
-    },
-  ];
-
   return (
-    <div className="container mt-5">
-      <div className="">
-        <div className="bg-success-subtle text-success rounded-2 p-3 mb-3">
-          INFORMATION DISCLOSURE
-        </div>
-        <form>
-          <Row margin="3">
-            <div className="col-6">
-              <label htmlFor="name" className="form-label">
-                Name:
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="name"
-                placeholder="input your name"
-              />
-            </div>
-            <div className="col-6">
-              <label htmlFor="birthdate" className="form-label">
-                Birthdate:
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="birthdate"
-                placeholder="input your birthdate"
-              />
-            </div>
-          </Row>
-          <div className="row">
-            <div className="col-6">
-              <label htmlFor="teaching" className="form-label">
-                Teaching quality:
-              </label>
-              <select className="form-select" id="teaching">
+    <Container className="mt-5">
+      <Row>
+        <Col>
+          <p className="bg-success-subtle text-success rounded-2 p-3">
+            INFORMATION DISCLOSURE
+          </p>
+        </Col>
+      </Row>
+      <Form>
+        <Row className="mb-3">
+          <Col sm={6}>
+            <Form.Group controlId="name">
+              <Form.Label>Name:</Form.Label>
+              <Form.Control type="text" placeholder="input your name" />
+            </Form.Group>
+          </Col>
+          <Col sm={6}>
+            <Form.Group controlId="birthdate">
+              <Form.Label>Birthdate:</Form.Label>
+              <Form.Control type="text" placeholder="input your birthdate" />
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={6}>
+            <Form.Group controlId="teachingQuality">
+              <Form.Label>Teaching quality:</Form.Label>
+              <Form.Select>
                 {teachingQualityOptions.map((quality, index) => (
                   <option key={index} value={quality}>
                     {quality}
                   </option>
                 ))}
-              </select>
-              <button type="submit" className="btn btn-outline-primary mt-2">
-                Send
-              </button>
-            </div>
-            <div className="col-6">
-              <label className="form-label">Courses:</label>
+              </Form.Select>
+            </Form.Group>
+            <Button type="submit" className="mt-2" variant="outline-primary">
+              Send
+            </Button>
+          </Col>
+          <Col sm={6}>
+            <Form.Group controlId="courses">
+              <Form.Label>Courses:</Form.Label>
               {coursesOptions.map((course, index) => (
-                <div className="form-check" key={index}>
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    id={course.toLowerCase()}
-                  />
-                  <label
-                    className="form-check-label"
-                    htmlFor={course.toLowerCase()}
-                  >
-                    {course}
-                  </label>
-                </div>
+                <Form.Check type="checkbox" label={course} key={index} />
               ))}
-            </div>
-          </div>
-        </form>
-      </div>
-
+            </Form.Group>
+          </Col>
+        </Row>
+      </Form>
+     {/* List of information */}
       <h3 className="mt-2">List of information:</h3>
-      <table className="table">
+      <Table>
         <thead className="table-danger">
           <tr>
             <th>#</th>
@@ -116,8 +75,8 @@ function App() {
             </tr>
           ))}
         </tbody>
-      </table>
-    </div>
+      </Table>
+    </Container>
   );
 }
 

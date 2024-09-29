@@ -9,7 +9,7 @@ function App() {
         <h1>Bắt đầu học về JSX, Bootstrap</h1>
       </Row>
       <Row>
-        <Col variant="danger" sm={5}>
+        <Col variant="danger" sm={4}>
           <Row>
             <label htmlFor="a">Enter a:</label>
             <Form.Control id="a" type="text" />
@@ -40,7 +40,7 @@ function App() {
             </Button>
           </div>
         </Col>
-        <Col sm={7}>
+        <Col sm={8}>
           <Table bordered hover variant="success">
             <thead>
               <tr>
