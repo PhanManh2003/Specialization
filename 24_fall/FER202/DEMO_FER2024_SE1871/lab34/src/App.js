@@ -2,6 +2,7 @@ import { Container, Form, Row, Col, Table, Button } from "react-bootstrap";
 import { coursesOptions, teachingQualityOptions, teachingData } from "./Data";
 
 function App() {
+  // hàm xử lí khi nhấn nút Send
   return (
     <Container className="mt-5">
       <Row>
@@ -52,7 +53,7 @@ function App() {
           </Col>
         </Row>
       </Form>
-     {/* List of information */}
+      {/* List of information */}
       <h3 className="mt-2">List of information:</h3>
       <Table>
         <thead className="table-danger">

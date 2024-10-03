@@ -1,9 +1,29 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import { Button, Form } from "react-bootstrap";
+import { useState } from "react";
 function App() {
+  const [a, setA] = useState("");
+  const [b, setB] = useState("");
+  const [result, setResult] = useState("");
+
+  function solveEquation(e) {
+    e.preventDefault();
+    if (a === "" || b === "") {
+      alert("Nhập a và b");
+      return;
+    }
+    if (parseFloat(a) === 0) {
+      setResult("PT vô nghiệm");
+    } else {
+      setResult("PT có nghiệm x = " + (-parseFloat(b) / parseFloat(a)).toFixed(3));
+    }
+  }
+
+  function reset() {
+    setA("");
+    setB("");
+    setResult("");
+  }
   return (
-    /*
     <div>
       <div className="text-uppercase text-center text-primary row mb-2">
         <div className="col-7">
@@ -11,29 +31,60 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="col-5 text-danger">
-          <div>
-            <label htmlFor="a">Nhập a:</label>
-            <input id="a" type="text" className="form-control" />
+        <Form>
+          <div className="col-5 text-danger">
+            <div>
+              <label htmlFor="a">Nhập a:</label>
+              <input
+                id="a"
+                type="text"
+                className="form-control"
+                onChange={(e) => {
+                  setA(e.target.value);
+                }}
+              />
+            </div>
+            <div>
+              <label htmlFor="b">Nhập b:</label>
+              <input
+                id="b"
+                type="text"
+                className="form-control"
+                onChange={(e) => {
+                  setB(e.target.value);
+                }}
+              />
+            </div>
+            <div className="m-2">
+              <Button
+                variant="outline-success m-2"
+                type="submit"
+                onClick={solveEquation}
+              >
+                Giải PT
+              </Button>
+              <Button
+                variant="outline-success m-2"
+                type="reset"
+                onClick={reset}
+              >
+                Thoát
+              </Button>
+            </div>
+            <div>
+              <label htmlFor="">Kết quả</label>
+              <input
+                id="b"
+                type="text"
+                className="form-control"
+                readOnly
+                value={result}
+              />
+            </div>
           </div>
-          <div>
-            <label htmlFor="b">Nhập b:</label>
-            <input id="b" type="text" className="form-control" />
-          </div>
-          <div className="m-2">
-            <button className="btn btn-outline-success m-2">a+b</button>
-            <button className="btn btn-outline-success m-2">a-b</button>
-            <button className="btn btn-outline-success m-2">a*b</button>
-            <button className="btn btn-outline-success m-2">a/b</button>
-          </div>
-          <div>
-            <label htmlFor="">Kết quả</label>
-            <input id="b" type="text" className="form-control" readOnly />
-          </div>
-        </div>
+        </Form>
       </div>
     </div>
-    */
 
     /*
     <div style={{ width: "40%", margin: "0px auto" }}>
@@ -113,6 +164,7 @@ function App() {
         />
       </div>
     </div> */
+    /*
     <div style={{ width: "40%", margin: "0px auto" }}>
       <div className="row mb-2">
         <h1 className="fs-4 text-center text-uppercase text-primary">
@@ -150,6 +202,7 @@ function App() {
         </div>
       </div>
     </div>
+    */
   );
 }
 
