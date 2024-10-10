@@ -1,0 +1,300 @@
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.30
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 20:26:16 UTC
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.30.0
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23+37-2369
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+03-Oct-2024 21:55:09.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+03-Oct-2024 21:55:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\logging.properties
+03-Oct-2024 21:55:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30
+03-Oct-2024 21:55:09.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\temp
+03-Oct-2024 21:55:09.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+03-Oct-2024 21:55:09.422 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+03-Oct-2024 21:55:09.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 21:55:09.685 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [456] milliseconds
+03-Oct-2024 21:55:09.737 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2024 21:55:09.737 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.30]
+03-Oct-2024 21:55:09.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml]
+03-Oct-2024 21:55:09.756 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex5] in deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml] has been ignored
+03-Oct-2024 21:55:09.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\FORUSER_Ex5.xml] has finished in [228] ms
+03-Oct-2024 21:55:09.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\SessionLoginLogout.xml]
+03-Oct-2024 21:55:09.972 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SessionLoginLogout] in deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\SessionLoginLogout.xml] has been ignored
+03-Oct-2024 21:55:09.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\SessionLoginLogout.xml] has finished in [23] ms
+03-Oct-2024 21:55:09.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Ws1_Cookie.xml]
+03-Oct-2024 21:55:09.995 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Ws1_Cookie] in deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Ws1_Cookie.xml] has been ignored
+03-Oct-2024 21:55:10.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Ws1_Cookie.xml] has finished in [21] ms
+03-Oct-2024 21:55:10.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\docs]
+03-Oct-2024 21:55:10.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\docs] has finished in [13] ms
+03-Oct-2024 21:55:10.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\examples]
+03-Oct-2024 21:55:10.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\examples] has finished in [412] ms
+03-Oct-2024 21:55:10.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\host-manager]
+03-Oct-2024 21:55:10.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\host-manager] has finished in [20] ms
+03-Oct-2024 21:55:10.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\manager]
+03-Oct-2024 21:55:10.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\manager] has finished in [31] ms
+03-Oct-2024 21:55:10.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\ROOT]
+03-Oct-2024 21:55:10.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\webapps\ROOT] has finished in [19] ms
+03-Oct-2024 21:55:10.515 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 21:55:10.532 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [853] milliseconds
+03-Oct-2024 21:55:11.764 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Assignment.xml]
+03-Oct-2024 21:55:11.765 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Assignment.xml] has been ignored
+03-Oct-2024 21:55:12.033 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Oct-2024 21:55:12.033 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Specialization\24_sum\PRJ301\apache-tomcat-10.1.30-windows-x64\apache-tomcat-10.1.30\conf\Catalina\localhost\Assignment.xml] has finished in [269] ms
+03-Oct-2024 21:55:12.046 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Assignment]] after start() had already been called. The second call will be ignored.
+03-Oct-2024 21:55:34.313 SEVERE [http-nio-8080-exec-4] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-MLOTP07, port 1433 has failed. Error: "No such host is known (DESKTOP-MLOTP07). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at dal.DBContext.<init>(DBContext.java:29)
+		at dal.SubjectDAO.<init>(SubjectDAO.java:8)
+		at controller.StudentServlet.<init>(StudentServlet.java:28)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:144)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:758)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:575)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+03-Oct-2024 21:55:48.602 SEVERE [http-nio-8080-exec-4] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-MLOTP07, port 1433 has failed. Error: "DESKTOP-MLOTP07. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at dal.DBContext.<init>(DBContext.java:29)
+		at dal.StudentDAO.<init>(StudentDAO.java:10)
+		at controller.StudentServlet.<init>(StudentServlet.java:29)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:144)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:758)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:575)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+03-Oct-2024 21:56:02.897 SEVERE [http-nio-8080-exec-4] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-MLOTP07, port 1433 has failed. Error: "DESKTOP-MLOTP07. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at dal.DBContext.<init>(DBContext.java:29)
+		at dal.SubjectDAO.findAll(SubjectDAO.java:18)
+		at controller.StudentServlet.doGet(StudentServlet.java:80)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+03-Oct-2024 21:56:28.063 SEVERE [http-nio-8080-exec-10] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-MLOTP07, port 1433 has failed. Error: "No such host is known (DESKTOP-MLOTP07). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at dal.DBContext.<init>(DBContext.java:29)
+		at dal.SubjectDAO.<init>(SubjectDAO.java:8)
+		at controller.ShowServlet.<init>(ShowServlet.java:21)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:144)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:758)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:575)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+03-Oct-2024 21:56:42.398 SEVERE [http-nio-8080-exec-10] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-MLOTP07, port 1433 has failed. Error: "DESKTOP-MLOTP07. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at dal.DBContext.<init>(DBContext.java:29)
+		at dal.InstructorDAO.<init>(InstructorDAO.java:15)
+		at controller.ShowServlet.<init>(ShowServlet.java:22)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:144)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:758)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:575)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+03-Oct-2024 21:56:45.943 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Oct-2024 21:56:45.943 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 21:56:45.945 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Oct-2024 21:56:45.958 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ShowServlet]
+03-Oct-2024 21:56:47.051 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ShowServlet]
+03-Oct-2024 21:56:48.120 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ShowServlet]
+03-Oct-2024 21:56:48.233 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Assignment] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Oct-2024 21:56:48.234 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Assignment] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:496)
+ java.base/java.lang.Thread.sleep(Thread.java:527)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1751)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+ com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+ com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+ java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+ java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+ dal.DBContext.<init>(DBContext.java:29)
+ dal.SubjectDAO.findAll(SubjectDAO.java:18)
+ controller.ShowServlet.doGet(ShowServlet.java:63)
+ jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+ jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.base/java.lang.Thread.run(Thread.java:1575)]
+03-Oct-2024 21:56:48.236 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Assignment] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@255990cc]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a91c2b7f-a6c0-47f4-9c53-a91add0c8eb3-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+03-Oct-2024 21:56:48.237 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Assignment] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@255990cc]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [265fbc2e-3078-4872-a003-11a8e7d9b2c6-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+03-Oct-2024 21:56:48.276 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 21:56:53.292 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+03-Oct-2024 21:56:53.293 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
