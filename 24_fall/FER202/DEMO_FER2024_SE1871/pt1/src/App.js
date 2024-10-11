@@ -133,7 +133,7 @@ function App() {
               >
                 <option value="">Select quality</option>
                 {qualities.map((quality, index) => (
-                  <option key={index} value={quality}>
+                  <option key={index} value={quality} selected={quality === 'Good'}>
                     {quality}
                   </option>
                 ))}
