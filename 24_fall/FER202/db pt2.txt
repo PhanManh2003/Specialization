@@ -1,0 +1,42 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "John Doedgvds",
+      "dob": "25/05/2000"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "dob": "12/04/1999"
+    },
+    {
+      "id": 3,
+      "name": "Mary Monroe",
+      "dob": "01/09/1995"
+    }
+  ],
+  "courses": [
+    { "id": "1", "name": "Java" },
+    { "id": "2", "name": "English" },
+    { "id": "3", "name": "Japanesehntfg" }
+  ],
+  "qualities": [
+    { "id": "1", "name": "Very good" },
+    { "id": "2", "name": "Good" },
+    { "id": "3", "name": "Normal" },
+    { "id": "4", "name": "Bad" }
+  ],
+  "teachers_courses": [
+    { "id": "1", "teacherId": "1", "courseId": "1" },  // John Doe dạy Java
+    { "id": "2", "teacherId": "1", "courseId": "2" },  // John Doe dạy English
+    { "id": "3", "teacherId": "2", "courseId": "3" },  // Jane Smith dạy Japanese
+    { "id": "4", "teacherId": "3", "courseId": "3" },  // Mary Monroe dạy Japanese
+    { "id": "5", "teacherId": "3", "courseId": "2" }   // Mary Monroe dạy English
+  ],
+  "teachers_qualities": [
+    { "id": "1", "teacherId": "1", "qualityId": "1" },  // John Doe - Very good
+    { "id": "2", "teacherId": "2", "qualityId": "4" },  // Jane Smith - Bad
+    { "id": "3", "teacherId": "3", "qualityId": "3" }   // Mary Monroe - Normal
+  ]
+}

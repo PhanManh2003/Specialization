@@ -5,7 +5,7 @@ import qualities from "./Qualities"; // Ensure the qualities module is imported 
 import data from "./Data"; // Ensure initial teacher data is imported correctly
 
 function App() {
-  // State for the list of teachers, initialized with data from local storage or data.js
+  // teachers là bất biến khi lấy ra hoặc vừa thêm vào, filteredTeachers là có thể thay đổi
   const [teachers, setTeachers] = useState(() => {
     // Check if there's any teachers data in local storage
     const storedTeachers = localStorage.getItem("teachers");
@@ -18,33 +18,31 @@ function App() {
   const [teachingQuality, setTeachingQuality] = useState("");
   const [selectedCourses, setSelectedCourses] = useState([]);
 
-  // Update the filtered list whenever teachers are updated
+  // 1. Update the filtered list whenever teachers are updated
   useEffect(() => {
     setFilteredTeachers(teachers);
   }, [teachers]);
 
-  // Handle search input and filter teachers
+  // 2. Handle search input and filter teachers
   const handleSearch = () => {
     const searchValue = name.toLowerCase();
-
-    // Filter teachers based on the search input
     const filtered = teachers.filter((teacher) =>
       teacher.name.toLowerCase().includes(searchValue)
     );
-
-    // Update the filtered teachers state
     setFilteredTeachers(filtered);
   };
 
-  // Handle changes in course checkboxes
+  //3. Handle changes in course checkboxes
+  // Yes, exactly! In React, when you pass a function (callback) to a useState setter function (like setSelectedCourses), 
+  // the parameter of that function (in this case, prevCourses) refers to the previous (or current) state value before the update happens.
   const handleCheckboxChange = (e) => {
     const { value, checked } = e.target;
-    setSelectedCourses((prevCourses) =>
+    setSelectedCourses((prevCourses) => 
       checked ? [...prevCourses, value] : prevCourses.filter((course) => course !== value)
     );
   };
 
-  // Handle form submission with validation
+  //4. Handle form submission with validation
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -64,7 +62,7 @@ function App() {
     // Create a new teacher object
     const newTeacher = {
       id: teachers.length + 1, // Assuming IDs are sequential
-      name,
+      name: name,
       dob: birthdate,
       qualities: teachingQuality,
       courses: selectedCourses.map((courseName) =>
@@ -95,7 +93,7 @@ function App() {
           </p>
         </Col>
       </Row>
-      <Form onSubmit={handleSubmit}>
+      <Form>
         <Row className="mb-3">
           <Col sm={6}>
             <Form.Group controlId="name">
@@ -139,7 +137,7 @@ function App() {
                 ))}
               </Form.Select>
             </Form.Group>
-            <Button type="submit" variant="outline-primary m-2 mt-3">
+            <Button type="submit" variant="outline-primary m-2 mt-3" onClick={handleSubmit}>
               ADD
             </Button>
             <Button type="button" variant="outline-primary m-2 mt-3" onClick={handleSearch}>

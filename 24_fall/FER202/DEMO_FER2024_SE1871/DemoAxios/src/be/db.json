@@ -1,0 +1,125 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "John Doedgvds",
+      "dob": "25/05/2000"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "dob": "12/04/1999"
+    },
+    {
+      "id": 3,
+      "name": "Mary Monroe",
+      "dob": "01/09/1995"
+    },
+    {
+      "id": 4,
+      "name": "Nutne",
+      "dob": "06/05/2004"
+    },
+    {
+      "id": 5,
+      "name": "Nutne2",
+      "dob": "13/10/2024"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Java"
+    },
+    {
+      "id": "2",
+      "name": "English"
+    },
+    {
+      "id": "3",
+      "name": "Japanese"
+    }
+  ],
+  "qualities": [
+    {
+      "id": "1",
+      "name": "Very good"
+    },
+    {
+      "id": "2",
+      "name": "Good"
+    },
+    {
+      "id": "3",
+      "name": "Normal"
+    },
+    {
+      "id": "4",
+      "name": "Bad"
+    }
+  ],
+  "teachers_courses": [
+    {
+      "id": "1",
+      "teacherId": "1",
+      "courseId": "1"
+    },
+    {
+      "id": "2",
+      "teacherId": "1",
+      "courseId": "2"
+    },
+    {
+      "id": "3",
+      "teacherId": "2",
+      "courseId": "3"
+    },
+    {
+      "id": "4",
+      "teacherId": "3",
+      "courseId": "3"
+    },
+    {
+      "id": "5",
+      "teacherId": "3",
+      "courseId": "2"
+    },
+    {
+      "id": "1314",
+      "teacherId": 4,
+      "courseId": "1"
+    },
+    {
+      "id": "f1df",
+      "teacherId": 5,
+      "courseId": "1"
+    }
+  ],
+  "teachers_qualities": [
+    {
+      "id": "1",
+      "teacherId": "1",
+      "qualityId": "1"
+    },
+    {
+      "id": "2",
+      "teacherId": "2",
+      "qualityId": "4"
+    },
+    {
+      "id": "3",
+      "teacherId": "3",
+      "qualityId": "3"
+    },
+    {
+      "id": "e5fd",
+      "teacherId": 4,
+      "qualityId": "1"
+    },
+    {
+      "id": "9d5e",
+      "teacherId": 5,
+      "qualityId": "2"
+    }
+  ]
+}
