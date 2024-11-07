@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "dob": "12/04/1999",
+      "courses": [
+        {
+          "id": "3",
+          "name": "Japanese"
+        }
+      ],
+      "qualities": "Bad"
+    },
+    {
+      "id": "2",
+      "name": "Mary Monroe",
+      "dob": "01/09/1995",
+      "courses": [
+        {
+          "id": "3",
+          "name": "Japanese"
+        },
+        {
+          "id": "2",
+          "name": "English"
+        }
+      ],
+      "qualities": "Normal"
+    },
+    {
+      "id": "ae06",
+      "name": "Test 123",
+      "dob": "14/10/2024",
+      "courses": [
+        {
+          "name": "Java"
+        }
+      ],
+      "qualities": "Very good"
+    },
+    {
+      "id": "d997",
+      "name": "Test 1234",
+      "dob": "14/10/2024",
+      "courses": [
+        {
+          "name": "Java"
+        }
+      ],
+      "qualities": "Very good"
+    },
+    {
+      "id": "88a5",
+      "name": "Test 12345",
+      "dob": "14/10/2024",
+      "courses": [
+        {
+          "name": "Java"
+        },
+        {
+          "name": "English"
+        }
+      ],
+      "qualities": "Very good"
+    }
+  ]
+}

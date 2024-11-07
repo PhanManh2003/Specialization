@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
+import { useContext } from "react";
+import AppContext from "./provider/Context";
+const InformationDisclosure = ({ addFunc, searchFunc, qualities, courses, updateFunc }) => {
+  const { isEdit, editId } = useContext(AppContext);
 
-
-const InformationDisclosure = ({ addFunc, searchFunc, qualities, courses }) => {
   const [coursesSelected, setCourses] = useState([]);
   const [name, setName] = useState("");
-  const [date, setDate] = useState(new Date().toISOString().split("T")[0].toString());
-  const [tech, setTech] = useState("Very good");
+  const [date, setDate] = useState(
+    new Date().toISOString().split("T")[0].toString()
+  );
+  const [quality, setQuality] = useState("Very good");
   const [error, setError] = useState("");
   const [error2, setError2] = useState("");
-
- 
-   
 
   useEffect(() => {
     if (coursesSelected.length > 0) setError2("");
@@ -20,9 +21,15 @@ const InformationDisclosure = ({ addFunc, searchFunc, qualities, courses }) => {
     <div className="card" style={{ border: "none" }}>
       <div
         className="card-header text-white"
-        style={{ background: "#d1e7dd", display: "flex", justifyContent: "space-between" }}
+        style={{
+          background: "#d1e7dd",
+          display: "flex",
+          justifyContent: "space-between",
+        }}
       >
-        <p style={{ color: "#114227", margin: 0, padding: "4px 0" }}>INFORMATION DISCLOSURE</p>
+        <p style={{ color: "#114227", margin: 0, padding: "4px 0" }}>
+          INFORMATION DISCLOSURE
+        </p>
         <button
           type="button"
           className="btn-close"
@@ -62,28 +69,37 @@ const InformationDisclosure = ({ addFunc, searchFunc, qualities, courses }) => {
           <div className="row mb-3">
             <div className="col-md-6">
               <label className="form-label">Teaching quality:</label>
-              <select className="form-select" onChange={(e) => setTech(e.target.value)}>
+              <select
+                className="form-select"
+                onChange={(e) => setQuality(e.target.value)}
+              >
                 {qualities.map((teachingQuality) => (
                   <option key={teachingQuality.id} value={teachingQuality.name}>
                     {teachingQuality.name}
                   </option>
                 ))}
               </select>
-              <div className="d-flex" style={{ gap: "16px", paddingLeft: "16px" }}>
+              <div
+                className="d-flex"
+                style={{ gap: "16px", paddingLeft: "16px" }}
+              >
                 <button
                   type="submit"
                   className="btn btn-outline-primary mt-3"
                   onClick={(e) => {
-                    e.preventDefault();
+                    e.preventDefault(); // stop default form submission to handle logic manually
                     if (name === "" || coursesSelected.length === 0) {
                       if (name === "") setError("Enter this field");
-                      if (coursesSelected.length === 0) setError2("Select at least one");
+                      if (coursesSelected.length === 0)
+                        setError2("Select at least one");
                       return;
                     }
-                    addFunc(name, date, tech, coursesSelected);
+                    isEdit
+                      ? updateFunc(editId, name, date, quality, coursesSelected)
+                      : addFunc(name, date, quality, coursesSelected);
                   }}
                 >
-                  ADD
+                  {isEdit ? "UPDATE" : "ADD"}
                 </button>
                 <button
                   type="submit"
@@ -112,7 +128,9 @@ const InformationDisclosure = ({ addFunc, searchFunc, qualities, courses }) => {
                         if (selected) {
                           setCourses((prev) => [...prev, e.target.value]);
                         } else {
-                          setCourses((prev) => prev.filter((c) => c !== e.target.value));
+                          setCourses((prev) =>
+                            prev.filter((c) => c !== e.target.value)
+                          );
                         }
                       }}
                     />
