@@ -1,0 +1,18 @@
+{
+  "carts": [
+    {
+      "id": "0a00",
+      "userId": 1,
+      "recipes": [
+        {
+          "id": 6,
+          "name": "Quinoa Salad with Avocado"
+        },
+        {
+          "id": 7,
+          "name": "Tomato Basil Bruschetta"
+        }
+      ]
+    }
+  ]
+}

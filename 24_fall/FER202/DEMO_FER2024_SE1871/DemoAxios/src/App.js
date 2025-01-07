@@ -79,7 +79,8 @@ const App = () => {
 
     fetchCourses();
   }, []);
-
+  
+  // CREATE
   const addFunc = async (name, date, quality, coursesSelected) => {
     try {
       // Chia tách ngày tháng năm từ định dạng "YYYY-MM-DD"
@@ -156,6 +157,7 @@ const App = () => {
     }
   };
 
+  // DELETE
   const deleteFunc = async (id) => {
     const confirmDelete = window.confirm("Are you sure you want to delete?");
     if (!confirmDelete) return;
@@ -198,7 +200,7 @@ const App = () => {
     }
   };
 
-  // UPDATE FUNCTION
+  // UPDATE
   const updateFunc = async (id, name, date, quality, coursesSelected) => {
     try {
       // Split date into components for the new format
