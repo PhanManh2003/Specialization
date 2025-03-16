@@ -1,0 +1,11 @@
+	- use case description .
+	- activity diagram . (gồm swimlane và non-swimlane) 
+activity diagram giúp  mô tả normal flow , alternative flow 
+và exception của 1 use case description
+	- user story .
+	- use case diagram .
+	- context diagram  .
+	- state machine diagram .
+	- class diagram .
+	- sequence diagram .
+	- SRS + SDS document.

@@ -1,11 +1,11 @@
 ||__TRAVERSAL__//breadth-first traversal
- ||	    ||______//dept-first traversal
- ||     ||______//example breadth-first 
- ||
- ||___ALGORITHM_//dijkstra
- ||          ||_//euler cycle
- ||
- ||___OTHER_____//count the connectivity parts 
+||	    ||______//dept-first traversal
+||     ||______//example breadth-first 
+||
+||___ALGORITHM_//dijkstra
+||          ||_//euler cycle
+||
+||___OTHER_____//count the connectivity parts 
 
 
 //breadth-first traversal
