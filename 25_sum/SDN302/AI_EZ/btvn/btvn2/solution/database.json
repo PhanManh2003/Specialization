@@ -1,0 +1,62 @@
+[
+    {
+        "title": "MongoDB Basics",
+        "author": {
+            "fname": "John",
+            "lname": "Doe",
+            "address": "123 Tech Street, New York, NY"
+        },
+        "genre": "Technology",
+        "publishedYear": 2020,
+        "copiesAvailable": 5,
+        "ratings": [5, 4, 4, 3, 5]
+    },
+    {
+        "title": "Learn JavaScript",
+        "author": {
+            "fname": "Jane",
+            "lname": "Smith",
+            "address": "456 Code Avenue, San Francisco, CA"
+        },
+        "genre": "Programming",
+        "publishedYear": 2018,
+        "copiesAvailable": 2,
+        "ratings": [4, 4, 5]
+    },
+    {
+        "title": "Python for Beginners",
+        "author": {
+            "fname": "Alice",
+            "lname": "Brown",
+            "address": "789 Python Lane, Seattle, WA"
+        },
+        "genre": "Programming",
+        "publishedYear": 2021,
+        "copiesAvailable": 7,
+        "ratings": [5, 5, 4, 4]
+    },
+    {
+        "title": "History of Computers",
+        "author": {
+            "fname": "Michael",
+            "lname": "Lee",
+            "address": "321 History Road, Boston, MA"
+        },
+        "genre": "History",
+        "publishedYear": 2015,
+        "copiesAvailable": 3,
+        "ratings": [3, 4, 4, 5]
+    },
+    {
+        "title": "Artificial Intelligence",
+        "author": {
+            "fname": "John",
+            "lname": "Doe",
+            "address": "123 Tech Street, New York, NY"
+        },
+        "genre": "Technology",
+        "publishedYear": 2019,
+        "copiesAvailable": 4,
+        "ratings": [5, 5, 4]
+    }
+]

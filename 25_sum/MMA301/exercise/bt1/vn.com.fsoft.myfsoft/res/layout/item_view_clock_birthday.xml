@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background_birthday_date_time" android:layout_width="@dimen/_42dp" android:layout_height="@dimen/_44dp" android:layout_marginEnd="@dimen/_3dp" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/background_birthday_date_time_value" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/firstDigitDay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/secondDigitDay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_1dp" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/textViewDay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:text="@string/fpt35_countdown_day_title" android:maxLines="1" style="@style/TextInter7dpOrangeF89106" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background_birthday_date_time" android:layout_width="@dimen/_42dp" android:layout_height="@dimen/_44dp" android:layout_marginEnd="@dimen/_3dp" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/background_birthday_date_time_value" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/firstDigitHour" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/secondDigitHour" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_1dp" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/textViewHour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:text="@string/fpt35_countdown_hour_title" android:maxLines="1" style="@style/TextInter7dpOrangeF89106" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background_birthday_date_time" android:layout_width="@dimen/_42dp" android:layout_height="@dimen/_44dp" android:layout_marginEnd="@dimen/_3dp" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/background_birthday_date_time_value" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/firstDigitMinute" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/secondDigitMinute" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_1dp" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/textViewMinute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:text="@string/fpt35_countdown_minute_title" android:maxLines="1" style="@style/TextInter7dpOrangeF89106" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background_birthday_date_time" android:layout_width="@dimen/_42dp" android:layout_height="@dimen/_44dp" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/background_birthday_date_time_value" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/firstDigitSecond" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomCountDownDigitBirthday android:id="@id/secondDigitSecond" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_1dp" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/textViewSecond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:text="@string/fpt35_countdown_second_title" android:maxLines="1" style="@style/TextInter7dpOrangeF89106" />
+    </LinearLayout>
+</LinearLayout>

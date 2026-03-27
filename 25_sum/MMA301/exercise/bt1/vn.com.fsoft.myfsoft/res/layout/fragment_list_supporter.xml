@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_20dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/order_fragment_content_color_text" android:layout_gravity="center|top" android:id="@id/tv_title_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_list_supporters_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:text="@string/onboarding_send_info_online_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_support_send_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:text="Mục khác" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_support_other" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

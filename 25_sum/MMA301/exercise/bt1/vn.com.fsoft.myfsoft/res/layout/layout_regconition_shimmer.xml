@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_20dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_100dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_20dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_20dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_20dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_20dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_20dp" />
+    <View android:background="@drawable/bg_shimmer_quote_not_confirmed" android:layout_width="fill_parent" android:layout_height="@dimen/_120dp" android:layout_marginTop="@dimen/_20dp" />
+</LinearLayout>

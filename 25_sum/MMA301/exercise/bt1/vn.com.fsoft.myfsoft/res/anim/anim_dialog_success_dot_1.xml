@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:fillAfter="true" android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@android:interpolator/anticipate_overshoot" android:duration="750" android:repeatCount="0" android:repeatMode="restart" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <translate android:interpolator="@android:interpolator/anticipate_overshoot" android:duration="750" android:repeatCount="0" android:repeatMode="restart" android:fromXDelta="41.999996%p" android:toXDelta="64.49%p" android:fromYDelta="59.000004%p" android:toYDelta="9.010005%p" />
+</set>

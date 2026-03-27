@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layoutInfo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_bu_fsu_medal_happy_break" />
+    <TextView android:gravity="center|top" android:id="@id/tvPodiumBuFsu" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_16dp" app:layout_constraintEnd_toEndOf="@id/layoutInfo" app:layout_constraintStart_toStartOf="@id/layoutInfo" app:layout_constraintTop_toBottomOf="@id/layoutInfo" style="@style/TextGraphikSemiBold100SPFFFFFF" />
+</androidx.constraintlayout.widget.ConstraintLayout>

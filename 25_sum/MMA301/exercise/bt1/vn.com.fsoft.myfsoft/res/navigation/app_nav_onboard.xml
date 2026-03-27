@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/app_nav_onboard" app:startDestination="@id/onboardHomeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingHomeFragment" android:id="@id/onboardHomeFragment">
+        <action android:id="@id/onboardHome_to_onboardSupport" app:destination="@id/onboardSupportFragment" />
+        <action android:id="@id/onboardHome_to_onboardPrize" app:destination="@id/onboardPrizeFragment" />
+        <action android:id="@id/onboardHome_to_sendInfoOnline" app:destination="@id/sendInfoOnlineFragment" />
+        <action android:id="@id/onboardHome_to_importantFile" app:destination="@id/onBoardImportantFile" />
+        <action android:id="@id/onboardHome_to_dayoneNormal" app:destination="@id/dayoneNormalFragment" />
+        <action android:id="@id/onboardHome_to_contract_signing_date" app:destination="@id/contractSigningDate" />
+        <action android:id="@id/onboardHome_to_dayoneOnline" app:destination="@id/dayoneOnlineFragment" />
+        <action android:id="@id/onboardHome_to_buddyFragment" app:destination="@id/buddyFragment" />
+        <action android:id="@id/onboardHome_to_bankInformation" app:destination="@id/information_bank" />
+        <action android:id="@id/onboardHome_to_importantDocument" app:destination="@id/nav_graph_on_board_important_document" />
+        <action android:id="@id/action_to_registerBusRouteFragment" app:destination="@id/registerBusRouteFragment" app:launchSingleTop="true" />
+    </fragment>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingSupportFragment" android:id="@id/onboardSupportFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardPrizeFragment" android:id="@id/onboardPrizeFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.FragmentSendInfoOnline" android:id="@id/sendInfoOnlineFragment">
+        <action android:id="@id/sendInfoOnlineFragment_to_confirmPcFragment" app:destination="@id/confirmPcFragment" />
+        <action android:id="@id/sendInfoOnlineFragment_to_inputInfoFragment" app:destination="@id/inputInfoFragment" />
+    </fragment>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardConfirmPCFragment" android:id="@id/confirmPcFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardPreviewFragment" android:id="@id/previewFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardImportantFileFragment" android:id="@id/onBoardImportantFile">
+        <action android:id="@id/onBoardImportantFile_to_previewImportantFileFragment" app:destination="@id/previewFragment" />
+    </fragment>
+    <navigation android:id="@id/nav_graph_on_board_important_document" app:startDestination="@id/onBoardImportantDocumentsFragment">
+        <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardImportantDocumentsFragment" android:id="@id/onBoardImportantDocumentsFragment">
+            <action android:id="@id/onBoardImportantFile_to_previewImportantFileFragment" app:destination="@id/previewFragment" />
+        </fragment>
+        <fragment android:label="FragmentCaptureImageDoc" android:name="vn.com.fsoft.myfsoft.wiki.fptcare.view.CaptureImageClaimDocFragment" android:id="@id/fragmentCaptureImageDoc" />
+        <fragment android:label="selectImageClaimDocFPTCareFragment" android:name="vn.com.fsoft.myfsoft.wiki.fptcare.view.FPTCareSelectImageClaimFragment" android:id="@id/selectImageClaimDocFPTCareFragment" />
+    </navigation>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardDayoneNormalFragment" android:id="@id/dayoneNormalFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.DayOneOfflineContactFragment" android:id="@id/contractSigningDate" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingChangePasswordFragment" android:id="@id/accInfoFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.DayoneOfflineCancelFragment" android:id="@id/dayoneOfflineCancelFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.DayOneOfflineContactFragment" android:id="@id/dayOneOfflineContactFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.DayOneOfflineFragment" android:id="@id/dayoneOfflineFragment">
+        <action android:id="@id/dayoneOfflineFragment_to_dayoneOfflineGuidemoveFragment" app:destination="@id/dayoneOfflineGuidemoveFragment" />
+        <action android:id="@id/action_dayOneOffline_to_viewSchedule" app:destination="@id/viewStudyScheduleFragment" />
+    </fragment>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.DayoneOfflineGuidemoveFragment" android:id="@id/dayoneOfflineGuidemoveFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardDayoneOnlineFragment" android:id="@id/dayoneOnlineFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.FKRDayOneOfflineContactFragment" android:id="@id/fkrDayoneOfflineContactFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardBuddyFragment" android:id="@id/buddyFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingBankInformationFragment" android:id="@id/information_bank">
+        <action android:id="@id/onboardHome_to_have_account" app:destination="@id/have_bank_account" />
+        <action android:id="@id/onboardHome_to_not_have_account" app:destination="@id/not_have_bank_account" />
+    </fragment>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingHaveBankAccountFragment" android:id="@id/have_bank_account" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardingNotHaveBankAccountFragment" android:id="@id/not_have_bank_account" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.CropCardPhotoFragment" android:id="@id/cropCardPhotoFragment">
+        <action android:id="@id/action_CropCardPhotoFragment_to_UploadPersonalAvatarFragment" app:destination="@id/uploadPersonalAvatarFragment" app:popUpTo="@id/onboardHomeFragment" />
+        <action android:id="@id/action_CropCardPhotoFragment_to_UploadPersonalHCMFragment" app:destination="@id/uploadPersonalImageHCM" app:popUpTo="@id/onboardHomeFragment" />
+    </fragment>
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.UploadPersonalAvatarFragment" android:id="@id/uploadPersonalAvatarFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.OnBoardUploadIdCardFragment" android:id="@id/uploadIdCardFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.CropImageIdCardFragment" android:id="@id/cropImageIdCard" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.RegisterBusRouteFragment" android:id="@id/registerBusRouteFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.ViewGuideDocumentFragment" android:id="@id/viewGuideDocumentFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.ListSupporterFragment" android:id="@id/listSupporterFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.view.FAQsOnboardingFragment" android:id="@id/onboardingFaqsFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.info.view.MainInfoOnBoardingFragment" android:id="@id/inputInfoFragment" />
+    <fragment android:name="vn.com.fsoft.myfsoft.onboard.info.view.FKRMainInfoOnBoardingFragment" android:id="@id/inputFKRInfoFragment">
+        <action android:id="@id/action_to_searchFKRAddressFragment" app:destination="@id/searchAddressFKRFragment" app:launchSingleTop="true" app:popUpTo="@id/inputFKRInfoFragment" />
+    </fragment>
+    <action android:id="@id/actionGlobal_to_DayOneOnline" app:destination="@id/dayoneOnlineFragment" app:launchSingleTop="true" app:popUpTo="@id/onboardHomeFragment" />
+    <action android:id="@id/actionGlobal_to_registerBusRouteFragment" app:destination="@id/registerBusRouteFragment" app:launchSingleTop="true" app:popUpTo="@id/sendInfoOnlineFragment" />
+    <fragment android:label="OnboardingViewDocFragment" android:name="vn.com.fsoft.myfsoft.onboard.view.FragmentPreviewDocDayOne" android:id="@id/onboardingViewDocFragment" />
+    <fragment android:label="UploadPersonalImageHCM" android:name="vn.com.fsoft.myfsoft.onboard.view.FragmentUploadPersonalImageHCM" android:id="@id/uploadPersonalImageHCM" />
+    <fragment android:label="ViewStudyScheduleFragment" android:name="vn.com.fsoft.myfsoft.onboard.view.FragmentViewStudySchedule" android:id="@id/viewStudyScheduleFragment" />
+    <fragment android:label="searchAddressFKRFragment" android:name="vn.com.fsoft.myfsoft.onboard.info.view.fkr.FKRSearchAddressFragment" android:id="@id/searchAddressFKRFragment">
+        <action android:id="@id/action_to_fkrInfoFragment" app:destination="@id/inputFKRInfoFragment" app:launchSingleTop="true" app:popUpTo="@id/onboardHomeFragment" />
+    </fragment>
+</navigation>

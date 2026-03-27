@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bg_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/iv_inside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" app:layout_constraintEnd_toEndOf="@id/iv_icon" app:layout_constraintStart_toStartOf="@id/iv_icon" app:layout_constraintTop_toTopOf="@id/iv_icon" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/colorWhite" android:gravity="center" android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:fontFamily="@font/inter_semibold" app:layout_constraintEnd_toEndOf="@id/iv_inside" app:layout_constraintStart_toStartOf="@id/iv_inside" app:layout_constraintTop_toBottomOf="@id/iv_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

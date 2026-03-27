@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frmBorder" android:background="@drawable/rounded_border_tv" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgPhotoEditorImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/ic_remove_image" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </FrameLayout>
+</FrameLayout>

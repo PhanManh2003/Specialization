@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/swipe_my_booking_sky_hola_corner" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/lyToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/ivBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_16dp" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:layout_gravity="center" android:id="@id/tvTitleToolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hola_sky_corner_my_order_title" android:layout_centerHorizontal="true" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/ivBack" />
+        </androidx.appcompat.widget.Toolbar>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_view_list_order" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lyToolBar">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/item_campus_booking_shimmer" />
+                <include layout="@layout/item_campus_booking_shimmer" />
+                <include layout="@layout/item_campus_booking_shimmer" />
+                <include layout="@layout/item_campus_booking_shimmer" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list_order" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lyToolBar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

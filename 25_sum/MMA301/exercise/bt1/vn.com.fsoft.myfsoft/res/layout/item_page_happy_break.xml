@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/description_instruction_top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterRegular14Black" />
+    <ImageView android:id="@id/iv_item_instruction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description_instruction_top" />
+    <TextView android:gravity="center" android:id="@id/description_instruction_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_item_instruction" style="@style/TextInterSemiBold14Black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

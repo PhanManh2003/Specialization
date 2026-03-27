@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/background_quick_request_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_status_bar" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:elevation="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toBottomOf="@id/view_status_bar">
+        <ImageButton android:id="@id/btnBack" android:background="@null" android:padding="@dimen/_10dp" android:layout_width="wrap_content" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back_gray" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_10dp" />
+        <TextView android:textSize="@dimen/_16sp" android:textStyle="normal" android:textColor="@color/colorBlack" android:layout_gravity="center" android:id="@id/tv_title" android:padding="@dimen/_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/request_backup_card_title" android:includeFontPadding="false" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_10dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rcv_form" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginBottom="@dimen/_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/btn_submit" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <Button android:textSize="@dimen/_14sp" android:textColor="@color/color_bg_anniversary_end" android:gravity="center" android:id="@id/btn_submit" android:background="@drawable/bg_onboarding_button_call" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_80dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginBottom="@dimen/_10dp" android:text="@string/quick_request_submit" android:fontFamily="@font/inter_semibold" android:layout_marginHorizontal="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" style="?android:borderlessButtonStyle" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:visibility="gone" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" app:layout_constraintBottom_toTopOf="@id/btn_submit" app:layout_constraintEnd_toEndOf="@id/rcv_form" app:layout_constraintStart_toStartOf="@id/rcv_form" app:layout_constraintTop_toBottomOf="@id/toolbar" app:shimmer_auto_start="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+            <include layout="@layout/item_input_quick_request_shimmer" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

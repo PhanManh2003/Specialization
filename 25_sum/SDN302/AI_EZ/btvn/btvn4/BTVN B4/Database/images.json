@@ -1,0 +1,39 @@
+[
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9001" },
+      "path": "/sites/images/projects/ecommerce.jpg",
+      "url": "/images/projects/ecommerce.jpg",
+      "caption": "E-Commerce Project"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9002" },
+      "path": "/sites/images/projects/ai-chatbot.jpg",
+      "url": "/images/projects/ai-chatbot.jpg",
+      "caption": "AI Chatbot Project"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9003" },
+      "path": "/sites/images/projects/cybersecurity.jpg",
+      "url": "/images/projects/cybersecurity.jpg",
+      "caption": "Cybersecurity Dashboard"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9004" },
+      "path": "/sites/images/members/alice.jpg",
+      "url": "/images/members/alice.jpg",
+      "caption": "Alice Johnson"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9005" },
+      "path": "/sites/images/members/bob.jpg",
+      "url": "/images/members/bob.jpg",
+      "caption": "Bob Williams"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c9006" },
+      "path": "/sites/images/members/charlie.jpg",
+      "url": "/images/members/charlie.jpg",
+      "caption": "Charlie Brown"
+    }
+  ]
+  

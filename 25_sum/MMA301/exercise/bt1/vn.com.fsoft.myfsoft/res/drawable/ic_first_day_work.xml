@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffe6edf7" android:pathData="M47.9998,24.0002a24,24 0,1 1,-24 -24A24,24 0,0 1,47.9998 24.0002Z" />
+    <group>
+        <clip-path android:pathData="M48,24a24,24 0,1 1,-24 -24A24,24 0,0 1,48 24Z" />
+        <path android:fillColor="@drawable/$ic_first_day_work__0" android:pathData="M8.535,47.374a3.027,3.027 0,0 0,3.023 3.023L36.442,50.397a3.027,3.027 0,0 0,3.023 -3.023L39.465,28.505L8.535,28.505Z" />
+        <path android:fillColor="@drawable/$ic_first_day_work__1" android:pathData="M39.465,26.636v-2.88a3.026,3.026 0,0 0,-3.023 -3.023h-17.6v1.679a0.935,0.935 0,0 1,-1.87 0L16.972,20.733L15.131,20.733v1.679a0.935,0.935 0,0 1,-1.87 0L13.261,20.733L11.558,20.733A3.026,3.026 0,0 0,8.531 23.756v2.88ZM39.465,26.636" />
+        <path android:fillColor="@drawable/$ic_first_day_work__2" android:pathData="M18.839,19.054a0.935,0.935 0,0 0,-1.87 0L16.969,20.733h1.87ZM18.839,19.054" />
+        <path android:fillColor="@drawable/$ic_first_day_work__3" android:pathData="M15.133,19.054a0.935,0.935 0,0 0,-1.87 0L13.263,20.733h1.87ZM15.133,19.054" />
+        <path android:fillColor="#ffe6edf7" android:pathData="M21.6,16.8h14.4v4.8h-14.4z" />
+        <path android:fillColor="@drawable/$ic_first_day_work__4" android:pathData="M30.64,15.459a0.6,0.6 0,0 1,-0.6 -0.6L30.04,13.947L27.616,13.947v0.907A0.6,0.6 0,1 1,26.407 14.854L26.407,13.947A1.211,1.211 0,0 1,27.616 12.738h2.419a1.211,1.211 0,0 1,1.209 1.209v0.907A0.6,0.6 0,0 1,30.64 15.459Z" />
+        <path android:fillColor="@drawable/$ic_first_day_work__5" android:pathData="M23.233,24.831A1.664,1.664 0,0 1,21.568 23.169L21.568,18.553L28.361,20.817a1.366,1.366 0,0 0,0.463 0.084,1.248 1.248,0 0,0 0.429,-0.073L36.082,18.553L36.082,23.169a1.662,1.662 0,0 1,-1.663 1.662ZM28.68,19.97 L21.568,17.6L21.568,16.215A1.663,1.663 0,0 1,23.233 14.553L34.419,14.553a1.661,1.661 0,0 1,1.663 1.662L36.082,17.6L28.968,19.97a0.417,0.417 0,0 1,-0.147 0.023A0.406,0.406 0,0 1,28.68 19.97Z" />
+    </group>
+</vector>

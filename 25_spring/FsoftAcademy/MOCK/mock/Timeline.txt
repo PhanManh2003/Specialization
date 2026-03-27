@@ -1,0 +1,4 @@
+20/2-26/2: setup/prepare
+27/2-12/3: sprint 01
+13/3-26/3: sprint 02
+27/3-09/4: sprint 03

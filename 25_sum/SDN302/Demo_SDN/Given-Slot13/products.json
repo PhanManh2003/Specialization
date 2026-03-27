@@ -1,0 +1,182 @@
+[
+  {
+    "name": "iPad Pro 13 M4",
+    "description": "New generation iPad Pro with OLED screen",
+    "price": 31990000,
+    "stock": 20,
+    "category": { "$oid": "666000000000000000000001" },
+    "brand": "Apple",
+    "createdAt": "2024-05-20T08:00:00Z"
+  },
+  {
+    "name": "Samsung Galaxy Tab S9",
+    "description": "High-end Android tablet",
+    "price": 18990000,
+    "stock": 15,
+    "category": { "$oid": "666000000000000000000001" },
+    "brand": "Samsung",
+    "createdAt": "2024-05-15T08:00:00Z"
+  },
+  {
+    "name": "Apple Watch Ultra 2",
+    "description": "Premium smartwatch for fitness & outdoor",
+    "price": 19990000,
+    "stock": 10,
+    "category": { "$oid": "666000000000000000000002" },
+    "brand": "Apple",
+    "createdAt": "2024-04-10T08:00:00Z"
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "description": "Android smartwatch with health tracking",
+    "price": 6990000,
+    "stock": 30,
+    "category": { "$oid": "666000000000000000000002" },
+    "brand": "Samsung",
+    "createdAt": "2024-04-15T08:00:00Z"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "description": "Noise cancelling wireless headphones",
+    "price": 8990000,
+    "stock": 20,
+    "category": { "$oid": "666000000000000000000003" },
+    "brand": "Sony",
+    "createdAt": "2024-05-05T08:00:00Z"
+  },
+  {
+    "name": "AirPods Pro 2",
+    "description": "Apple wireless earbuds with ANC",
+    "price": 5990000,
+    "stock": 35,
+    "category": { "$oid": "666000000000000000000003" },
+    "brand": "Apple",
+    "createdAt": "2024-03-20T08:00:00Z"
+  },
+  {
+    "name": "Canon EOS R10",
+    "description": "Mirrorless camera with 4K video",
+    "price": 20990000,
+    "stock": 12,
+    "category": { "$oid": "666000000000000000000004" },
+    "brand": "Canon",
+    "createdAt": "2024-03-10T08:00:00Z"
+  },
+  {
+    "name": "Sony Alpha A6400",
+    "description": "Compact camera for vloggers",
+    "price": 18990000,
+    "stock": 8,
+    "category": { "$oid": "666000000000000000000004" },
+    "brand": "Sony",
+    "createdAt": "2024-02-25T08:00:00Z"
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "description": "Wireless productivity mouse",
+    "price": 2990000,
+    "stock": 50,
+    "category": { "$oid": "666000000000000000000005" },
+    "brand": "Logitech",
+    "createdAt": "2024-05-01T08:00:00Z"
+  },
+  {
+    "name": "Anker PowerCore 10000",
+    "description": "Portable power bank 10,000mAh",
+    "price": 599000,
+    "stock": 100,
+    "category": { "$oid": "666000000000000000000005" },
+    "brand": "Anker",
+    "createdAt": "2024-03-01T08:00:00Z"
+  },
+  {
+    "name": "HP Pavilion 15",
+    "description": "Affordable student laptop",
+    "price": 12990000,
+    "stock": 30,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f9" },
+    "brand": "HP",
+    "createdAt": "2024-05-03T08:00:00Z"
+  },
+  {
+    "name": "Dell Inspiron 14",
+    "description": "Everyday use Windows laptop",
+    "price": 13990000,
+    "stock": 25,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f9" },
+    "brand": "Dell",
+    "createdAt": "2024-05-06T08:00:00Z"
+  },
+  {
+    "name": "Realme C55",
+    "description": "Budget smartphone with 64MP camera",
+    "price": 4590000,
+    "stock": 50,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f8" },
+    "brand": "Realme",
+    "createdAt": "2024-06-12T08:00:00Z"
+  },
+  {
+    "name": "Motorola Edge 40",
+    "description": "Stylish 5G phone with great camera",
+    "price": 8990000,
+    "stock": 15,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f8" },
+    "brand": "Motorola",
+    "createdAt": "2024-06-11T08:00:00Z"
+  },
+  {
+    "name": "Samsung Crystal UHD 43",
+    "description": "4K Smart TV with Tizen OS",
+    "price": 9990000,
+    "stock": 10,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f7" },
+    "brand": "Samsung",
+    "createdAt": "2024-04-28T08:00:00Z"
+  },
+  {
+    "name": "Toshiba Android TV 50",
+    "description": "Smart TV for budget-friendly homes",
+    "price": 7990000,
+    "stock": 18,
+    "category": { "$oid": "665f2fcb6b449f0d1437b6f7" },
+    "brand": "Toshiba",
+    "createdAt": "2024-04-22T08:00:00Z"
+  },
+  {
+    "name": "Fitbit Charge 6",
+    "description": "Health tracking band",
+    "price": 2990000,
+    "stock": 40,
+    "category": { "$oid": "666000000000000000000002" },
+    "brand": "Fitbit",
+    "createdAt": "2024-05-25T08:00:00Z"
+  },
+  {
+    "name": "Beats Studio Pro",
+    "description": "Premium over-ear wireless headphones",
+    "price": 7490000,
+    "stock": 10,
+    "category": { "$oid": "666000000000000000000003" },
+    "brand": "Beats",
+    "createdAt": "2024-03-10T08:00:00Z"
+  },
+  {
+    "name": "DJI Osmo Pocket 3",
+    "description": "Pocket-sized 4K camera with gimbal",
+    "price": 14990000,
+    "stock": 10,
+    "category": { "$oid": "666000000000000000000004" },
+    "brand": "DJI",
+    "createdAt": "2024-02-28T08:00:00Z"
+  },
+  {
+    "name": "Baseus 6-in-1 USB Hub",
+    "description": "Multi-port hub for laptops",
+    "price": 499000,
+    "stock": 60,
+    "category": { "$oid": "666000000000000000000005" },
+    "brand": "Baseus",
+    "createdAt": "2024-03-30T08:00:00Z"
+  }
+]

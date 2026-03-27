@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="13.921997dip" android:width="13.971985dip" android:viewportWidth="13.972" android:viewportHeight="13.922"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_pen__0" android:pathData="M12.2811,0.4393a1.5,1.5 0,0 0,-2.008 -0.1c-0.085,0.069 -0.019,0.008 -1.316,1.305l3.367,3.367 1.21,-1.195a1.5,1.5 0,0 0,0 -2.122Z" />
+    <path android:fillColor="@drawable/$ic_pen__1" android:pathData="M2.0509,8.6111l-1.981,4.244a0.75,0.75 0,0 0,1 1l4.244,-1.981c0.168,-0.078 -0.34,0.4 5.943,-5.808l-3.36,-3.36C1.6649,8.9331 2.1309,8.4391 2.0509,8.6111Z" />
+</vector>

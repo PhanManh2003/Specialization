@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/_265dp" android:layout_marginLeft="@dimen/_8dp" android:layout_marginTop="@dimen/_6dp" android:layout_marginRight="@dimen/_8dp" android:layout_marginBottom="@dimen/_6dp" android:layout_marginHorizontal="@dimen/_8dp" android:layout_marginVertical="@dimen/_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/_6dp" app:cardUseCompatPadding="false">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ivBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <View android:background="@drawable/bg_dating_new_friend_group_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/_20sp" android:textColor="@color/colorWhite" android:id="@id/tvGroupName" android:paddingLeft="@dimen/_12dp" android:paddingRight="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_6dp" android:includeFontPadding="false" android:layout_above="@id/tvDescription" android:fontFamily="@font/inter_bold" android:paddingHorizontal="@dimen/_12dp" />
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:id="@id/tvDescription" android:paddingLeft="@dimen/_12dp" android:paddingRight="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_8dp" android:includeFontPadding="false" android:layout_above="@id/ivMember" android:fontFamily="@font/inter_medium" android:paddingHorizontal="@dimen/_12dp" />
+            <ImageView android:id="@id/ivMember" android:layout_width="@dimen/_12dp" android:layout_height="@dimen/_12dp" android:layout_marginBottom="@dimen/_12dp" android:src="@drawable/ic_member" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/_12dp" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_D8D8D8" android:id="@id/tvTotalMember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_11dp" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:fontFamily="@font/inter_regular" android:layout_marginStart="@dimen/_4dp" android:layout_toEndOf="@id/ivMember" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

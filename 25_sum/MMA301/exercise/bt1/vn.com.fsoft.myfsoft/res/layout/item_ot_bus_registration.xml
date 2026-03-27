@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_name_ot_bus" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextInterBold14Black" />
+    <TextView android:ellipsize="end" android:id="@id/tv_list_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextInterMedium14Black" />
+    <View android:id="@id/line_item" android:background="@color/color_black_alpha_10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_12dp" />
+</LinearLayout>

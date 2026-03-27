@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330358675359",
+    "project_id": "fir-mma-a088f",
+    "storage_bucket": "fir-mma-a088f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330358675359:android:529a17ee1bcb3c970c4faa",
+        "android_client_info": {
+          "package_name": "com.manh.firebaseMMA"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbF9tDOy3PQOX84Tj-PWQ1_w31fiZqvZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

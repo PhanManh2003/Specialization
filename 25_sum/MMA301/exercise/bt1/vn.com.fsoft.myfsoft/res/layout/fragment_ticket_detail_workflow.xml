@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/lyHeader" android:background="@drawable/background_portal_home_header" android:layout_width="fill_parent" android:layout_height="@dimen/_120dp">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_workfollow" android:background="@android:color/transparent" android:paddingTop="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:layout_alignParentBottom="true" android:contentInsetStart="@dimen/_0dp" android:contentInsetEnd="@dimen/_0dp" android:contentInsetLeft="@dimen/_0dp" android:contentInsetRight="@dimen/_0dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetLeft="@dimen/_0dp" app:contentInsetRight="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:elevation="@dimen/_0dp">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ivBackWorkFollow" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_5dp" android:layout_width="@dimen/_28dp" android:layout_height="@dimen/_28dp" android:src="@drawable/ic_back_white" android:layout_marginStart="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/approvenow_work_flow_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/lyHeader">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/background_history_portal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/wv_ticket_detail_workflow" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/flLoadingProgress" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_0dp" android:elevation="@dimen/_100dp">
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:padding="@dimen/_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@anim/anim_loading_rotate" style="?android:progressBarStyle" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeDetailMonth" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nestDetailMonth" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.cardview.widget.CardView android:id="@id/cardBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp">
+                    <ImageView android:id="@id/imBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@id/tvNetResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp" android:text="@string/payslip_net_pay_value_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="@id/imBanner" app:layout_constraintTop_toTopOf="@id/imBanner" />
+                    <ImageView android:id="@id/imInfoResult" android:padding="@dimen/_5dp" android:layout_width="@dimen/_23dp" android:layout_height="@dimen/_23dp" android:src="@drawable/ic_information_payslips" android:layout_marginStart="@dimen/_5dp" app:layout_constraintBottom_toBottomOf="@id/tvNetResult" app:layout_constraintStart_toEndOf="@id/tvNetResult" app:layout_constraintTop_toTopOf="@id/tvNetResult" />
+                    <TextView android:textSize="@dimen/_28sp" android:textColor="@color/colorWhite" android:id="@id/tvNetResultValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="@id/imBanner" app:layout_constraintTop_toBottomOf="@id/tvNetResult" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout android:id="@id/lyContent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cardBanner">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDataMonthly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerDetailMonth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/item_monthly_report_detail_shimmer" />
+                        <include layout="@layout/item_monthly_report_detail_shimmer" />
+                        <include layout="@layout/item_monthly_report_detail_shimmer" />
+                        <include layout="@layout/item_monthly_report_detail_shimmer" />
+                        <include layout="@layout/item_monthly_report_detail_shimmer" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+            </RelativeLayout>
+            <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/lyEmptyDetail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:text_empty="@string/payslip_detail_empty_msg" />
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_8B8B8B" android:gravity="center_horizontal" android:id="@id/tvInfo1" android:paddingBottom="@dimen/_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_25dp" android:text="@string/payslip_desciption_monthly_msg" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_30dp" android:layout_marginEnd="@dimen/_30dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lyContent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

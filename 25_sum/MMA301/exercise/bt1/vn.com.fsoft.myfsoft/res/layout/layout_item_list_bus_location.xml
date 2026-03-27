@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_top_pick_up" android:visibility="invisible" android:layout_width="@dimen/_20dp" android:layout_height="fill_parent" android:src="@null" />
+        <ImageView android:id="@id/ivRouteEndIcon" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_20dp" android:src="@drawable/ic_bus_location_bus_detail" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/iv_next_pick_up" android:layout_width="@dimen/_20dp" android:layout_height="wrap_content" android:src="@null" />
+    </LinearLayout>
+    <TextView android:textColor="@color/color_666666" android:ellipsize="end" android:id="@id/tvLocation" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_4dp" android:layout_marginEnd="@dimen/_30dp" app:layout_constraintBottom_toBottomOf="@id/ivRouteEndIcon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ivRouteEndIcon" app:layout_constraintTop_toTopOf="@id/ivRouteEndIcon" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffff9524" android:pathData="M14,0L14,0A14,14 0,0 1,28 14L28,14A14,14 0,0 1,14 28L14,28A14,14 0,0 1,0 14L0,14A14,14 0,0 1,14 0z" android:fillAlpha="0.1" />
+    <path android:fillColor="@drawable/$ic_airplane_trip_information__0" android:pathData="M13.63,21.333L17.265,15.161L21.52,15.161C22.161,15.161 22.68,14.642 22.68,14C22.68,13.358 22.161,12.84 21.52,12.84L17.265,12.84L13.63,6.668C13.491,6.42 13.22,6.266 12.934,6.266C12.392,6.266 12.005,6.784 12.153,7.302L13.777,12.84L9.53,12.84L8.486,11.092C8.417,10.976 8.285,10.907 8.154,10.907L7.705,10.907C7.45,10.907 7.264,11.146 7.326,11.386L7.891,13.645L7.983,14L7.914,14.294L7.829,14.619L7.457,16.089L7.326,16.607C7.264,16.855 7.45,17.087 7.705,17.087L8.154,17.087C8.293,17.087 8.417,17.017 8.486,16.901L9.53,15.161L13.785,15.161L12.16,20.699C12.005,21.217 12.392,21.735 12.934,21.735C13.22,21.735 13.491,21.581 13.63,21.333Z" />
+</vector>

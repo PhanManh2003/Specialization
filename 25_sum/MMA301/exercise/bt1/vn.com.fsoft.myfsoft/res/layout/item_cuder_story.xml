@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/colorWhite" android:layout_gravity="start" android:id="@id/tv_cuder_story" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextInterRegular14Black" />
+    <ImageView android:layout_gravity="center" android:id="@id/img_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_26dp" android:src="@null" android:scaleType="fitXY" app:layout_constraintTop_toBottomOf="@id/tv_cuder_story" />
+</LinearLayout>

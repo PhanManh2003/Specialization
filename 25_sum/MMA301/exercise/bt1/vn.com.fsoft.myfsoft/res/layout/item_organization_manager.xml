@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_manager" android:layout_width="@dimen/_32dp" android:layout_height="@dimen/_32dp" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/wiki_accent_color" android:layout_gravity="center_vertical" android:id="@id/tv_manager_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5dp" />
+</LinearLayout>

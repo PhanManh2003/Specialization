@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_content_book" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/empty_state_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/empty_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/_50dp" android:paddingEnd="@dimen/_50dp" />
+        <TextView android:id="@id/empty_state_textview" android:text="@string/fptbook_empty_category" android:layout_below="@id/empty_state_image" android:layout_centerHorizontal="true" style="@style/StyleTextViewEmptyStateAkaLink" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

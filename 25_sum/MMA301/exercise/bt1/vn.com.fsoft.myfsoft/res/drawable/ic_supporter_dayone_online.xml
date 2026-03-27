@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_supporter_dayone_online__0" android:pathData="M18.513,14.628L1.529,14.628a0.529,0.529 0,0 0,-0.529 0.529,1.586 1.586,0 0,0 1.586,1.586h14.87a1.586,1.586 0,0 0,1.586 -1.586A0.529,0.529 0,0 0,18.513 14.628Z" />
+    <path android:fillColor="@drawable/$ic_supporter_dayone_online__1" android:pathData="M6.321,5.561v4.221a5.1,5.1 0,0 1,1.714 0.105,6.153 6.153,0 0,1 1.458,0.607L9.493,6.443a6.071,6.071 0,0 0,-1.714 -0.821A4.16,4.16 0,0 0,6.321 5.561Z" />
+    <path android:fillColor="@drawable/$ic_supporter_dayone_online__2" android:pathData="M12.263,5.627a6.051,6.051 0,0 0,-1.714 0.82v4.047a6.155,6.155 0,0 1,1.458 -0.607,5.109 5.109,0 0,1 1.714,-0.105L13.721,5.56A4.192,4.192 0,0 0,12.263 5.627Z" />
+    <path android:fillColor="@drawable/$ic_supporter_dayone_online__3" android:pathData="M17.984,3.529A0.528,0.528 0,0 0,17.457 3L2.586,3a0.528,0.528 0,0 0,-0.529 0.529L2.057,13.571L17.984,13.571ZM14.778,10.4a0.53,0.53 0,0 1,-0.656 0.513,4.438 4.438,0 0,0 -1.859,0 6.5,6.5 0,0 0,-1.925 0.967,0.529 0.529,0 0,1 -0.634,0 6.533,6.533 0,0 0,-1.925 -0.968,4.43 4.43,0 0,0 -1.858,0 0.529,0.529 0,0 1,-0.657 -0.513L5.264,5.114a0.528,0.528 0,0 1,0.4 -0.513,5.412 5.412,0 0,1 2.37,0 6.962,6.962 0,0 1,1.986 0.929A6.962,6.962 0,0 1,12.007 4.6a5.393,5.393 0,0 1,2.37 0,0.528 0.528,0 0,1 0.4,0.513Z" />
+</vector>

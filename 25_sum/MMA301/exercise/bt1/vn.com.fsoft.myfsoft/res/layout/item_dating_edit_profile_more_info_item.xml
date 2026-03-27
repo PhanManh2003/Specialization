@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/tvTitle" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/ivOption" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivOption" android:background="?actionBarItemBackground" android:padding="@dimen/_10dp" android:layout_width="@dimen/_34dp" android:layout_height="@dimen/_34dp" android:src="@drawable/ic_common_arrow_right" android:layout_marginEnd="@dimen/_5dp" app:layout_constraintBottom_toBottomOf="@id/tvTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvTitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/questionContainer" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvTitle" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

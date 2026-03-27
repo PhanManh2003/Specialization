@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/container" android:background="@drawable/bg_empty_state_dating" android:layout_width="fill_parent" android:layout_height="@dimen/_160dp" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/_172dp" android:layout_height="@dimen/_67dp" android:src="@null" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_666666" android:id="@id/tvEmpty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chưa có video nào được đăng" android:fontFamily="@font/inter_medium" />
+</LinearLayout>

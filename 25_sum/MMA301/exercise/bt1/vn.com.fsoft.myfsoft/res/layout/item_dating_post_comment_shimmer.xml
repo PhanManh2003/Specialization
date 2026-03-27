@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp" app:shimmer_auto_start="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_dating_post_comment_shimmer" />
+</com.facebook.shimmer.ShimmerFrameLayout>

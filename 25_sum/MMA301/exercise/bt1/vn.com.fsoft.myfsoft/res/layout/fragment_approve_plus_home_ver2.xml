@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_approve_plus_home" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout_leave_request" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_8dp">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/app_bar_layout" android:background="@drawable/background_header_home_approve_plus" android:layout_width="fill_parent" android:layout_height="@dimen/_200dp">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/_0dp" app:collapsedTitleGravity="start|center" app:collapsedTitleTextAppearance="@style/StyleHeaderFaqsCollapsing" app:expandedTitleMarginBottom="@dimen/_86dp" app:expandedTitleMarginStart="@dimen/_16dp" app:expandedTitleTextAppearance="@style/StyleHeaderFaqs" app:layout_collapseMode="parallax" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:title="@string/approve_tms_plus_feature_title" app:titleEnabled="true" app:toolbarId="@id/toolbar_faqs">
+                <ImageView android:id="@id/iv_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@null" android:scaleType="fitXY" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_faqs" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:contentInsetStart="@dimen/_0dp" android:contentInsetEnd="@dimen/_0dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_collapseMode="pin">
+                    <ImageView android:id="@id/btnBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/_10dp" />
+                    <TextView android:textSize="@dimen/_14sp" android:textStyle="normal" android:textColor="@color/color_185ECE" android:layout_gravity="end" android:id="@id/tv_my_entitle_day" android:padding="@dimen/_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tss_history" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" android:layout_marginEnd="@dimen/_10dp" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_wfh_my_request" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_8dp" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_wfh_my_request" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/item_approve_plus_shimmer" />
+                <include layout="@layout/item_approve_plus_shimmer" />
+                <include layout="@layout/item_approve_plus_shimmer" />
+                <include layout="@layout/item_approve_plus_shimmer" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

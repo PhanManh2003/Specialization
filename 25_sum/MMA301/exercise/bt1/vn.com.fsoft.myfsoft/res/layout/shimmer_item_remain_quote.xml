@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/_18dp" android:paddingBottom="@dimen/_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/bg_loading" android:layout_width="@dimen/_130dp" android:layout_height="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/bg_loading" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.45" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/bg_loading" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tv_load_more" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:text="@string/common_view_more_title" android:fontFamily="@font/inter_semibold" />
+    <androidx.core.widget.ContentLoadingProgressBar android:id="@id/progress_load_more" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" style="?android:progressBarStyle" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/color_bg_anniversary_end" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/color_bg_anniversary_end" android:paddingLeft="@dimen/_24dp" android:paddingRight="@dimen/_24dp" android:paddingBottom="@dimen/_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_24dp">
+        <ImageView android:layout_gravity="center" android:paddingTop="@dimen/_20sp" android:paddingBottom="@dimen/_20sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:paddingVertical="@dimen/_20sp" />
+        <TextView android:gravity="center" android:id="@id/tv_notification" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/campus_booking_notification" style="@style/TextInterSemiBold20Black" />
+        <TextView android:textSize="@dimen/_14sp" android:gravity="center" android:id="@id/tv_unavailable" android:paddingBottom="@dimen/_28dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/campus_booking_unavailable" android:fontFamily="@font/inter" />
+        <TextView android:layout_gravity="center" android:id="@id/btn_got_it" android:background="@drawable/background_button_intro_home" android:paddingLeft="@dimen/_36dp" android:paddingTop="@dimen/_10dp" android:paddingRight="@dimen/_36dp" android:paddingBottom="@dimen/_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/campus_booking_got_it" android:paddingHorizontal="@dimen/_36dp" android:paddingVertical="@dimen/_10dp" style="@style/TextInterSemiBold14White" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

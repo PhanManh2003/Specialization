@@ -1,0 +1,500 @@
+{
+  "skeleton": {
+    "hash": "iLB07P7jbwc",
+    "spine": "4.1.23",
+    "x": -181.16,
+    "y": -168.33,
+    "width": 375.68,
+    "height": 354.16,
+    "images": "./images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "Tap"
+    },
+    {
+      "name": "Buble",
+      "parent": "Tap",
+      "x": 0.58,
+      "y": -0.03
+    },
+    {
+      "name": "star",
+      "parent": "Tap",
+      "color": "ac0000ff"
+    },
+    {
+      "name": "phao giay 03",
+      "parent": "Tap",
+      "x": 38.12,
+      "y": 6.72
+    },
+    {
+      "name": "phao giay 01",
+      "parent": "Tap",
+      "x": -7.93,
+      "y": 6.21
+    },
+    {
+      "name": "phao giay 02",
+      "parent": "Tap",
+      "x": 12.31,
+      "y": -7.45
+    },
+    {
+      "name": "phao giay 04",
+      "parent": "Tap",
+      "x": -14,
+      "y": -22.12
+    },
+    {
+      "name": "phao giay 05",
+      "parent": "Tap",
+      "x": 6.24,
+      "y": -35.28
+    }
+  ],
+  "slots": [
+    {
+      "name": "Button",
+      "bone": "Tap",
+      "attachment": "Button"
+    },
+    {
+      "name": "Star",
+      "bone": "star",
+      "attachment": "Star"
+    },
+    {
+      "name": "Bubble",
+      "bone": "Buble",
+      "attachment": "Bubble",
+      "blend": "screen"
+    },
+    {
+      "name": "phao giay 01",
+      "bone": "phao giay 01",
+      "attachment": "phao giay 01"
+    },
+    {
+      "name": "phao giay 02",
+      "bone": "phao giay 02",
+      "attachment": "phao giay 02"
+    },
+    {
+      "name": "phao giay 03",
+      "bone": "phao giay 03",
+      "attachment": "phao giay 03"
+    },
+    {
+      "name": "phao giay 04",
+      "bone": "phao giay 04",
+      "attachment": "phao giay 04"
+    },
+    {
+      "name": "phao giay 05",
+      "bone": "phao giay 05",
+      "attachment": "phao giay 05"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Bubble": {
+          "Bubble": {
+            "x": 6.09,
+            "y": 8.77,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "rotation": 0.21,
+            "width": 468,
+            "height": 441
+          }
+        },
+        "Button": {
+          "Button": {
+            "width": 174,
+            "height": 174
+          }
+        },
+        "phao giay 01": {
+          "phao giay 01": {
+            "x": 4.48,
+            "y": -0.69,
+            "width": 45,
+            "height": 36
+          }
+        },
+        "phao giay 02": {
+          "phao giay 02": {
+            "x": 1.79,
+            "y": 0.04,
+            "width": 45,
+            "height": 36
+          }
+        },
+        "phao giay 03": {
+          "phao giay 03": {
+            "x": -0.19,
+            "y": -2.36,
+            "width": 34,
+            "height": 31
+          }
+        },
+        "phao giay 04": {
+          "phao giay 04": {
+            "x": 1.04,
+            "y": 0.3,
+            "width": 33,
+            "height": 28
+          }
+        },
+        "phao giay 05": {
+          "phao giay 05": {
+            "x": 0.2,
+            "y": -0.01,
+            "width": 24,
+            "height": 20
+          }
+        },
+        "Star": {
+          "Star": {
+            "width": 138,
+            "height": 141
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "tap": {
+      "slots": {
+        "Bubble": {
+          "alpha": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.0667,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "value": 1
+            },
+            {
+              "time": 0.3,
+              "value": 0
+            }
+          ]
+        },
+        "phao giay 01": {
+          "alpha": [
+            {
+              "value": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "value": 0
+            },
+            {
+              "time": 0.1667,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "value": 1
+            },
+            {
+              "time": 0.4667,
+              "value": 0
+            }
+          ]
+        },
+        "phao giay 02": {
+          "alpha": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.1,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2333,
+              "value": 1
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            }
+          ]
+        },
+        "phao giay 03": {
+          "alpha": [
+            {
+              "value": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "value": 0
+            },
+            {
+              "time": 0.2,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "value": 1
+            },
+            {
+              "time": 0.5,
+              "value": 0
+            }
+          ]
+        },
+        "phao giay 04": {
+          "alpha": [
+            {
+              "value": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "value": 0
+            },
+            {
+              "time": 0.1333,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "value": 1
+            },
+            {
+              "time": 0.4333,
+              "value": 0
+            }
+          ]
+        },
+        "phao giay 05": {
+          "alpha": [
+            {
+              "value": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "value": 0
+            },
+            {
+              "time": 0.2333,
+              "value": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "value": 1
+            },
+            {
+              "time": 0.5333,
+              "value": 0
+            }
+          ]
+        },
+        "Star": {
+          "alpha": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.0667,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "bones": {
+        "Buble": {
+          "scale": [
+            {
+              "time": 0.0333,
+              "x": 0.6,
+              "y": 0.6,
+              "curve": [
+                0.053,
+                0.656,
+                0.082,
+                1.364,
+                0.053,
+                0.656,
+                0.082,
+                1.364
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1.3,
+              "y": 1.3
+            }
+          ]
+        },
+        "phao giay 03": {
+          "rotate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.4333,
+              "value": -69.57
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1667
+            },
+            {
+              "time": 0.4333,
+              "x": 156.11,
+              "y": -80.42
+            }
+          ]
+        },
+        "phao giay 01": {
+          "rotate": [
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.4,
+              "value": -140.49
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.4,
+              "x": -100.92,
+              "y": 93.04
+            }
+          ]
+        },
+        "phao giay 02": {
+          "rotate": [
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.3333,
+              "value": -39
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.3333,
+              "x": 192.38,
+              "y": 43.36
+            }
+          ]
+        },
+        "star": {
+          "scale": [
+            {
+              "x": 0.655,
+              "y": 0.655
+            },
+            {
+              "time": 0.1667,
+              "x": 1.186,
+              "y": 1.186,
+              "curve": [
+                0.2,
+                1.111,
+                0.233,
+                0.962,
+                0.2,
+                1.111,
+                0.233,
+                0.962
+              ]
+            },
+            {
+              "time": 0.2667,
+              "x": 0.962,
+              "y": 0.962,
+              "curve": [
+                0.3,
+                0.962,
+                0.333,
+                1,
+                0.3,
+                0.962,
+                0.333,
+                1
+              ]
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        },
+        "phao giay 04": {
+          "rotate": [
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.3667,
+              "value": 33.24
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.3667,
+              "x": -195.53,
+              "y": -67.81
+            }
+          ]
+        },
+        "phao giay 05": {
+          "rotate": [
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.4667,
+              "value": -325.94
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.4667,
+              "x": -9.92,
+              "y": -124.22
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <vn.com.fsoft.myfsoft.base.view.UnderlineTextView android:textSize="@dimen/_14sp" android:textColor="@color/color_185ECE" android:id="@id/tv_content" android:background="?selectableItemBackground" android:paddingLeft="@dimen/_4dp" android:paddingTop="@dimen/_4dp" android:paddingRight="@dimen/_4dp" android:paddingBottom="@dimen/_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:includeFontPadding="false" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_medium" android:layout_marginHorizontal="@dimen/_16dp" android:paddingHorizontal="@dimen/_4dp" android:paddingVertical="@dimen/_4dp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_important_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_event" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/shimmer_action_home_onboard" />
+            <include layout="@layout/shimmer_action_home_onboard" />
+            <include layout="@layout/shimmer_action_home_onboard" />
+            <include layout="@layout/shimmer_action_home_onboard" />
+            <include layout="@layout/shimmer_action_home_onboard" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

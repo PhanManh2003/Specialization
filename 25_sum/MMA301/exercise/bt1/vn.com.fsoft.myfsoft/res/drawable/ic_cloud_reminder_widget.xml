@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.209991dip" android:width="156.686dip" android:autoMirrored="true" android:viewportWidth="156.686" android:viewportHeight="30.21" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ic_cloud_reminder_widget__0" android:pathData="M94.927,0.69c22.61,-3.34 19.5,6.333 31.983,9.877S156.686,30.21 156.686,30.21L0,30.21s9.612,-9.143 30.752,-14.051c10.76,-2.5 23.552,1.736 34.468,0C75.195,14.573 89.112,2.152 94.927,0.69Z" android:strokeAlpha="0.718" android:fillAlpha="0.718" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpt35_title_header_free_game" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterSemiBold16PinkFF527F" />
+    <TextView android:textSize="@dimen/_14sp" android:id="@id/btnScanQr" android:background="@drawable/bg_corner100_gradientpink" android:paddingLeft="@dimen/_12dp" android:paddingTop="@dimen/_6dp" android:paddingRight="@dimen/_12dp" android:paddingBottom="@dimen/_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpt35_button_title_scan_qr" android:drawablePadding="@dimen/_8dp" android:paddingHorizontal="@dimen/_12dp" android:paddingVertical="@dimen/_6dp" app:drawableStartCompat="@drawable/ic_scan_qr_code" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterMedium14White" />
+</androidx.constraintlayout.widget.ConstraintLayout>

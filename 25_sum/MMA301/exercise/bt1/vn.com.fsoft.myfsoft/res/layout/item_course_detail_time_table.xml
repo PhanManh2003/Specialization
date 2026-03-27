@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/lb_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thời khoá biểu" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterSemiBold16Black" />
+    <TextView android:id="@id/tv_total_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thời lượng: 12,14 giờ" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterBold16BrownEC6608" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/lb_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

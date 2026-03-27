@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color_66A9D5FF" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ivBigBanner" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/contentDescription" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_24sp" android:textColor="@color/colorBlackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_achievement_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="@id/ivBigBanner" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ivBigBanner" />
+            <ImageView android:id="@id/ivSmallBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="@id/ivBigBanner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivBigBanner" />
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/colorBlack" android:id="@id/tvTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_16dp" android:text="@string/onboarding_call_me_is_title" android:fontFamily="@font/inter_regular" app:layout_constraintEnd_toEndOf="@id/ivSmallBanner" app:layout_constraintTop_toTopOf="@id/ivSmallBanner" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:id="@id/tvMid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2dp" android:text="@string/onboarding_achievement_collector_banner" android:fontFamily="@font/inter_semibold" app:layout_constraintEnd_toEndOf="@id/tvTop" app:layout_constraintTop_toBottomOf="@id/tvTop" />
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_185ECE" android:id="@id/tvBot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:fontFamily="@font/inter_bold" app:layout_constraintEnd_toEndOf="@id/tvMid" app:layout_constraintTop_toBottomOf="@id/tvMid" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPrize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" android:nestedScrollingEnabled="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivSmallBanner" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_prize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/ivSmallBanner">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include layout="@layout/shimmer_home_prize" />
+                    <include layout="@layout/shimmer_home_prize" />
+                    <include layout="@layout/shimmer_home_prize" />
+                    <include layout="@layout/shimmer_home_prize" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

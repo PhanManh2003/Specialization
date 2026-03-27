@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/item_search_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_dayone_offline_guidemove" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_20dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_back_guide_move" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/order_fragment_content_color_text" android:layout_gravity="center|top" android:id="@id/tv_title_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_guide_move_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/iv_back_guide_move" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_back_guide_move" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ViewStub android:id="@id/view_sub_has_bus_guide" android:layout="@layout/layout_dayone_offline_has_bus_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_sub_not_register_bus" android:layout="@layout/layout_dayone_offline_not_register_bus" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_sub_register_bus" android:layout="@layout/layout_dayone_offline_register_bus" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

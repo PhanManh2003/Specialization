@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/colorWhite" android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_reason_to_reject_title" android:paddingTop="@dimen/_20dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Lý do từ chối" android:drawablePadding="@dimen/_8dp" app:drawableStartCompat="@drawable/ic_epayment_reason_to_reject" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterSemiBold16Black" />
+    <TextView android:id="@id/tv_reason_to_reject_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/tv_reason_to_reject_title" style="@style/TextInterMedium14Black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

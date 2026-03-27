@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19a8"
+  },
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "author": {
+    "$oid": "680844c7ac18e6f01b7f19a1"
+  },
+  "genres": [
+    {
+      "$oid": "680844c7ac18e6f01b7f19a5"
+    }
+  ],
+  "publishedYear": 1997,
+  "availableCopies": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19a9"
+  },
+  "title": "A Game of Thrones",
+  "author": {
+    "$oid": "680844c7ac18e6f01b7f19a2"
+  },
+  "genres": [
+    {
+      "$oid": "680844c7ac18e6f01b7f19a5"
+    },
+    {
+      "$oid": "680844c7ac18e6f01b7f19a6"
+    }
+  ],
+  "publishedYear": 1996,
+  "availableCopies": 1,
+  "__v": 0
+}]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_input_recognition" android:paddingLeft="@dimen/_12dp" android:paddingTop="@dimen/_10dp" android:paddingRight="@dimen/_12dp" android:paddingBottom="@dimen/_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_11dp" android:layout_marginEnd="@dimen/_16dp" android:paddingHorizontal="@dimen/_12dp" android:paddingVertical="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_8B8B8B" android:id="@id/tvQuestion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/inter_semibold" />
+    <EditText android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/edtInput" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5dp" android:includeFontPadding="false" android:maxLength="150" android:fontFamily="@font/inter_medium" />
+</LinearLayout>

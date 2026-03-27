@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_hpbd_today_list" android:background="@color/color_f5f5f5" android:focusable="true" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/toolbar_hpbd_today_full" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/btn_back_hpbd_today" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlack" android:id="@id/tv_toolbar_hpbd_today" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hpbdemployee_today_birthday_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_hpbd_today" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_hpbd_today" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_hpbd_today_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_today_full" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_sticker_list" android:background="@color/colorWhite" android:paddingLeft="@dimen/_7dp" android:paddingRight="@dimen/_7dp" android:paddingBottom="@dimen/_20dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/_270dp" android:elevation="@dimen/_16dp" android:paddingHorizontal="@dimen/_7dp" app:layout_constraintBottom_toBottomOf="parent" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_today_birthday_full" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_today_full">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_26dp">
+                <include layout="@layout/shimmer_wish_to_colleagues" />
+                <include layout="@layout/shimmer_wish_to_colleagues" />
+                <include layout="@layout/shimmer_wish_to_colleagues" />
+                <include layout="@layout/shimmer_wish_to_colleagues" />
+                <include layout="@layout/shimmer_wish_to_colleagues" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_today_birthday_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_today_full" app:text_empty="@string/hpbdemployee_empty_birthday_msg" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">myfpt-dev.fpt.com</domain>
+        <domain includeSubdomains="true">myfpt.fpt-software.vn</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">unigate.fsoft.com.vn</domain>
+        <domain includeSubdomains="true">unigate-test.fsoft.com.vn</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+            <certificates src="@raw/star_utop_vn_63927551star_utop_vn" />
+            <certificates src="@raw/fpt35" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

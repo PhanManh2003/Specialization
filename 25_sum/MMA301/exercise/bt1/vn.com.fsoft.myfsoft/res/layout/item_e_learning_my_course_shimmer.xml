@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" android:layout_marginRight="@dimen/_16dp" android:weightSum="2.0" android:layout_marginHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_course" android:layout_width="fill_parent" android:layout_height="@dimen/_68dp" android:src="@color/bg_shimmer" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginEnd="@dimen/_6dp" />
+    <ImageView android:id="@id/img_pending_course" android:layout_width="fill_parent" android:layout_height="@dimen/_68dp" android:src="@color/bg_shimmer" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="@dimen/_6dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_9dp" android:layout_marginBottom="@dimen/_11dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:id="@id/tv_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hpbdemployee_today_total" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_4D4F5C" android:id="@id/tv_header_total_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_7dp" />
+</LinearLayout>

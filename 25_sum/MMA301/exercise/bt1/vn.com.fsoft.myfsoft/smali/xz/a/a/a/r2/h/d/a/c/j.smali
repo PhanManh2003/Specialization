@@ -1,0 +1,221 @@
+.class public final Lxz/a/a/a/r2/h/d/a/c/j;
+.super Lqz/u/c/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lqz/u/b/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lqz/u/c/m;",
+        "Lqz/u/b/b<",
+        "Lxz/a/a/a/r2/h/d/a/b/b;",
+        "Lqz/o;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic t:Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;
+
+
+# direct methods
+.method public constructor <init>(Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lxz/a/a/a/r2/h/d/a/c/j;->t:Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lqz/u/c/m;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 26
+
+    move-object/from16 v0, p0
+
+    .line 1
+    move-object/from16 v14, p1
+
+    check-cast v14, Lxz/a/a/a/r2/h/d/a/b/b;
+
+    const-string v1, "chosenItem"
+
+    .line 2
+    invoke-static {v14, v1}, Lqz/u/c/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    iget-object v1, v0, Lxz/a/a/a/r2/h/d/a/c/j;->t:Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;
+
+    .line 4
+    iget v2, v14, Lxz/a/a/a/r2/h/d/a/b/b;->a:I
+
+    .line 5
+    iput v2, v1, Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;->I0:I
+
+    .line 6
+    invoke-static {v1}, Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;->y4(Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;)Lxz/a/a/a/x1/yd;
+
+    move-result-object v1
+
+    iget-object v1, v1, Lxz/a/a/a/x1/yd;->i:Lvn/com/fsoft/myfsoft/base/view/MyFPTInputView;
+
+    .line 7
+    iget-object v2, v14, Lxz/a/a/a/r2/h/d/a/b/b;->d:Ljava/lang/String;
+
+    .line 8
+    invoke-virtual {v1, v2}, Lvn/com/fsoft/myfsoft/base/view/MyFPTInputView;->setTextInput(Ljava/lang/String;)V
+
+    .line 9
+    iget-object v1, v0, Lxz/a/a/a/r2/h/d/a/c/j;->t:Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;
+
+    .line 10
+    iget-object v2, v14, Lxz/a/a/a/r2/h/d/a/b/b;->m:Ljava/util/List;
+
+    .line 11
+    invoke-static {v2}, Lxz/a/a/a/r2/d/c/c/a/c;->e1(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v2
+
+    .line 12
+    invoke-virtual {v1}, Lxz/a/a/a/t1/w0;->s4()Lkz/g0/a;
+
+    move-result-object v3
+
+    check-cast v3, Lxz/a/a/a/x1/yd;
+
+    iget-object v3, v3, Lxz/a/a/a/x1/yd;->j:Landroid/widget/LinearLayout;
+
+    const-string v4, "binding.layoutListPickUp"
+
+    invoke-static {v3, v4}, Lqz/u/c/l;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v4, 0x0
+
+    .line 13
+    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
+
+    .line 14
+    iget-object v1, v1, Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;->L0:Lqz/d;
+
+    invoke-interface {v1}, Lqz/d;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lxz/a/a/a/r2/h/d/a/a/n;
+
+    .line 15
+    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v3, "listLocation"
+
+    invoke-static {v2, v3}, Lqz/u/c/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 16
+    iget-object v3, v1, Lxz/a/a/a/r2/h/d/a/a/n;->w:Ljava/util/List;
+
+    invoke-interface {v3}, Ljava/util/List;->clear()V
+
+    .line 17
+    iget-object v3, v1, Lxz/a/a/a/r2/h/d/a/a/n;->w:Ljava/util/List;
+
+    invoke-interface {v3, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+
+    .line 18
+    iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$g;->t:Landroidx/recyclerview/widget/RecyclerView$h;
+
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$h;->b()V
+
+    .line 19
+    iget-object v1, v0, Lxz/a/a/a/r2/h/d/a/c/j;->t:Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;
+
+    invoke-static {v1}, Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;->z4(Lvn/com/fsoft/myfsoft/smartid/ebus/otbus/bookot/view/RegisterOTBusFragment;)Lxz/a/a/a/r2/h/d/a/d/h;
+
+    move-result-object v15
+
+    .line 20
+    invoke-static {v15}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "routeBus"
+
+    invoke-static {v14, v1}, Lqz/u/c/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 21
+    invoke-virtual {v15}, Lxz/a/a/a/t1/n0;->x()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lxz/a/a/a/r2/h/d/a/d/a;
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    const/4 v10, 0x0
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x0
+
+    const/4 v13, 0x0
+
+    const/16 v16, 0x0
+
+    move-object/from16 v24, v15
+
+    move-object/from16 v15, v16
+
+    move-object/from16 v25, v14
+
+    move-object/from16 v14, v16
+
+    const/16 v17, 0x0
+
+    const/16 v18, 0x0
+
+    const/16 v19, 0x0
+
+    const/16 v20, 0x0
+
+    const/16 v21, 0x0
+
+    const/16 v22, 0x0
+
+    const v23, 0x1fbfff
+
+    move-object/from16 v16, v25
+
+    invoke-static/range {v1 .. v23}, Lxz/a/a/a/r2/h/d/a/d/a;->a(Lxz/a/a/a/r2/h/d/a/d/a;Ljava/lang/Boolean;ZZZLjava/lang/Boolean;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lxz/a/a/a/r2/h/d/a/b/c;Lxz/a/a/a/r2/h/d/a/b/b;ZLjava/util/List;Ljava/util/List;Ljava/util/List;ZLjava/lang/String;I)Lxz/a/a/a/r2/h/d/a/d/a;
+
+    move-result-object v1
+
+    move-object/from16 v2, v24
+
+    invoke-virtual {v2, v1}, Lxz/a/a/a/t1/n0;->v(Ljava/lang/Object;)V
+
+    .line 22
+    invoke-virtual {v2}, Lxz/a/a/a/r2/h/d/a/d/h;->C()V
+
+    .line 23
+    sget-object v1, Lqz/o;->a:Lqz/o;
+
+    return-object v1
+.end method

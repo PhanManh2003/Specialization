@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_25sp" android:textColor="@color/colorWhite" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LEADERBOARD" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_24dp" android:layout_marginEnd="@dimen/_24dp" />
+    <TextView android:textSize="@dimen/_15sp" android:textColor="@color/colorWhite" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10dp" android:text="Check out new joiner leaderboard to see your colleagues tree’s growth and performance" android:layout_below="@id/tv_title" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_24dp" android:layout_marginEnd="@dimen/_24dp" />
+</RelativeLayout>

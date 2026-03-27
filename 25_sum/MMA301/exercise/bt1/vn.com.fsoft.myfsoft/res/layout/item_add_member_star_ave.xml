@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/_12sp" android:textColor="@color/colorWhite" android:gravity="center" android:id="@id/tv_add_member" android:background="@drawable/bg_star_ave_email_more_gold" android:paddingTop="@dimen/_4dp" android:paddingBottom="@dimen/_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:layout_marginBottom="@dimen/_4dp" android:text="@string/star_ave_detail_add_member" android:fontFamily="@font/inter_medium" android:paddingStart="@dimen/_8dp" android:paddingEnd="@dimen/_8dp" android:layout_marginEnd="@dimen/_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

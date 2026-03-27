@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerFPT36" android:background="@color/color_9CDBFF" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/containerToolBar" android:layout_width="fill_parent" android:layout_height="@dimen/_44dp" android:layout_centerVertical="true" app:contentInsetEnd="@dimen/_0dp" app:contentInsetLeft="@dimen/_0dp" app:contentInsetRight="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_collapseMode="pin" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/ivBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_12dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back_white" android:scaleType="centerCrop" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_12dp" app:tint="@color/color_002368" />
+            <TextView android:ellipsize="end" android:id="@id/tvTile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpt36_title_bar" android:lines="1" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_marginStart="@dimen/_8dp" style="@style/TextInterBold20DPBlue002368" />
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:id="@id/containerBirthdayAnimation" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_constraintDimensionRatio="398:453" app:layout_constraintTop_toTopOf="@id/containerToolBar">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/animationView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="22.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/anim_mascot_birthday" />
+        </FrameLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollBody" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/containerToolBar">
+            <LinearLayout android:orientation="vertical" android:id="@id/containerEvent" android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_16dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerGameOnline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGameOnline" android:background="@drawable/bg_corner12_border1_gradient_blue" android:padding="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_41dp" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toTopOf="parent" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivHeaderGameOnline" android:layout_width="@dimen/_202dp" android:layout_height="@dimen/_70dp" android:layout_marginTop="@dimen/_3dp" android:src="@null" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:id="@id/tvHeaderGameOnline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp" android:text="@string/fpt35_fpt35_game_online" android:includeFontPadding="false" android:layout_marginEnd="@dimen/_69dp" app:layout_constraintBottom_toBottomOf="@id/ivHeaderGameOnline" app:layout_constraintEnd_toEndOf="@id/ivHeaderGameOnline" app:layout_constraintTop_toTopOf="@id/ivHeaderGameOnline" style="@style/TextRowdiesRegular17DPWhite" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include android:id="@id/layoutEventOffline" android:visibility="gone" layout="@layout/layout_event_offline_fpt36" />
+                <View android:id="@id/viewBottomSpace" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_10dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

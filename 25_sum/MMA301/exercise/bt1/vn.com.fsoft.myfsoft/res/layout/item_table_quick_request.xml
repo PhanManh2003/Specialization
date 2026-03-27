@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_12dp" android:paddingHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:id="@id/tv_add_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_request_add_new_item_label" android:drawablePadding="@dimen/_4dp" app:drawableStartCompat="@drawable/ic_add_185ece" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rv_items" style="@style/TextInterSemiBold14Blue185ECE" />
+</LinearLayout>

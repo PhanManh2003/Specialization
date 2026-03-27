@@ -1,0 +1,167 @@
+.class public final Lxz/a/a/a/y1/f/g;
+.super Lqz/s/q/a/i;
+.source "SourceFile"
+
+# interfaces
+.implements Lqz/u/b/c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lqz/s/q/a/i;",
+        "Lqz/u/b/c<",
+        "Lrz/a/c0;",
+        "Lqz/s/f<",
+        "-",
+        "Lqz/o;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lqz/s/q/a/e;
+    c = "vn.com.fsoft.myfsoft.dating.chat.RealtimeChat$loadMoreMessages$1"
+    f = "RealtimeChat.kt"
+    l = {}
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public final synthetic A:J
+
+.field public final synthetic B:J
+
+.field public x:Lrz/a/c0;
+
+.field public final synthetic y:Lxz/a/a/a/y1/f/c0;
+
+.field public final synthetic z:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lxz/a/a/a/y1/f/c0;Ljava/lang/String;JJLqz/s/f;)V
+    .locals 0
+
+    iput-object p1, p0, Lxz/a/a/a/y1/f/g;->y:Lxz/a/a/a/y1/f/c0;
+
+    iput-object p2, p0, Lxz/a/a/a/y1/f/g;->z:Ljava/lang/String;
+
+    iput-wide p3, p0, Lxz/a/a/a/y1/f/g;->A:J
+
+    iput-wide p5, p0, Lxz/a/a/a/y1/f/g;->B:J
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p7}, Lqz/s/q/a/i;-><init>(ILqz/s/f;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Lqz/s/f;)Lqz/s/f;
+    .locals 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lqz/s/f<",
+            "*>;)",
+            "Lqz/s/f<",
+            "Lqz/o;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "completion"
+
+    invoke-static {p2, v0}, Lqz/u/c/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lxz/a/a/a/y1/f/g;
+
+    iget-object v2, p0, Lxz/a/a/a/y1/f/g;->y:Lxz/a/a/a/y1/f/c0;
+
+    iget-object v3, p0, Lxz/a/a/a/y1/f/g;->z:Ljava/lang/String;
+
+    iget-wide v4, p0, Lxz/a/a/a/y1/f/g;->A:J
+
+    iget-wide v6, p0, Lxz/a/a/a/y1/f/g;->B:J
+
+    move-object v1, v0
+
+    move-object v8, p2
+
+    invoke-direct/range {v1 .. v8}, Lxz/a/a/a/y1/f/g;-><init>(Lxz/a/a/a/y1/f/c0;Ljava/lang/String;JJLqz/s/f;)V
+
+    check-cast p1, Lrz/a/c0;
+
+    iput-object p1, v0, Lxz/a/a/a/y1/f/g;->x:Lrz/a/c0;
+
+    return-object v0
+.end method
+
+.method public final d(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 8
+
+    .line 1
+    invoke-static {p1}, Lmz/h/i/s/a/l;->n3(Ljava/lang/Object;)V
+
+    .line 2
+    iget-object p1, p0, Lxz/a/a/a/y1/f/g;->y:Lxz/a/a/a/y1/f/c0;
+
+    const/4 v0, 0x0
+
+    .line 3
+    iput-boolean v0, p1, Lxz/a/a/a/y1/f/c0;->w:Z
+
+    .line 4
+    iget-object v1, p1, Lxz/a/a/a/y1/f/c0;->v:Llz/a/b/a;
+
+    if-eqz v1, :cond_0
+
+    .line 5
+    iget-object v2, p0, Lxz/a/a/a/y1/f/g;->z:Ljava/lang/String;
+
+    iget-wide v3, p0, Lxz/a/a/a/y1/f/g;->A:J
+
+    .line 6
+    new-instance p1, Ljava/lang/Long;
+
+    invoke-direct {p1, v3, v4}, Ljava/lang/Long;-><init>(J)V
+
+    const-wide/32 v4, 0x38431380
+
+    .line 7
+    iget-wide v6, p0, Lxz/a/a/a/y1/f/g;->B:J
+
+    move-object v3, p1
+
+    invoke-static/range {v1 .. v7}, Lkz/d0/v;->g(Llz/a/b/a;Ljava/lang/String;Ljava/lang/Long;JJ)V
+
+    .line 8
+    :cond_0
+    sget-object p1, Lqz/o;->a:Lqz/o;
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p2, Lqz/s/f;
+
+    invoke-virtual {p0, p1, p2}, Lxz/a/a/a/y1/f/g;->a(Ljava/lang/Object;Lqz/s/f;)Lqz/s/f;
+
+    move-result-object p1
+
+    check-cast p1, Lxz/a/a/a/y1/f/g;
+
+    sget-object p2, Lqz/o;->a:Lqz/o;
+
+    invoke-virtual {p1, p2}, Lxz/a/a/a/y1/f/g;->d(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object p2
+.end method

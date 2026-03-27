@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivAvt" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_40dp" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/_14sp" android:textStyle="bold" android:textColor="@color/colorBlack" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toEndOf="@id/ivAvt" app:layout_constraintTop_toTopOf="@id/ivAvt" />
+    <TextView android:textSize="@dimen/_12sp" android:textStyle="bold" android:textColor="@color/botNavTextColor" android:id="@id/tvDepartment" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@id/tvName" app:layout_constraintTop_toBottomOf="@id/tvName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

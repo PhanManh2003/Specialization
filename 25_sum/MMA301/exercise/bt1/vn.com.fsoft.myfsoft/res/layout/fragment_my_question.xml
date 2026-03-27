@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshMyQuestion" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/toolbar_height" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_42dp" android:elevation="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" android:contentInsetStart="@dimen/_0dp" android:contentInsetEnd="@dimen/_0dp" android:contentInsetLeft="@dimen/_0dp" android:contentInsetRight="@dimen/_0dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetLeft="@dimen/_0dp" app:contentInsetRight="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toBottomOf="@id/toolbar_height" app:titleTextColor="@color/colorWhite">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/btnBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:layout_gravity="center" android:id="@id/tv_my_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_joiner_toolbar_my_question" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_10dp" />
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMyQuestion" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_56dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4">
+                <ImageView android:id="@id/img_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_job_type_icon" android:gravity="center" android:id="@id/tv_empty" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_22dp" android:text="@string/new_joiner_empty_my_question" android:fontFamily="@font/inter_regular" app:layout_constraintEnd_toEndOf="@id/img_empty" app:layout_constraintStart_toStartOf="@id/img_empty" app:layout_constraintTop_toBottomOf="@id/img_empty" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.button.MaterialButton android:textSize="@dimen/_14sp" android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/btn_ask_question" android:paddingTop="@dimen/_14dp" android:paddingBottom="@dimen/_14dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_53dp" android:text="@string/newjoiner_title_ask_a_question" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_42dp" android:layout_marginEnd="@dimen/_42dp" android:backgroundTint="@color/color_f5f5f5" android:letterSpacing="0.0" app:cornerRadius="@dimen/_6dp" app:layout_constraintTop_toBottomOf="@id/layout_empty" app:rippleColor="@color/colorWhite" app:strokeColor="@color/color_185ECE" app:strokeWidth="@dimen/_1dp" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_my_question" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                    <include layout="@layout/shimmer_ticket_detail" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

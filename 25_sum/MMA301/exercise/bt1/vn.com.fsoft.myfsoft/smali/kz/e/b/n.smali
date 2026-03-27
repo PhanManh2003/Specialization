@@ -1,0 +1,99 @@
+.class public final synthetic Lkz/e/b/n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkz/e/b/b5/w1;
+
+
+# instance fields
+.field public final synthetic a:Lkz/e/b/o2;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Lkz/e/b/b5/w0;
+
+.field public final synthetic d:Landroid/util/Size;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkz/e/b/o2;Ljava/lang/String;Lkz/e/b/b5/w0;Landroid/util/Size;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lkz/e/b/n;->a:Lkz/e/b/o2;
+
+    iput-object p2, p0, Lkz/e/b/n;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Lkz/e/b/n;->c:Lkz/e/b/b5/w0;
+
+    iput-object p4, p0, Lkz/e/b/n;->d:Landroid/util/Size;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lkz/e/b/b5/a2;Lkz/e/b/b5/y1;)V
+    .locals 3
+
+    iget-object p1, p0, Lkz/e/b/n;->a:Lkz/e/b/o2;
+
+    iget-object p2, p0, Lkz/e/b/n;->b:Ljava/lang/String;
+
+    iget-object v0, p0, Lkz/e/b/n;->c:Lkz/e/b/b5/w0;
+
+    iget-object v1, p0, Lkz/e/b/n;->d:Landroid/util/Size;
+
+    .line 1
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2
+    invoke-static {}, Lkz/b/a;->d()V
+
+    .line 3
+    iget-object v2, p1, Lkz/e/b/o2;->o:Landroidx/camera/core/impl/DeferrableSurface;
+
+    if-eqz v2, :cond_0
+
+    .line 4
+    invoke-virtual {v2}, Landroidx/camera/core/impl/DeferrableSurface;->a()V
+
+    const/4 v2, 0x0
+
+    .line 5
+    iput-object v2, p1, Lkz/e/b/o2;->o:Landroidx/camera/core/impl/DeferrableSurface;
+
+    .line 6
+    :cond_0
+    iget-object v2, p1, Lkz/e/b/o2;->l:Lkz/e/b/p2;
+
+    invoke-virtual {v2}, Lkz/e/b/p2;->d()V
+
+    .line 7
+    invoke-virtual {p1, p2}, Lkz/e/b/p4;->j(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 8
+    invoke-virtual {p1, p2, v0, v1}, Lkz/e/b/o2;->x(Ljava/lang/String;Lkz/e/b/b5/w0;Landroid/util/Size;)Lkz/e/b/b5/v1;
+
+    move-result-object p2
+
+    .line 9
+    invoke-virtual {p2}, Lkz/e/b/b5/v1;->e()Lkz/e/b/b5/a2;
+
+    move-result-object p2
+
+    .line 10
+    iput-object p2, p1, Lkz/e/b/p4;->k:Lkz/e/b/b5/a2;
+
+    .line 11
+    invoke-virtual {p1}, Lkz/e/b/p4;->m()V
+
+    :cond_1
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout_history" android:layout_marginTop="@dimen/_27dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabIndicatorColor="@color/cursor_color" app:tabMode="fixed" app:tabSelectedTextColor="@color/cursor_color" app:tabTextColor="@color/color_recognition_text_tab" style="@style/AppTabLayoutRecognition" />
+    <androidx.cardview.widget.CardView android:id="@id/separator" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_below="@id/tabLayout_history" android:elevation="@dimen/_4dp" app:cardBackgroundColor="@color/newsBgColor" app:cardElevation="@dimen/_4dp" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewPager_history" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/separator" />
+</RelativeLayout>

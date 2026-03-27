@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dip" android:width="18.0dip" android:autoMirrored="true" android:viewportWidth="18.0" android:viewportHeight="18.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h18v18h-18z" />
+        <path android:fillColor="@drawable/$ic_dating_block__0" android:pathData="M10.225,9l5.5,-5.5A0.817,0.817 0,0 0,15.725 2.275a0.817,0.817 0,0 0,-1.223 0l-5.5,5.5 -5.5,-5.5a0.817,0.817 0,0 0,-1.223 0,0.817 0.817,0 0,0 0,1.223l5.5,5.5 -5.5,5.5A0.817,0.817 0,0 0,2.275 15.725a0.817,0.817 0,0 0,1.223 0l5.5,-5.5 5.5,5.5A0.865,0.865 0,1 0,15.725 14.502Z" />
+    </group>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/time_day_shimmer" android:background="@drawable/background_image_shimmer_home" android:layout_width="@dimen/_200dp" android:layout_height="@dimen/_20dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/cancel_request_shimmer" android:background="@drawable/background_image_shimmer_home" android:layout_width="@dimen/_80dp" android:layout_height="@dimen/_20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/registration_history_shimmer" android:background="@drawable/background_image_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_60dp" android:layout_marginTop="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/time_day_shimmer" />
+    <View android:id="@id/view_line_shimmer" android:background="@color/bg_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/registration_history_shimmer" />
+    <View android:background="@drawable/background_image_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_60dp" android:layout_marginTop="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/view_line_shimmer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

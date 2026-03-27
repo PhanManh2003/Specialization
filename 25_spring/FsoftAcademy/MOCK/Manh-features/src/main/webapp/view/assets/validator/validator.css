@@ -1,0 +1,16 @@
+.error {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.is-invalid {
+    border: 1px solid red;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}

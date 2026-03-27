@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/arrow_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tooltip_arrow_up" android:contentDescription="@string/contentDescription" android:layout_marginStart="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tooltip_container" android:background="@drawable/tooltip_background" android:paddingLeft="@dimen/_12dp" android:paddingTop="8.0dip" android:paddingRight="@dimen/_12dp" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_12dp" android:paddingVertical="8.0dip">
+        <TextView android:textSize="@dimen/_14sp" android:textColor="#ffffffff" android:id="@id/tooltip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pear_message_tooltip_auto_delete" android:lineSpacingExtra="3.1999817dip" android:lineSpacingMultiplier="1.0" android:fontFamily="@font/inter_regular" />
+    </LinearLayout>
+    <ImageView android:id="@id/arrow_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tooltip_arrow_up" android:contentDescription="@string/contentDescription" android:rotation="180.0" android:layout_marginStart="0.0dip" />
+</LinearLayout>

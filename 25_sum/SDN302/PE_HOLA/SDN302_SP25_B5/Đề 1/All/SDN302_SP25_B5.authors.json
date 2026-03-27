@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19a1"
+  },
+  "name": "J.K. Rowling",
+  "bio": "Author of Harry Potter",
+  "birthDate": {
+    "$date": {
+      "$numberLong": "-139536000000"
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19a2"
+  },
+  "name": "George R.R. Martin",
+  "bio": "Author of Game of Thrones",
+  "birthDate": {
+    "$date": {
+      "$numberLong": "-671587200000"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:id="@id/tv_title_organization_employee_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total" android:layout_marginStart="@dimen/_15dp" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/tv_content_organization_employee_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:fontFamily="sans-serif" android:layout_marginEnd="@dimen/_23dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

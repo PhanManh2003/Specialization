@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/item_search_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/toolbar_my_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/btn_back_setting_notification" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlack" android:id="@id/tv_toolbar_setting_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_notification_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_setting_notification" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_setting_notification" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_my_profile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

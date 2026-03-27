@@ -1,0 +1,112 @@
+    // Đẩy phần tử vào trên cùng của stack
+    public void push(Laptop laptop) {
+        Node newNode = new Node(laptop);
+        newNode.next = top;
+        top = newNode;
+        size++;
+    }
+
+    // Lấy và xóa phần tử trên cùng của stack
+    public Laptop pop() {
+        if (empty()) return null;
+        Laptop laptop = top.getInfo();
+        top = top.next;
+        size--;
+        return laptop;
+    }
+
+    // Lấy phần tử trên cùng mà không xóa
+    public Laptop peek() {
+        if (empty()) return null;
+        return top.getInfo();
+    }
+
+    // Kiểm tra stack rỗng hay không
+    public boolean empty() {
+        return size == 0;
+    }
+
+    // Lấy kích thước của stack
+    public int size() {
+        return size;
+    }
+
+    // Kiểm tra sự tồn tại của phần tử
+    public boolean contains(Laptop laptop) {
+        Node current = top;
+        while (current != null) {
+            if (current.getInfo().equals(laptop)) {
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
+    // Tìm vị trí của phần tử
+    public int search(Laptop laptop) {
+        Node current = top;
+        int index = 0;
+        while (current != null) {
+            if (current.getInfo().equals(laptop)) {
+                return index;
+            }
+            current = current.next;
+            index++;
+        }
+        return -1; // -1 nếu không tìm thấy
+    }
+
+    // Truy xuất phần tử tại vị trí cụ thể
+    public Laptop get(int index) {
+        if (index < 0 || index >= size) return null;
+        Node current = top;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+        return current.getInfo();
+    }
+
+    // Chèn phần tử vào vị trí cụ thể
+    public void add(int index, Laptop laptop) {
+        if (index < 0 || index > size) return;
+        if (index == 0) {
+            push(laptop);
+            return;
+        }
+        Node current = top;
+        for (int i = 1; i < index; i++) {
+            current = current.next;
+        }
+        Node newNode = new Node(laptop);
+        newNode.next = current.next;
+        current.next = newNode;
+        size++;
+    }
+
+    // Xóa phần tử tại vị trí cụ thể
+    public void remove(int index) {
+        if (index < 0 || index >= size) return;
+        if (index == 0) {
+            pop();
+            return;
+        }
+        Node current = top;
+        for (int i = 1; i < index; i++) {
+            current = current.next;
+        }
+        current.next = current.next.next;
+        size--;
+    }
+
+    // Chuyển đổi Stack sang mảng
+    public Laptop[] toArray() {
+        Laptop[] array = new Laptop[size];
+        Node current = top;
+        int index = 0;
+        while (current != null) {
+            array[index++] = current.getInfo();
+            current = current.next;
+        }
+        return array;
+    }

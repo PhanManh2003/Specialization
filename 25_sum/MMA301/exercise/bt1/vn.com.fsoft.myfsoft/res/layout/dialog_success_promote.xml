@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorBlackAlpha60" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/flImage" android:layout_width="@dimen/_107dp" android:layout_height="@dimen/_111dp" android:layout_marginBottom="@dimen/_21dp" android:src="@null" android:layout_marginStart="@dimen/_17dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:gravity="center" android:id="@id/tv_dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_24dp" android:layout_marginEnd="@dimen/_24dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flImage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

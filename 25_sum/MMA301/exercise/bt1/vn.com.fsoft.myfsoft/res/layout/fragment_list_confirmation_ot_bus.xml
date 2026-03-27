@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/view_status_bar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:elevation="@dimen/_6dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageButton android:id="@id/btnBack" android:background="@null" android:padding="@dimen/_10dp" android:layout_width="wrap_content" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:contentDescription="@string/contentDescription" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_title_request_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ot_bus_confirm_ot_bus_title" style="@style/TextInterSemiBold16Black" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_ot_request" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

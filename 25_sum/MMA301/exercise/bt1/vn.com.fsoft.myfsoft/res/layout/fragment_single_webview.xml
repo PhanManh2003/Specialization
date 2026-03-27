@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/_44dp" android:elevation="@dimen/_6dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetLeft="@dimen/_0dp" app:contentInsetRight="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_collapseMode="pin">
+        <ImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_12dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="centerCrop" android:contentDescription="@string/discipline_go_back_title" android:layout_marginStart="@dimen/_12dp" />
+    </androidx.appcompat.widget.Toolbar>
+</FrameLayout>

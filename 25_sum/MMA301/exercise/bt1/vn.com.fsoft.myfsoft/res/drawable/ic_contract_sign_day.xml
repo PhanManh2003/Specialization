@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffe6edf7" android:pathData="M47.9998,24.0002a24,24 0,1 1,-24 -24A24,24 0,0 1,47.9998 24.0002Z" />
+    <group>
+        <clip-path android:pathData="M48,24a24,24 0,1 1,-24 -24A24,24 0,0 1,48 24Z" />
+        <path android:fillColor="@drawable/$ic_contract_sign_day__0" android:pathData="M14.755,40.291L9.376,40.291l6.36,6.511v-5.571A0.969,0.969 0,0 0,14.755 40.291ZM14.755,40.291" />
+        <path android:fillColor="@drawable/$ic_contract_sign_day__1" android:pathData="M30.03,16.04L11.046,16.04A2.536,2.536 0,0 0,8.523 18.585L8.523,39.023L14.755,39.023A2.238,2.238 0,0 1,17.003 41.232v6.509L30.03,47.741a2.522,2.522 0,0 0,2.506 -2.537L32.536,18.586a2.522,2.522 0,0 0,-2.5 -2.545ZM13.245,20.637h6.959a0.634,0.634 0,0 1,0 1.268L13.245,21.905a0.634,0.634 0,1 1,0 -1.268ZM28.323,35.853L13.245,35.853a0.634,0.634 0,1 1,0 -1.268L28.323,34.585a0.634,0.634 0,1 1,0 1.268ZM28.323,31.098L13.245,31.098a0.634,0.634 0,0 1,0 -1.268L28.323,29.83a0.634,0.634 0,1 1,0 1.268ZM28.323,26.343L13.245,26.343a0.634,0.634 0,1 1,0 -1.268L28.323,25.075a0.634,0.634 0,1 1,0 1.268ZM28.323,26.343" />
+        <path android:fillColor="@drawable/$ic_contract_sign_day__2" android:pathData="M35.243,21.381 L35.254,38.737h0v2.377L39.463,41.114L39.463,38.737h0L39.476,21.381ZM35.257,42.381v2.273a2.1,2.1 0,0 0,4.2 0L39.457,42.381Z" />
+        <path android:fillColor="@drawable/$ic_contract_sign_day__3" android:pathData="M37.36,16.83l1.706,3.282h-3.413ZM37.36,16.83" />
+    </group>
+</vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ivBg" android:layout_width="fill_parent" android:layout_height="@dimen/_88dp" android:src="@null" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:visibility="gone" app:layout_constraintTop_toBottomOf="@id/ivBg" app:tabMinWidth="@dimen/_130dp" style="@style/AppTabLayout" />
+            <View android:id="@id/viewDivide" android:background="@color/colorGreyBus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_home_top_news" android:background="@color/colorWhite" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/viewDivide" android:elevation="@dimen/_1dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDivide">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_5dp" layout="@layout/shimmer_home_top_news" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_HighlightNews" android:background="@color/commentBgColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewDivide" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_view_more_news" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/rv_HighlightNews">
+                <View android:background="@color/newsBgColor" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+                <TextView android:gravity="center" android:id="@id/tvMoreNews" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:text="@string/common_view_more_title" android:layout_centerInParent="true" />
+                <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/empty_state_view" android:background="@color/colorWhite" android:paddingBottom="@dimen/_30dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/viewDivide">
+                <View android:background="@color/newsBgColor" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+                <ImageView android:id="@id/empty_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30dp" android:src="@null" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/_50dp" android:paddingEnd="@dimen/_50dp" android:layout_marginStart="@dimen/_30dp" android:layout_marginEnd="@dimen/_30dp" />
+                <TextView android:textSize="@dimen/_12sp" android:textColor="@color/logwork_normal_dark_text_color" android:id="@id/empty_state_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_below="@id/empty_state_image" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

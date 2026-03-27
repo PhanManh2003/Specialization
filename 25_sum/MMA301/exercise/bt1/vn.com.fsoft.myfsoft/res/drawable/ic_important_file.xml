@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffe6edf7" android:pathData="M31.9993,16.0002a16,16 0,1 1,-16 -16A16,16 0,0 1,31.9993 16.0002Z" />
+    <group>
+        <clip-path android:pathData="M31.999,16a16,16 0,1 1,-16 -16A16,16 0,0 1,31.999 16Z" />
+        <path android:fillColor="#ffb9d4ff" android:pathData="M15.222,11.111L20.777,11.111A1,1 0,0 1,21.777 12.111L21.777,15A1,1 0,0 1,20.777 16L15.222,16A1,1 0,0 1,14.222 15L14.222,12.111A1,1 0,0 1,15.222 11.111z" />
+        <path android:fillColor="@drawable/$ic_important_file__0" android:pathData="M7.778,13.777L16.667,13.777A2,2 0,0 1,18.667 15.777L18.667,21.11A2,2 0,0 1,16.667 23.11L7.778,23.11A2,2 0,0 1,5.778 21.11L5.778,15.777A2,2 0,0 1,7.778 13.777z" />
+        <path android:fillColor="@drawable/$ic_important_file__1" android:pathData="M11.334,18.222L26,18.222A2,2 0,0 1,28 20.222L28,31.333A2,2 0,0 1,26 33.333L11.334,33.333A2,2 0,0 1,9.334 31.333L9.334,20.222A2,2 0,0 1,11.334 18.222z" />
+        <path android:fillColor="#ffffffff" android:pathData="M18.337,21.878a0.714,0.714 0,1 1,1.01 1.01L15.311,26.923l0,0a0.714,0.714 0,0 1,-1.01 0l0,0L12.279,24.907a0.714,0.714 0,1 1,1.01 -1.01L14.803,25.412Z" />
+    </group>
+</vector>

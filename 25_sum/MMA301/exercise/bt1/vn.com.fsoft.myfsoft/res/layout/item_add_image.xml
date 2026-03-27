@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/_2dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_2dp" android:paddingEnd="@dimen/_0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_added" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="W, 1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/img_check" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_20dp" android:layout_marginTop="@dimen/_6dp" android:src="@drawable/ic_uncheck_image" android:layout_alignTop="@id/img_added" android:layout_marginEnd="@dimen/_6dp" android:layout_alignEnd="@id/img_added" app:layout_constraintEnd_toEndOf="@id/img_added" app:layout_constraintTop_toTopOf="@id/img_added" />
+</androidx.constraintlayout.widget.ConstraintLayout>

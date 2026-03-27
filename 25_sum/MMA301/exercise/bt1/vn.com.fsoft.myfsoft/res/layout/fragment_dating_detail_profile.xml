@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDetailProfile" android:paddingTop="@dimen/_50dp" android:paddingBottom="@dimen/_100dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/btnClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_62dp" android:src="@drawable/background_dating_detail_close" android:layout_marginStart="@dimen/_28dp" android:elevation="@dimen/_100dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView android:id="@id/btnDislike" android:visibility="gone" android:layout_width="@dimen/_64dp" android:layout_height="@dimen/_64dp" android:layout_marginBottom="@dimen/_40dp" android:elevation="@dimen/_10dp" app:cardCornerRadius="@dimen/_32dp" app:cardElevation="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/separate" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/_32dp" android:layout_height="@dimen/_32dp" android:src="@drawable/ic_dating_block" />
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/separate" android:visibility="visible" android:layout_width="@dimen/_28dp" android:layout_height="@dimen/_1dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btnLike" app:layout_constraintStart_toEndOf="@id/btnDislike" />
+    <androidx.cardview.widget.CardView android:id="@id/btnLike" android:visibility="gone" android:layout_width="@dimen/_64dp" android:layout_height="@dimen/_64dp" android:layout_marginBottom="@dimen/_40dp" android:elevation="@dimen/_10dp" app:cardCornerRadius="@dimen/_32dp" app:cardElevation="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/separate">
+        <View android:background="@drawable/background_dating_like" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@null" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dating_like_large" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/btnChat" android:visibility="gone" android:layout_width="@dimen/_64dp" android:layout_height="@dimen/_64dp" android:layout_marginBottom="@dimen/_40dp" app:cardCornerRadius="@dimen/_50dp" app:cardElevation="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <View android:background="@drawable/background_dating_like" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@null" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_comment_dating_history" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

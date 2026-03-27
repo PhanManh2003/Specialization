@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:gravity="center_vertical" android:id="@id/txtMonth" android:background="@color/bg_color_header_fpt_care_history" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp" android:lineSpacingMultiplier="1.15" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_0dp" />
+</RelativeLayout>

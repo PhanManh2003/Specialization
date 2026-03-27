@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_item_history_celebration" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_12dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/bg_shimmer" android:layout_width="311.0dip" android:layout_height="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/bg_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_12dp" />
+    <View android:background="@color/bg_shimmer" android:layout_width="311.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/_12dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/bg_shimmer" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/_12dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>

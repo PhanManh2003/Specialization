@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/dimmingBg" android:background="@color/colorBlack" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/fab" android:background="@drawable/bg_fab" android:padding="@dimen/_15dp" android:layout_width="@dimen/_55dp" android:layout_height="@dimen/_55dp" android:layout_marginBottom="20.0dip" android:src="@drawable/ic_add" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutLeaderboards" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/fab" app:layout_constraintEnd_toEndOf="@id/fab">
+        <TextView android:textSize="@dimen/_10sp" android:textColor="@color/colorWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starave_leaderboard_title" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_leaderboards" app:elevation="@dimen/_0dp" app:fabSize="mini" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutRecognition" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/fab" app:layout_constraintEnd_toEndOf="@id/fab">
+        <TextView android:textSize="@dimen/_10sp" android:textColor="@color/colorWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fab_recognition" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_redeem" app:elevation="@dimen/_0dp" app:fabSize="mini" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutGuideline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/fab" app:layout_constraintStart_toStartOf="@id/fab">
+        <TextView android:textSize="@dimen/_10sp" android:textColor="@color/colorWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discipline_guidline_title" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_guideline" app:elevation="@dimen/_0dp" app:fabSize="mini" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

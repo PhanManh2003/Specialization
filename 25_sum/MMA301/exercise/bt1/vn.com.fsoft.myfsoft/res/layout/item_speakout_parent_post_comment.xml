@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_dating_post_root_comment" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <vn.com.fsoft.myfsoft.news.speakout.view.SpeakoutPostCommentView android:id="@id/commentView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

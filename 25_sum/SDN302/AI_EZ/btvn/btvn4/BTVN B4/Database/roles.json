@@ -1,0 +1,15 @@
+[
+    {
+      "_id": { "$oid": "660c057b766198f0e43c8001" },
+      "name": "Frontend Developer"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c8002" },
+      "name": "Backend Developer"
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c8003" },
+      "name": "Machine Learning Engineer"
+    }
+  ]
+  

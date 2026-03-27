@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z" />
+        <path android:fillColor="@drawable/$ic_send_mail_onboard__0" android:pathData="M18.333,3.759a0.212,0.212 0,0 0,-0.153 -0.062L1.822,3.697a0.212,0.212 0,0 0,-0.215 0.215L1.607,16.197L18.18,16.197a0.213,0.213 0,0 0,0.215 -0.21C18.395,3.854 18.373,3.797 18.333,3.759ZM10.001,10.552a1.294,1.294 0,0 1,-0.781 -0.258l-6.525,-4.948a0.391,0.391 0,1 1,0.474 -0.622l6.523,4.948a0.527,0.527 0,0 0,0.619 0l6.525,-4.948a0.391,0.391 0,1 1,0.472 0.622L10.78,10.297A1.294,1.294 0,0 1,10.001 10.552Z" />
+    </group>
+</vector>

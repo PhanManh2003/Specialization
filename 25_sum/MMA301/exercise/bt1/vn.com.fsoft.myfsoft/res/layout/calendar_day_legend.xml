@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Sun" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Mon" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Tue" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Wed" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Thu" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Fri" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_8B8B8B" android:gravity="center" android:id="@id/legendText7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Sat" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+</LinearLayout>

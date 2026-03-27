@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/background_item_quiz_dating_soulmate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerAnswer" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:id="@id/tv_title" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15dp" android:layout_marginBottom="@dimen/_15dp" android:fontFamily="@font/inter_regular" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp" android:layout_marginStart="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/img_check" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="@dimen/_31dp" />
+        <ImageView android:id="@id/img_check" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_common_bottom_popup_tickdone" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

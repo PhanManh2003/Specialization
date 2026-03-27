@@ -1,0 +1,75 @@
+{
+  "id": "d74987f7-ef9e-4031-b6ae-db26d797e070",
+  "version": "2.0",
+  "name": "test dân trí",
+  "url": "https://dantri.com.vn",
+  "tests": [{
+    "id": "690cebe4-746b-473e-9739-f8b94e9abcff",
+    "name": "Untitled",
+    "commands": [{
+      "id": "57753bc5-b91c-47c3-a735-2ff66a6a9a24",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7ef613-d6ef-47e6-8214-be8539248070",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1f6dfc2-9c42-4c7a-8b6b-8a04f8e16826",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,178)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77f5c03f-33c9-4d04-bb91-b0e9858213b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article > .article-item:nth-child(1) > .article-thumb img",
+      "targets": [
+        ["css=.article > .article-item:nth-child(1) > .article-thumb img", "css:finder"],
+        ["xpath=//img[@alt='\"Giải trình rõ lý do không chọn xây đường sắt tốc độ cao Bắc - Nam 250km/h\"']", "xpath:img"],
+        ["xpath=//article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00397ccf-a77b-4da4-89fc-5605e88cfd78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title-page",
+      "targets": [
+        ["css=.title-page", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Giải trình rõ lý do không chọn xây đường sắt tốc độ cao Bắc - Nam 250km/h\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8693389-a42c-4620-81d7-9b78dda5b4d5",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=.title-page",
+      "targets": [
+        ["css=.title-page", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'\"Giải trình rõ lý do không chọn xây đường sắt tốc độ cao Bắc - Nam 250km/h\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a0f517a5-5f68-44c0-aa78-bf3ddfb4f972",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["690cebe4-746b-473e-9739-f8b94e9abcff"]
+  }],
+  "urls": ["https://dantri.com.vn/"],
+  "plugins": []
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_bg_reminder_home" />
+    <item android:gravity="center|right|top" android:drawable="@drawable/ic_cloud_reminder_widget" android:top="@dimen/_16dp" />
+    <item android:gravity="center|right|top" android:drawable="@null" android:top="@dimen/_4dp" android:right="@dimen/_8dp" />
+    <item android:gravity="start|bottom|center" android:drawable="@drawable/ic_pine_reminder_home" android:left="@dimen/_20dp" android:top="@dimen/_4dp" />
+</layer-list>

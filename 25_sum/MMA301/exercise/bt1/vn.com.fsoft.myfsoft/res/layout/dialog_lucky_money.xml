@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/background_dialog" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_content" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" android:layout_marginStart="@dimen/_15dp" android:layout_marginEnd="@dimen/_15dp" app:layout_constraintBottom_toBottomOf="@id/background_dialog" app:layout_constraintEnd_toEndOf="@id/background_dialog" app:layout_constraintStart_toStartOf="@id/background_dialog" app:layout_constraintTop_toTopOf="@id/background_dialog">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guide_line_1" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.55" />
+        <TextView android:textSize="@dimen/_28sp" android:textStyle="normal" android:textColor="@color/color_dialog_lucky_content" android:gravity="start" android:id="@id/tv_content" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_25dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/guide_line_1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

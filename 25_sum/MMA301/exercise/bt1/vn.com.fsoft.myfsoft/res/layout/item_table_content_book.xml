@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/lyImage" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/tv_chapter_book" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tv_chapter_book">
+        <ImageView android:id="@id/img_icon_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_16dp" android:src="@drawable/ic_noun_tag" android:paddingStart="@dimen/_0dp" android:paddingEnd="@dimen/_12dp" />
+        <ImageView android:id="@id/img_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_6dp" android:src="@null" android:paddingStart="@dimen/_0dp" android:paddingEnd="@dimen/_8dp" app:tint="@color/color_666666" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:ellipsize="end" android:id="@id/tv_chapter_book" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/inter_medium" app:layout_constraintStart_toEndOf="@id/lyImage" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/img_dotted" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="2.0dip" android:src="@drawable/bg_dotted_chapter_book" android:layout_marginStart="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="@id/tv_chapter_book" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_chapter_book" app:layout_constraintTop_toTopOf="@id/tv_chapter_book" />
+</androidx.constraintlayout.widget.ConstraintLayout>

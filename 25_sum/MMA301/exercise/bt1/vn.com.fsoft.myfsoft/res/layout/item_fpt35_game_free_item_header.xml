@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpt35_fpt35_event_game" style="@style/TextInterBold16Red500519" />
+    <TextView android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fpt35_fpt35_event_game_time" style="@style/TextInterBold16Red500519" />
+</LinearLayout>

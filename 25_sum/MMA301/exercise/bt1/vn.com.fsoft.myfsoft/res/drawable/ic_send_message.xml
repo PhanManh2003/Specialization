@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_send_message__0" android:pathData="M9.245,10.273a0.884,0.884 0,0 1,1 -0.2L31.45,19.503a0.884,0.884 0,0 1,0 1.615L10.243,30.544a0.884,0.884 0,0 1,-1.149 -1.2l4.074,-8.147h7.321a0.884,0.884 0,0 0,0 -1.767L13.167,19.43L9.093,11.279A0.884,0.884 0,0 1,9.245 10.273Z" android:fillType="evenOdd" />
+</vector>

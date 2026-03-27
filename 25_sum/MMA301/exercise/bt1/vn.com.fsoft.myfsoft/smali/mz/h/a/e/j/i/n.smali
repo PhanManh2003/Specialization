@@ -1,0 +1,55 @@
+.class public final Lmz/h/a/e/j/i/n;
+.super Lmz/h/a/e/e/k/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lmz/h/a/e/e/k/a<",
+        "Lmz/h/a/e/j/i/m;",
+        "Lmz/h/a/e/e/k/c;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lmz/h/a/e/j/i/l;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lmz/h/a/e/e/k/a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Landroid/content/Context;Landroid/os/Looper;Lmz/h/a/e/e/m/h;Ljava/lang/Object;Lmz/h/a/e/e/k/j$a;Lmz/h/a/e/e/k/j$b;)Lmz/h/a/e/e/k/e;
+    .locals 7
+
+    .line 1
+    check-cast p4, Lmz/h/a/e/e/k/c;
+
+    .line 2
+    new-instance p4, Lmz/h/a/e/j/i/m;
+
+    const/4 v6, 0x0
+
+    move-object v0, p4
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    move-object v3, p3
+
+    move-object v4, p5
+
+    move-object v5, p6
+
+    invoke-direct/range {v0 .. v6}, Lmz/h/a/e/j/i/m;-><init>(Landroid/content/Context;Landroid/os/Looper;Lmz/h/a/e/e/m/h;Lmz/h/a/e/e/k/j$a;Lmz/h/a/e/e/k/j$b;Lmz/h/a/e/j/i/l;)V
+
+    return-object p4
+.end method

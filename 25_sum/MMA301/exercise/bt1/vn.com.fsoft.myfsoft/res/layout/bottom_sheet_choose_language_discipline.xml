@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_boder_type_vioalation" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/ivHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:src="@drawable/ic_dialog_bottom_discipline" />
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:layout_gravity="center" android:id="@id/tv_title_bottom_sheet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:layout_marginBottom="@dimen/_12dp" android:text="@string/discipline_choose_language_title" android:fontFamily="@font/inter_semibold" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_items" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

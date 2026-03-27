@@ -1,0 +1,42 @@
+[
+  {
+    "_id": { "$oid": "665f2fcb6b449f0d1437b6f9" },
+    "name": "Laptop",
+    "description": "All types of laptops and notebooks"
+  },
+  {
+    "_id": { "$oid": "665f2fcb6b449f0d1437b6f8" },
+    "name": "Mobile",
+    "description": "All types of mobile"
+  },
+  {
+    "_id": { "$oid": "665f2fcb6b449f0d1437b6f7" },
+    "name": "Television",
+    "description": "All types of TV"
+  },
+  {
+    "_id": { "$oid": "666000000000000000000001" },
+    "name": "Tablet",
+    "description": "All types of tablets"
+  },
+  {
+    "_id": { "$oid": "666000000000000000000002" },
+    "name": "Smartwatch",
+    "description": "Wearable smart devices"
+  },
+  {
+    "_id": { "$oid": "666000000000000000000003" },
+    "name": "Headphone",
+    "description": "Audio listening devices"
+  },
+  {
+    "_id": { "$oid": "666000000000000000000004" },
+    "name": "Camera",
+    "description": "Professional and compact cameras"
+  },
+  {
+    "_id": { "$oid": "666000000000000000000005" },
+    "name": "Accessory",
+    "description": "Tech accessories"
+  }
+]

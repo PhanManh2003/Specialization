@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeHistory" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/card_view_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/_8dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <RelativeLayout android:id="@id/lyToolBar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                <ImageView android:id="@id/ivBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="@string/contentDescription" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:id="@id/tvTile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meetingroom_history_title" android:layout_centerInParent="true" android:fontFamily="@font/inter_semibold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvHistoryBooking" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/card_view_header" />
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/tvEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:text_empty="@string/meetingroom_history_empty_msg" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

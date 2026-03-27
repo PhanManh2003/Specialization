@@ -1,0 +1,62 @@
+.class public Lmz/f/a/a0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lmz/f/e/a0$a;
+
+
+# direct methods
+.method public constructor <init>(Lmz/f/a/d0;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onCompleted(Z)V
+    .locals 1
+
+    if-eqz p1, :cond_1
+
+    .line 1
+    sget-boolean p1, Lmz/f/a/w0/b;->a:Z
+
+    const-class p1, Lmz/f/a/w0/b;
+
+    invoke-static {p1}, Lmz/f/e/r1/k/a;->b(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 2
+    :try_start_0
+    sput-boolean v0, Lmz/f/a/w0/b;->a:Z
+
+    .line 3
+    invoke-static {}, Lmz/f/a/w0/b;->b()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    .line 4
+    invoke-static {v0, p1}, Lmz/f/e/r1/k/a;->a(Ljava/lang/Throwable;Ljava/lang/Object;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method

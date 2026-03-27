@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="21.0dip" android:viewportWidth="21.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$icon_mark_done_step__0" android:pathData="M10.625,0L10.625,0A10,10 0,0 1,20.625 10L20.625,10A10,10 0,0 1,10.625 20L10.625,20A10,10 0,0 1,0.625 10L0.625,10A10,10 0,0 1,10.625 0z" />
+    <path android:fillColor="#fffcfcfc" android:pathData="M15.287,5.827C14.896,5.514 14.32,5.57 14,5.955L8.968,12L7.23,10.052C6.897,9.678 6.32,9.641 5.939,9.967C5.557,10.296 5.518,10.868 5.853,11.244L8.263,14.068C8.441,14.268 8.699,14.379 8.968,14.375C9.236,14.37 9.49,14.25 9.661,14.045L15.417,7.1C15.74,6.713 15.68,6.143 15.287,5.827Z" />
+</vector>

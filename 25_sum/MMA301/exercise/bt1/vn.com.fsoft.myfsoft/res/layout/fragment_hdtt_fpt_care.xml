@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/header_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_fpt_care" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-25.0dip" android:layout_below="@id/header_background" android:overScrollMode="never" />
+                <TextView android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tvLoadMore" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:text="@string/common_view_more_title" android:layout_below="@id/rv_fpt_care" android:fontFamily="@font/inter_semibold" />
+                <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore_progress" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_below="@id/rv_fpt_care" style="?android:progressBarStyle" />
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_hdtt_fpt_care" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-25.0dip" android:layout_below="@id/header_background" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+                <RelativeLayout android:id="@id/container_empty_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_background">
+                    <ImageView android:id="@id/img_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_centerInParent="true" />
+                    <TextView android:layout_marginTop="@dimen/_8dp" android:text="@string/fsbook_insurance_benifit_empty_message" android:layout_below="@id/img_empty" android:layout_centerHorizontal="true" style="@style/StyleTextViewEmptyStateAkaLink" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_supporter_bus_register__0" android:pathData="M9.8409,0.7202C5.5259,0.7202 2.0259,1.2082 2.0259,4.6282v9.769a2.909,2.909 0,0 0,0.977 2.169v1.739a0.98,0.98 0,0 0,0.977 0.977h0.977a0.977,0.977 0,0 0,0.977 -0.977v-0.977h7.815v0.977a0.977,0.977 0,0 0,0.977 0.977h0.977a0.98,0.98 0,0 0,0.977 -0.977L16.6799,16.5652a2.909,2.909 0,0 0,0.977 -2.169L17.6569,4.6282C17.6559,1.2082 14.1589,0.7202 9.8409,0.7202ZM5.4409,15.3732a1.465,1.465 0,1 1,1.465 -1.465A1.463,1.463 0,0 1,5.4449 15.3732ZM14.2329,15.3732a1.465,1.465 0,1 1,1.465 -1.465A1.463,1.463 0,0 1,14.2369 15.3732ZM15.6979,9.5122L3.9799,9.5122L3.9799,4.6282L15.7029,4.6282Z" />
+</vector>

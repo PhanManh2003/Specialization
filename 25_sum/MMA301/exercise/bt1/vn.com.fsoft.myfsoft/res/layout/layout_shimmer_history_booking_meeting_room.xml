@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/item_meeting_room_history_booking_shimmer" />
+        <include layout="@layout/item_meeting_room_history_booking_shimmer" />
+        <include layout="@layout/item_meeting_room_history_booking_shimmer" />
+        <include layout="@layout/item_meeting_room_history_booking_shimmer" />
+        <include layout="@layout/item_meeting_room_history_booking_shimmer" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/swipe_refresh_domestic_branches" android:background="@color/wiki_employee_item_view_color" android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/domestic_header" android:background="@color/wiki_accent_color" android:layout_width="fill_parent" android:layout_height="@dimen/_160dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_24sp" android:textStyle="bold" android:textColor="@color/colorWhite" android:id="@id/tvHeaderDomestic" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30dp" android:text="@string/dosmeticbranches_feature_title" android:shadowColor="@color/domestic_txt_shadow" android:shadowDy="@integer/shadow_domestic_branches" android:shadowRadius="@integer/shadow_domestic_branches" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="@id/domestic_header" app:layout_constraintTop_toTopOf="@id/domestic_header" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:id="@id/tvDomesticDesc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5dp" android:text="@string/dosmeticbranches_intro_title" android:layout_marginEnd="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="@id/ivHeaderDomestic" app:layout_constraintEnd_toStartOf="@id/ivHeaderDomestic" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="@id/tvHeaderDomestic" app:layout_constraintTop_toBottomOf="@id/tvHeaderDomestic" />
+                <ImageView android:id="@id/ivHeaderDomestic" android:layout_width="@dimen/_122dp" android:layout_height="@dimen/_78dp" android:layout_marginTop="10.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvHeaderDomestic" app:srcCompat="@null" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/lvDomesticBranches" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10dp" android:listSelector="@color/colorTransparent" android:transcriptMode="disabled" android:groupIndicator="@null" android:divider="@null" app:layout_constraintTop_toBottomOf="@id/ivHeaderDomestic" />
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_domestic_branches" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/domestic_header">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/shimmer_item_domestic" />
+                        <include layout="@layout/shimmer_item_domestic" />
+                        <include layout="@layout/shimmer_item_domestic" />
+                        <include layout="@layout/shimmer_item_domestic" />
+                        <include layout="@layout/shimmer_item_domestic" />
+                        <include layout="@layout/shimmer_item_domestic" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+                <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/layoutEmptyState" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/domestic_header" app:text_empty="@string/dosmeticbranches_empty_msg" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

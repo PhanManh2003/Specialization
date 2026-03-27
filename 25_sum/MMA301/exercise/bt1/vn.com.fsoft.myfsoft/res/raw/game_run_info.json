@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "active": true,
+      "createdAt": "2019-07-25T12:15:37.000Z",
+      "description": "",
+      "guide": "\u003cstyle type\u003d\"text/css\"\u003ep{margin:10px auto} ul li{margin: 10px auto} .guide-heading{color:#43A6DD;display:block} .heading{padding-top:15px}\r\n\u003c/style\u003e\r\n\u003cp\u003e\u003cstrong class\u003d\"guide-heading\"\u003eI. Lời ngỏ\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e20 tuổi thì chúng ta làm gì?\u003c/p\u003e\r\n\r\n\u003cp\u003eHãy tháo nút dây. Hãy cho thuyền rời khỏi bến cảng an toàn. Hãy căng buồm đón gió. Tìm tòi. Ước mơ. Khám phá. Hãy làm những điều ý nghĩa cho chúng ta và đất nước.\u003c/p\u003e\r\n\r\n\u003cp\u003eỨng dụng myFPT đang khởi chạy một chiến dịch công khai để khuyến khích mọi người chạy và tập thể dục hàng ngày, do đó, nó cần phải đồng bộ hóa dữ liệu từ ứng dụng Health. Cứ mười cây số đóng góp một cây cho cộng đồng, FPT có kế hoạch trồng hàng ngàn cây trên khắp các thành phố lớn ở Việt Nam.\u003c/p\u003e\r\n\r\n\u003cp\u003eChương trình Run 4 Green, FPT mong muốn tổ chức một giải chạy thường niên, nơi mà những người làm công nghệ thông tin rèn luyện sức khỏe và đóng góp giá trị xanh. Thành tích của các vận động viên tham gia giải chạy sẽ được quy đổi thành số lượng cây xanh được trồng, và gắn tên của vận động viên như một sự tri ân dành cho đóng góp xã hội của họ.\u003c/p\u003e\r\n\r\n\u003cp\u003eVậy còn chờ gì nữa, đứng dậy, đeo giầy, và chạy\u0026hellip;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong class\u003d\"guide-heading heading\"\u003eII. Chiến dịch Run 4\u0026nbsp;Green\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cul\u003e\r\n\t\u003cli\u003eTổng số km của toàn bộ người tham gia cứ tăng 20km thì trồng 1 cây xanh\u003c/li\u003e\r\n\t\u003cli\u003eMỗi người chạy được 100km trong thời gian diễn ra chiến dịch thì được cấp 1 thẻ tên để gắn lên 1 cây trong tổng số 20.000 cây.\u003c/li\u003e\r\n\t\u003cli\u003eNếu bạn sử dụng smartphone thì khi chạy nhớ mang theo điện thoại bên mình. Nếu bạn sử dụng smartwatch thì bạn cần đồng bộ data từ smartwatch vào điện thoại.\u003c/li\u003e\r\n\t\u003cli\u003eĐể được xếp hạng Run 4 Green trên myFPT vui lòng cho phép truy cập data từ ứng dụng theo dõi dữ liệu hoạt động.\u003c/li\u003e\r\n\u003c/ul\u003e\r\n",
+      "icon": "https://images.fpt-software.vn/runforgrren.png",
+      "id": 1,
+      "name": "Run 4 Green",
+      "order": 1,
+      "slidersImg": [
+        "https://images.fpt-software.vn/{Run4Green_3X.png}"
+      ],
+      "startTime": "2020-10-01T04:00:00.000Z",
+      "stopTime": "2020-12-31T04:00:00.000Z",
+      "updatedAt": "2021-03-22T03:46:45.275Z"
+    }
+  ],
+  "hasNext": false
+}

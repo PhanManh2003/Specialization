@@ -1,0 +1,93 @@
+.class public final Lxz/a/a/a/w2/a/a/j/b;
+.super Lqz/u/c/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lqz/u/b/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lqz/u/c/m;",
+        "Lqz/u/b/b<",
+        "Lxz/a/a/a/w2/a/a/e/a;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final t:Lxz/a/a/a/w2/a/a/j/b;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lxz/a/a/a/w2/a/a/j/b;
+
+    invoke-direct {v0}, Lxz/a/a/a/w2/a/a/j/b;-><init>()V
+
+    sput-object v0, Lxz/a/a/a/w2/a/a/j/b;->t:Lxz/a/a/a/w2/a/a/j/b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lqz/u/c/m;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    check-cast p1, Lxz/a/a/a/w2/a/a/e/a;
+
+    const-string v0, "it"
+
+    .line 2
+    invoke-static {p1, v0}, Lqz/u/c/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    iget-object p1, p1, Lxz/a/a/a/w2/a/a/e/a;->a:Ljava/lang/Integer;
+
+    const/4 v0, -0x1
+
+    if-nez p1, :cond_0
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    if-ne p1, v0, :cond_1
+
+    const/4 p1, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x0
+
+    .line 5
+    :goto_1
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method

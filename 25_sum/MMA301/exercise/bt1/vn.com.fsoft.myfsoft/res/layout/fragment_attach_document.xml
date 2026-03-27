@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_attach_file" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_20dp" />
+        <View android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/_8dp" />
+        <View android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/background_view_add_image_claim_fpt_care" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_20dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_title_document" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:includeFontPadding="false" android:fontFamily="@font/inter_semibold" android:layout_marginHorizontal="@dimen/_16dp" />
+            <vn.com.fsoft.myfsoft.base.view.UnderlineTextView android:textSize="@dimen/_12sp" android:textColor="@color/color_185ECE" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_document_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/_16dp" android:layout_marginBottom="@dimen/_16dp" android:text="@string/fptcare_claim_form_name_title" android:maxLines="1" android:includeFontPadding="false" android:drawablePadding="@dimen/_6dp" android:fontFamily="@font/inter_semibold" android:layout_marginHorizontal="@dimen/_16dp" app:drawableStartCompat="@drawable/icon_attach_file_fpt_care_claim" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

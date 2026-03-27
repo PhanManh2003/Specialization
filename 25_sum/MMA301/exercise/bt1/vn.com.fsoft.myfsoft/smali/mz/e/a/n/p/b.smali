@@ -1,0 +1,88 @@
+.class public Lmz/e/a/n/p/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lmz/e/a/n/p/o0;
+.implements Lmz/e/a/n/p/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lmz/e/a/n/p/o0<",
+        "Landroid/net/Uri;",
+        "Landroid/os/ParcelFileDescriptor;",
+        ">;",
+        "Lmz/e/a/n/p/a<",
+        "Landroid/os/ParcelFileDescriptor;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Landroid/content/res/AssetManager;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/res/AssetManager;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lmz/e/a/n/p/b;->a:Landroid/content/res/AssetManager;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Landroid/content/res/AssetManager;Ljava/lang/String;)Lmz/e/a/n/n/e;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/res/AssetManager;",
+            "Ljava/lang/String;",
+            ")",
+            "Lmz/e/a/n/n/e<",
+            "Landroid/os/ParcelFileDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lmz/e/a/n/n/l;
+
+    invoke-direct {v0, p1, p2}, Lmz/e/a/n/n/l;-><init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public b(Lmz/e/a/n/p/x0;)Lmz/e/a/n/p/n0;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lmz/e/a/n/p/x0;",
+            ")",
+            "Lmz/e/a/n/p/n0<",
+            "Landroid/net/Uri;",
+            "Landroid/os/ParcelFileDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Lmz/e/a/n/p/d;
+
+    iget-object v0, p0, Lmz/e/a/n/p/b;->a:Landroid/content/res/AssetManager;
+
+    invoke-direct {p1, v0, p0}, Lmz/e/a/n/p/d;-><init>(Landroid/content/res/AssetManager;Lmz/e/a/n/p/a;)V
+
+    return-object p1
+.end method

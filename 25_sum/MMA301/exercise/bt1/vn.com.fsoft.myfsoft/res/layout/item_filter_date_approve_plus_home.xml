@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardFromDate" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_8dp" android:layout_marginBottom="@dimen/_8dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_6dp" android:layout_marginVertical="@dimen/_8dp" app:cardCornerRadius="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cardToDate" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:paddingLeft="@dimen/_12dp" android:paddingRight="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_12dp">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_666666" android:id="@id/tvFromDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/approve_tms_detail_from_date_title" android:layout_centerVertical="true" android:fontFamily="@font/inter_semibold" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_common_arrow_down" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/cardToDate" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_8dp" android:layout_marginBottom="@dimen/_8dp" android:layout_marginStart="@dimen/_6dp" android:layout_marginEnd="@dimen/_16dp" android:layout_marginVertical="@dimen/_8dp" app:cardCornerRadius="@dimen/_6dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cardFromDate" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:paddingLeft="@dimen/_12dp" android:paddingRight="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_12dp">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_666666" android:id="@id/tvToDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/approve_tms_detail_to_date_title" android:layout_centerVertical="true" android:fontFamily="@font/inter_semibold" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_common_arrow_down" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

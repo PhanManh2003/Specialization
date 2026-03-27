@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_gave" android:background="@color/colorWhite" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_received" android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_16dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/shimmer_history_honors_gave" />
+            <include layout="@layout/shimmer_history_honors_gave" />
+            <include layout="@layout/shimmer_history_honors_gave" />
+            <include layout="@layout/shimmer_history_honors_gave" />
+            <include layout="@layout/shimmer_history_honors_gave" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:text_empty="@string/recognition_fjp_proposal_empty" />
+</FrameLayout>

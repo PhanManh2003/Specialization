@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayoutMain" android:background="@color/search_account_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayoutSearchAccount" android:paddingTop="@dimen/_24dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcvAccount" android:background="@color/colorWhite" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/rlSearchBox" />
+        <RelativeLayout android:id="@id/rlSearchBox" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+            <vn.com.fsoft.myfsoft.search.CatchPastingEditText android:theme="@style/SearchAccountEditText" android:id="@id/edtName" android:background="@null" android:paddingTop="@dimen/_12dp" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_account_height" android:maxLines="3" android:minLines="1" android:textCursorDrawable="@drawable/text_cursor" android:paddingStart="@dimen/search_account_padding" android:paddingEnd="@dimen/search_account_padding" android:layout_toStartOf="@id/tvCancel" android:paddingVertical="@dimen/_12dp" />
+            <TextView android:textColor="@color/cursor_color" android:gravity="center" android:id="@id/tvCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/search_account_height" android:text="@string/discipline_cancel_title" android:layout_centerVertical="true" android:paddingEnd="@dimen/search_account_padding" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

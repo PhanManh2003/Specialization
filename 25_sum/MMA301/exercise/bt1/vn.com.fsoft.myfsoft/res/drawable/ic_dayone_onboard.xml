@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffe6edf7" android:pathData="M48.0002,24.0002a24,24 0,1 1,-24 -24A24,24 0,0 1,48.0002 24.0002Z" />
+    <group>
+        <clip-path android:pathData="M48.0002,24.0002a24,24 0,1 1,-24 -24A24,24 0,0 1,48.0002 24.0002Z" />
+        <path android:fillColor="@drawable/$ic_dayone_onboard__0" android:pathData="M8.5352,46.1738a3.027,3.027 0,0 0,3.023 3.023L36.4422,49.1968a3.027,3.027 0,0 0,3.023 -3.023L39.4652,27.3048L8.5352,27.3048Z" />
+        <path android:fillColor="@drawable/$ic_dayone_onboard__1" android:pathData="M39.4652,25.4358v-2.88a3.026,3.026 0,0 0,-3.023 -3.023h-17.6v1.679a0.935,0.935 0,0 1,-1.87 0L16.9722,19.5328L15.1312,19.5328v1.679a0.935,0.935 0,0 1,-1.87 0L13.2612,19.5328L11.5582,19.5328A3.026,3.026 0,0 0,8.5312 22.5558v2.88ZM39.4652,25.4358" />
+        <path android:fillColor="@drawable/$ic_dayone_onboard__2" android:pathData="M18.8392,17.8538a0.935,0.935 0,0 0,-1.87 0L16.9692,19.5328h1.87ZM18.8392,17.8538" />
+        <path android:fillColor="@drawable/$ic_dayone_onboard__3" android:pathData="M15.1332,17.8538a0.935,0.935 0,0 0,-1.87 0L13.2632,19.5328h1.87ZM15.1332,17.8538" />
+        <path android:fillColor="@drawable/$ic_dayone_onboard__4" android:pathData="M30.2962,28.4208a7.457,7.457 0,1 0,-7.457 -7.457A7.465,7.465 0,0 0,30.2962 28.4208Z" />
+        <path android:fillColor="#ffe6edf7" android:pathData="M28.5192,24.3148a0.5,0.5 0,0 1,-0.572 -0.562q0,-0.541 0.572,-0.541L29.6852,23.2118v-4.713l-0.884,0.531a0.527,0.527 0,0 1,-0.453 0.073,0.554 0.554,0 0,1 -0.307,-0.26 0.6,0.6 0,0 1,-0.062 -0.411,0.547 0.547,0 0,1 0.291,-0.369l1.436,-0.864A3.377,3.377 0,0 1,30.1252 16.9818a0.991,0.991 0,0 1,0.385 -0.088,0.555 0.555,0 0,1 0.364,0.12 0.477,0.477 0,0 1,0.146 0.39L31.0202,23.2118L32.0782,23.2118q0.572,0 0.572,0.541a0.5,0.5 0,0 1,-0.572 0.562Z" />
+    </group>
+</vector>

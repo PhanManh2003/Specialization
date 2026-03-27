@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_supporter_signing_day__0" android:pathData="M11.5121,1.1938L3.1851,1.1938A2.006,2.006 0,0 0,1.1941 3.2158v11.4A2.006,2.006 0,0 0,3.1851 16.6338L8.5291,16.6338l0.159,-0.9a2.058,2.058 0,0 1,0.55 -1.081l4.265,-4.323L13.5031,3.2158A2.006,2.006 0,0 0,11.5121 1.1938ZM4.0941,4.1348h2.9a0.735,0.735 0,0 1,0 1.47L4.0941,5.6048a0.735,0.735 0,0 1,0 -1.47ZM7.7141,11.4868L4.0941,11.4868a0.735,0.735 0,0 1,0 -1.47h3.62a0.735,0.735 0,0 1,0 1.47ZM10.6141,8.5458L4.0941,8.5458a0.735,0.735 0,0 1,0 -1.47L10.6071,7.0758a0.735,0.735 0,0 1,0 1.47Z" />
+    <path android:fillColor="@drawable/$ic_supporter_signing_day__1" android:pathData="M10.5001,18.8068a0.543,0.543 0,0 1,-0.534 -0.638l0.384,-2.176a0.545,0.545 0,0 1,0.151 -0.29L15.8791,10.3268a1.1,1.1 0,0 1,1.664 -0.128l0.9,0.9a1.268,1.268 0,0 1,0 1.792l-5.376,5.376a0.535,0.535 0,0 1,-0.29 0.151l-2.176,0.384a0.517,0.517 0,0 1,-0.094 0.009ZM12.6761,17.8798L12.6791,17.8798Z" />
+</vector>

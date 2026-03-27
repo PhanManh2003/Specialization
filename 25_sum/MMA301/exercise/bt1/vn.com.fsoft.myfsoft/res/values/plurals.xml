@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ailab_participant_title">
+        <item quantity="other">%d participants</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="ailab_user_orther_title">
+        <item quantity="other">You and %d participants</item>
+        <item quantity="one">You and %d participant</item>
+    </plurals>
+    <plurals name="approvenow_ticket_approved_total_message">
+        <item quantity="other">You approved %d requests this year</item>
+        <item quantity="zero">You approved %d request this year</item>
+        <item quantity="one">You approved %d request this year</item>
+    </plurals>
+    <plurals name="approvenow_ticket_rejected_total_message">
+        <item quantity="other">You rejected %d requests this year</item>
+        <item quantity="zero">You rejected %d request this year</item>
+        <item quantity="one">You rejected %d request this year</item>
+    </plurals>
+    <plurals name="cmsn_months">
+        <item quantity="other">%d months</item>
+        <item quantity="zero">%d month</item>
+        <item quantity="one">%d month</item>
+    </plurals>
+    <plurals name="cmsn_years">
+        <item quantity="other">%d years</item>
+        <item quantity="zero">%d year</item>
+        <item quantity="one">%d year</item>
+    </plurals>
+    <plurals name="common_view_comments">
+        <item quantity="other">View %d previous comments…</item>
+        <item quantity="one">View %d previous comment…</item>
+    </plurals>
+    <plurals name="common_view_replies">
+        <item quantity="other">View %d previous replies…</item>
+        <item quantity="one">View %d previous reply…</item>
+    </plurals>
+    <plurals name="dating_post_time_day">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="dating_post_time_hour">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="dating_post_time_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="dating_selected_image_title">
+        <item quantity="other">%1$d/%2$d photos selected</item>
+        <item quantity="one">%1$d/%2$d photo selected</item>
+    </plurals>
+    <plurals name="dating_total_comment_post">
+        <item quantity="other">%d comments</item>
+        <item quantity="one">%d comment</item>
+    </plurals>
+    <plurals name="dating_total_reaction">
+        <item quantity="other">%d reactions</item>
+        <item quantity="one">%d reaction</item>
+    </plurals>
+    <plurals name="dating_view_more_replies">
+        <item quantity="other">View %d more replies</item>
+        <item quantity="one">View %d more replie</item>
+    </plurals>
+    <plurals name="e_learning2_count_course">
+        <item quantity="other">%d Courses</item>
+        <item quantity="one">%d Course</item>
+    </plurals>
+    <plurals name="e_learning2_count_course_results">
+        <item quantity="other">%d results</item>
+        <item quantity="one">%d result</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="fptcare_image_claim_selected">
+        <item quantity="other">%d photos selected</item>
+        <item quantity="one">%d photo selected</item>
+    </plurals>
+    <plurals name="fts_invite_friends_success_msg">
+        <item quantity="other">You have sent invitations to %d members successfully!</item>
+        <item quantity="zero">You have sent invitations to %d member successfully!</item>
+        <item quantity="one">You have sent invitations to %d member successfully!</item>
+    </plurals>
+    <plurals name="happy_break_text_unit_coin">
+        <item quantity="other">+ %d coins</item>
+        <item quantity="one">+ %d coin</item>
+    </plurals>
+    <plurals name="happy_break_text_unit_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="happy_break_text_unit_turn">
+        <item quantity="other">+ %d practice sessions</item>
+        <item quantity="one">+ %d practice session</item>
+    </plurals>
+    <plurals name="hola_sky_corner_message_voucher_used">
+        <item quantity="other">You have &lt;b>&lt;font color=#EE7202>%d remaining vouchers&lt;/font>&lt;/b> for this month</item>
+        <item quantity="one">You have &lt;b>&lt;font color=#EE7202>%d remaining voucher&lt;/font>&lt;/b> for this month</item>
+    </plurals>
+    <plurals name="hola_sky_corner_remider_message">
+        <item quantity="other">You have %02d placed orders. Check them out now!</item>
+        <item quantity="one">You have %02d placed order. Check them out now!</item>
+    </plurals>
+    <plurals name="home_zonepear_day_format">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="home_zonepear_hour_format">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="home_zonepear_minute_format">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="home_zonepear_month_format">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+    </plurals>
+    <plurals name="home_zonepear_second_format">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="home_zonepear_week_format">
+        <item quantity="other">%d weeks</item>
+        <item quantity="one">%d week</item>
+    </plurals>
+    <plurals name="home_zonepear_year_format">
+        <item quantity="other">%d years</item>
+        <item quantity="one">%d year</item>
+    </plurals>
+    <plurals name="hpbdemployee_day_left_formattext">
+        <item quantity="other">%d days left</item>
+        <item quantity="one">%d day left</item>
+    </plurals>
+    <plurals name="learning_count_courses_format">
+        <item quantity="other">%d courses</item>
+        <item quantity="one">%d course</item>
+    </plurals>
+    <plurals name="massage_service_message_turn_used">
+        <item quantity="other">You have &lt;b>&lt;font color=#EE7202>%d remaining vouchers&lt;/font>&lt;/b></item>
+        <item quantity="one">You have &lt;b>&lt;font color=#EE7202>%d remaining voucher&lt;/font>&lt;/b></item>
+    </plurals>
+    <plurals name="massage_service_remind_coming_soon_multi_booking_msg">
+        <item quantity="other">You have %d upcoming appointments.</item>
+        <item quantity="one">You have %d upcoming appointment.</item>
+    </plurals>
+    <plurals name="meetingroom_search_result_msg">
+        <item quantity="other">There are %d results that match your search</item>
+        <item quantity="one">There is %d result that match your search</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="newjoiner_complete_facebook_msg">
+        <item quantity="other">You received %d points from posting to your Facebook</item>
+        <item quantity="one">You received %d point from posting to your Facebook</item>
+    </plurals>
+    <plurals name="newjoiner_complete_survey_tile">
+        <item quantity="other">You received %d points from completing survey.</item>
+        <item quantity="one">You received %d point from completing survey.</item>
+    </plurals>
+    <plurals name="newjoiner_current_point_campaign">
+        <item quantity="other">%d Points</item>
+        <item quantity="one">%d Point</item>
+    </plurals>
+    <plurals name="newjoiner_more_days_left_title">
+        <item quantity="other">Just %d days left!</item>
+        <item quantity="one">Just %d day left!</item>
+    </plurals>
+    <plurals name="newjoiner_regconize_have_gold_title">
+        <item quantity="other">You received %1$d points and %2$d Gold by recognized from %3$s</item>
+        <item quantity="one">You received %1$d point and %2$d Gold by recognized from %3$s</item>
+    </plurals>
+    <plurals name="news_comments_count_title">
+        <item quantity="other">%d</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="news_dislikes_count_title">
+        <item quantity="other">%d</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="news_improve_totals_news">
+        <item quantity="other">%d articles</item>
+        <item quantity="one">%d article</item>
+    </plurals>
+    <plurals name="news_likes_title">
+        <item quantity="other">%d</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="news_speak_out_post_time_day">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="news_speak_out_post_time_hour">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="news_speak_out_post_time_minute">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="news_speak_out_total_comment_post">
+        <item quantity="other">%d comments</item>
+        <item quantity="one">%d comment</item>
+    </plurals>
+    <plurals name="news_speak_out_total_reaction">
+        <item quantity="other">%d reactions</item>
+        <item quantity="one">%d reaction</item>
+    </plurals>
+    <plurals name="news_speakout_chraracter_counter">
+        <item quantity="other">%d characters</item>
+        <item quantity="zero">%d character</item>
+        <item quantity="one">%d character</item>
+    </plurals>
+    <plurals name="onboarding_complete_mission_tips_msg">
+        <item quantity="other">Complete %d missions to own</item>
+        <item quantity="one">Complete %d mission to own</item>
+    </plurals>
+    <plurals name="ot_bus_count_ot_bus_title">
+        <item quantity="other">OT Bus %d</item>
+        <item quantity="one">OT Bus %d</item>
+    </plurals>
+    <plurals name="ot_bus_count_request">
+        <item quantity="other">%d requests</item>
+        <item quantity="one">%d request</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%,d posts</item>
+        <item quantity="one">%,d post</item>
+    </plurals>
+    <plurals name="quick_request_visitor_card_message">
+        <item quantity="other">You have successfully borrowed &lt;b>%s&lt;/b> Visitor Cards</item>
+        <item quantity="one">You have successfully borrowed &lt;b>%s&lt;/b> Visitor Card</item>
+    </plurals>
+    <plurals name="referfriend_contract_success_title">
+        <item quantity="other">%d successful referral contracts</item>
+        <item quantity="zero">%d successful referral contract</item>
+        <item quantity="one">%d successful referral contract</item>
+    </plurals>
+    <plurals name="reminder_deadline_next_day">
+        <item quantity="other">(Remaining: %d days)</item>
+        <item quantity="one">(Remaining: %d day)</item>
+    </plurals>
+    <plurals name="reminder_many_tasks_msg">
+        <item quantity="other">(%d events in next 2 weeks)</item>
+        <item quantity="one">(%d event in next 2 weeks)</item>
+    </plurals>
+    <plurals name="speakout_search_result_count">
+        <item quantity="other">%d posts</item>
+        <item quantity="zero">%d post</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="tet_gift_choose_gift_time_left_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="tet_gift_choose_gift_time_left_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="tet_gift_choose_gift_time_left_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="tss_total_of_tss_request">
+        <item quantity="other">Total: %d requests</item>
+        <item quantity="zero">Total: %d request</item>
+        <item quantity="one">Total: %d request</item>
+    </plurals>
+    <plurals name="work_anni_post_time_day">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="work_anni_post_time_hour">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="work_anni_post_time_minute">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="work_anniversary_wish">
+        <item quantity="other">%d congratulations</item>
+        <item quantity="zero">%d congratulation</item>
+        <item quantity="one">%d congratulation</item>
+    </plurals>
+    <plurals name="work_anniversary_years">
+        <item quantity="other">%d years</item>
+        <item quantity="one">%d year</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.310974dip" android:width="17.084991dip" android:viewportWidth="17.085" android:viewportHeight="12.311"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_payslip_new__0" android:pathData="M16.743,8.552a0.342,0.342 0,0 0,0.342 -0.342L17.085,6.502A0.342,0.342 0,0 0,16.743 6.16L14.324,6.16a2.713,2.713 0,0 1,0.167 2.392Z" />
+    <path android:fillColor="@drawable/$ic_payslip_new__1" android:pathData="M11.96,7.527m-2.05,0a2.05,2.05 0,1 1,4.1 0a2.05,2.05 0,1 1,-4.1 0" />
+    <path android:fillColor="@drawable/$ic_payslip_new__2" android:pathData="M8.201,0.303L8.201,0.827a0.342,0.342 0,1 0,0.683 0v-0.526a1.368,1.368 0,0 0,0.554 -0.3h-1.8A1.36,1.36 0,0 0,8.201 0.303Z" />
+    <path android:fillColor="@drawable/$ic_payslip_new__3" android:pathData="M14.693,2.401L1.538,2.401a0.854,0.854 0,1 1,0 -1.709L16.06,0.692a0.342,0.342 0,0 0,0 -0.683L12.985,0.009v-0.009L4.1,0v0.009L1.538,0.009A1.538,1.538 0,0 0,0 1.547v9.055a1.709,1.709 0,0 0,1.709 1.709L14.693,12.311A1.709,1.709 0,0 0,16.4 10.602L16.4,9.235L14.089,9.235a2.734,2.734 0,1 1,-0.424 -3.843c0.034,0.027 0.067,0.055 0.1,0.084L16.4,5.476L16.4,4.11A1.709,1.709 0,0 0,14.693 2.401Z" />
+</vector>

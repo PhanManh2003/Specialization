@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="400" />
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/container_shimmer">
+            <PropertySet motion:applyMotionScene="false" motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/iv_earth_animation" android:visibility="invisible" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_50dp" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="@id/guideline" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/iv_earth_animation" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationX="@dimen/_74dp" android:translationY="@dimen/_98dp" android:elevation="@dimen/_100dp" motion:layout_constraintBottom_toTopOf="parent" motion:layout_constraintEnd_toEndOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end_rotation">
+        <Constraint android:id="@id/iv_earth_animation_rotation" android:visibility="invisible" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_50dp" android:elevation="@dimen/_0dp" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="@id/guideline" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/start_rotation">
+        <Constraint android:id="@id/iv_earth_animation_rotation" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationX="@dimen/_74dp" android:translationY="@dimen/_98dp" android:elevation="@dimen/_100dp" motion:layout_constraintBottom_toTopOf="parent" motion:layout_constraintEnd_toEndOf="parent" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z" />
+        <path android:fillColor="@drawable/$icon_pin_setting__0" android:pathData="M18.759,14.621L1.241,14.621a1.241,1.241 0,0 1,-1.241 -1.241v-5.793a1.241,1.241 0,0 1,1.241 -1.241L18.759,6.346a1.241,1.241 0,0 1,1.241 1.241v5.793A1.241,1.241 0,0 1,18.759 14.621Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.498,10.5a1.5,1.5 0,1 1,1.5 1.5A1.5,1.5 0,0 1,13.498 10.5ZM8.498,10.5a1.5,1.5 0,1 1,1.5 1.5A1.5,1.5 0,0 1,8.498 10.5ZM3.498,10.5a1.5,1.5 0,1 1,1.5 1.5A1.5,1.5 0,0 1,3.498 10.5Z" />
+    </group>
+</vector>

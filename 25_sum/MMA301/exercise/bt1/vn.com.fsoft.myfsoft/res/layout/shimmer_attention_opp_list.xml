@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/shimmer_item_contract_header" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" layout="@layout/shimmer_item_contract_header" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+    <include layout="@layout/shimmer_item_attention_opp_list" />
+</LinearLayout>

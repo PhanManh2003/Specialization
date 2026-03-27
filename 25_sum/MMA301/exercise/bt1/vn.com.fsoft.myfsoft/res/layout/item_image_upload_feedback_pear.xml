@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/_4dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardView5" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_5dp" android:layout_marginEnd="@dimen/_5dp" app:cardBackgroundColor="@color/color_EBEBEB" app:cardCornerRadius="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/ivAdd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_add_image" android:scaleType="centerInside" />
+        <ImageView android:id="@id/img_selected" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <FrameLayout android:id="@id/loading_progress" android:background="@color/colorBlackAlpha25" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/_10dp" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/retry_view_layout" android:background="@color/colorBlackAlpha25" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reload_image_claim" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/btn_delete_file_upload" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_20dp" android:src="@drawable/ic_remove_image" android:elevation="@dimen/_100dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

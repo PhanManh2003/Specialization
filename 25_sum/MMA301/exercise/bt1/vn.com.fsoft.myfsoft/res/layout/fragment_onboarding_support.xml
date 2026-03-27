@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:adjustViewBounds="true" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_18sp" android:textColor="@color/colorWhite" android:id="@id/tv_account" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_78dp" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.6" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:id="@id/tv_department" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10dp" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_account" app:layout_constraintWidth_percent="0.5" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_support" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/img_banner" app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/_28dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ListInjection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transcriptMode="disabled" android:groupIndicator="@color/colorTransparent" android:divider="@color/colorTransparent" android:dividerHeight="@dimen/_0dp" android:overScrollMode="never" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_injectionlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tvTitle">
+            <include layout="@layout/shimmer_vaccine_user_information" />
+            <include layout="@layout/shimmer_vaccine_user_information" />
+            <include layout="@layout/shimmer_vaccine_user_information" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</RelativeLayout>

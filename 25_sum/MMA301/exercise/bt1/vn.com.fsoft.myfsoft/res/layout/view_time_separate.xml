@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/background_circle" android:layout_width="@dimen/_4dp" android:layout_height="@dimen/_4dp" android:layout_marginBottom="@dimen/_2dp" android:backgroundTint="#ff3b6fe5" />
+    <View android:background="@drawable/background_circle" android:layout_width="@dimen/_4dp" android:layout_height="@dimen/_4dp" android:backgroundTint="#ff3b6fe5" />
+</LinearLayout>

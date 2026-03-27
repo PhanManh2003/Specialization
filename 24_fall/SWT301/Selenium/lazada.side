@@ -1,0 +1,220 @@
+{
+  "id": "f71a52ef-36ac-4dd6-a25a-da2132a092e1",
+  "version": "2.0",
+  "name": "lazada",
+  "url": "https://accounts.google.com/InteractiveLogin/signinchooser?btmpl=mobile_tier2&hl=vi&service=mail&ifkv=ARpgrqcVboEIyz44KYVbrqdp22VgKRWx67dXS4nAwZHHNOamgXyAShA78HIm170q3KOxMMbzpU_X9g&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+  "tests": [{
+    "id": "722c1bbf-b636-42af-b34d-c9621b04e9c2",
+    "name": "iphone 15 pro max",
+    "commands": [{
+      "id": "d7e47a98-59e4-4a3f-bed4-31b719740cb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/#?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9dbf0dc-41b6-4f04-8697-243ff08ef4fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1398x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df7c03d9-f573-44a0-a326-dc13b831c698",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "iphone 15"
+    }, {
+      "id": "0cd64b0c-001b-436f-a2f5-765f32afcc5e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a919bde3-f2da-4612-aa19-e6055e8957ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A",
+      "targets": [
+        ["linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A", "linkText"],
+        ["css=.Bm3ON:nth-child(1) .buTCk a", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//www.lazada.vn/products/iphone-15-pro-max-hang-chinh-hang-vna-i2417233670.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d2a8136-b56c-4856-9d7c-295e59760c19",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A",
+      "targets": [
+        ["linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A", "linkText"],
+        ["css=.Bm3ON:nth-child(1) .buTCk a", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//www.lazada.vn/products/iphone-15-pro-max-hang-chinh-hang-vna-i2417233670.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a4d658-7c6c-4d0b-b149-1cb34c1aa038",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,267)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc92f828-4044-4dcb-93d8-07e7478f5ce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bm3ON:nth-child(1) .RfADt",
+      "targets": [
+        ["css=.Bm3ON:nth-child(1) .RfADt", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f34015c-11ac-4e18-9d1c-63bd3d0c3529",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A",
+      "targets": [
+        ["linkText=iPhone 15 Pro Max - Hàng Chính Hãng VN/A", "linkText"],
+        ["css=.Bm3ON:nth-child(1) .buTCk a", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/iphone-15-pro-max-hang-chinh-hang-vna-i2417233670.html?spm=a2o4n.searchlist.list.5.1eaf6c8bJv6wDo')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 15 Pro Max - Hàng Chính Hãng VN/A')]", "xpath:innerText"]
+      ],
+      "value": "iPhone 15 Pro Max - Hàng Chính Hãng VN/A"
+    }]
+  }, {
+    "id": "8e09dddf-d5a9-4def-b533-9fc102eb595f",
+    "name": "ốp điện thoại",
+    "commands": [{
+      "id": "bf5491a1-ee79-420a-ba3e-be8b71f78e76",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/#?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cb5b875-1c36-438c-9077-78ef48c555cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1398x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11c9c0e8-7409-4f05-998b-2b2055f97265",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "ốp điện thoại"
+    }, {
+      "id": "e19a1f08-b3a5-4541-b3bc-0166bf1489ea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b9d912d8-b6c8-4b55-b167-96db83b15c68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Bm3ON:nth-child(1) .picture-wrapper",
+      "targets": [
+        ["css=.Bm3ON:nth-child(1) .picture-wrapper", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4be0ac-8215-476e-8605-65319647b45a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Bm3ON:nth-child(1) .picture-wrapper",
+      "targets": [
+        ["css=.Bm3ON:nth-child(1) .picture-wrapper", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e13eb48-58c1-4222-b3dc-a07a36100067",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bm3ON:nth-child(1) .buTCk",
+      "targets": [
+        ["css=.Bm3ON:nth-child(1) .buTCk", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f868428-dd0d-4982-9d76-9de69eb80ff7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Ốp iphone 15 pro max 11 Pro max 12 Promax 6 6 s Plus 7 Plus X Xr Xs max 14 Pro max 13 Pro Se 2022 2020 8Plus 13 Promax 14 Plus 12 13 11 Dẻo Trong Suốt",
+      "targets": [
+        ["linkText=Ốp iphone 15 pro max 11 Pro max 12 Promax 6 6 s Plus 7 Plus X Xr Xs max 14 Pro max 13 Pro Se 2022 2020 8Plus 13 Promax 14 Plus 12 13 11 Dẻo Trong Suốt", "linkText"],
+        ["css=.Bm3ON:nth-child(1) .buTCk a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ốp iphone 15 pro max 11 Pro max 12 Promax 6 6 s Plus 7 Plus X Xr Xs max 14 Pro max 13 Pro Se 2022 2020 8Plus 13 Promax 14 Plus 12 13 11 Dẻo Trong Suốt')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/products/op-iphone-15-pro-max-11-pro-max-12-promax-6-6-s-plus-7-plus-x-xr-xs-max-14-pro-max-13-pro-se-2022-2020-8plus-13-promax-14-plus-12-13-11-deo-trong-suot-i2646695347.html?spm=a2o4n.searchlist.list.2.4d9840b1UVOc4l')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ốp iphone 15 pro max 11 Pro max 12 Promax 6 6 s Plus 7 Plus X Xr Xs max 14 Pro max 13 Pro Se 2022 2020 8Plus 13 Promax 14 Plus 12 13 11 Dẻo Trong Suốt')]", "xpath:innerText"]
+      ],
+      "value": "Ốp iphone 15 pro max 11 Pro max 12 Promax 6 6 s Plus 7 Plus X Xr Xs max 14 Pro max 13 Pro Se 2022 2020 8Plus 13 Promax 14 Plus 12 13 11 Dẻo Trong Suốt"
+    }]
+  }],
+  "suites": [{
+    "id": "ac02f2c2-5837-49d3-a267-bddc67553f39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["722c1bbf-b636-42af-b34d-c9621b04e9c2"]
+  }],
+  "urls": ["https://www.lazada.vn/", "https://github.com/", "https://accounts.google.com/InteractiveLogin/signinchooser?btmpl=mobile_tier2&hl=vi&service=mail&ifkv=ARpgrqcVboEIyz44KYVbrqdp22VgKRWx67dXS4nAwZHHNOamgXyAShA78HIm170q3KOxMMbzpU_X9g&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin"],
+  "plugins": []
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:orientation="horizontal" android:id="@id/layout_medal" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:fillViewport="true" android:overScrollMode="ifContentScrolls"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/layout_star_ave_gold" android:background="@drawable/background_star_ave_first" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/_16dp">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_star_ave_gold" android:paddingTop="@dimen/_3dp" android:paddingBottom="@dimen/_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" android:paddingStart="@dimen/_4dp" android:paddingEnd="@dimen/_0dp" />
+            <ImageView android:id="@id/star_ave_logo_gold" android:visibility="visible" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_14dp" android:src="@null" android:scaleType="fitCenter" android:paddingStart="@dimen/_6dp" android:paddingEnd="@dimen/_0dp" android:layout_marginEnd="@dimen/_6dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/layout_star_ave_first" android:background="@drawable/background_star_ave_first" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/_8dp">
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_111111" android:id="@id/tv_star_ave_first" android:paddingTop="@dimen/_3dp" android:paddingBottom="@dimen/_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingStart="@dimen/_0dp" android:layout_marginStart="@dimen/_6dp" />
+            <ImageView android:id="@id/star_ave_logo_first" android:visibility="visible" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_14dp" android:src="@null" android:scaleType="fitCenter" android:paddingStart="@dimen/_6dp" android:paddingEnd="@dimen/_0dp" android:layout_marginEnd="@dimen/_6dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/layout_star_ave_second" android:background="@drawable/background_star_ave_first" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/_8dp">
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_111111" android:id="@id/tv_star_ave_second" android:paddingTop="@dimen/_3dp" android:paddingBottom="@dimen/_3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingStart="@dimen/_0dp" android:layout_marginStart="@dimen/_6dp" />
+            <ImageView android:id="@id/star_ave_logo_second" android:visibility="visible" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_14dp" android:src="@null" android:scaleType="fitCenter" android:paddingStart="@dimen/_6dp" android:paddingEnd="@dimen/_0dp" android:layout_marginEnd="@dimen/_6dp" />
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

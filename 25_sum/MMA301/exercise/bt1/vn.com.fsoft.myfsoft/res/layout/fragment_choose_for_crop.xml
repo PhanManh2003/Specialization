@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_18sp" android:textColor="@color/colorBlack" android:gravity="center" android:id="@id/btn_camera" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_capture_avatar_title" style="@style/BottomSheetDialogButton" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/colorBlack" android:gravity="center" android:id="@id/btn_from_gallery" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_upload_avatar_title" style="@style/BottomSheetDialogButton" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/colorBlack" android:gravity="center" android:id="@id/btn_view_full_size" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_view_avatar_title" style="@style/BottomSheetDialogButton" />
+    <TextView android:textSize="@dimen/_18sp" android:textColor="@color/colorBlack" android:gravity="center" android:id="@id/btn_cancel" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/discipline_cancel_title" style="@style/BottomSheetDialogButton" />
+</LinearLayout>

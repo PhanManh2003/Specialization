@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_hpbd_employee_upcoming_full" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/toolbar_hpbd_upcoming_full" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/btn_back_hpbd_upcoming" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlack" android:id="@id/tv_toolbar_hpbd_upcoming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hpbdemployee_upcoming_birthday_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_hpbd_upcoming" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_hpbd_upcoming" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_hpbd_upcoming_full" android:paddingBottom="@dimen/_16dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_upcoming_full" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_upcoming_birthday_full" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_upcoming_full">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_26dp">
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+                <include layout="@layout/shimmer_upcoming_birthday_item" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_upcoming_birthday_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_hpbd_upcoming_full" app:text_empty="@string/hpbdemployee_empty_upcoming_birthday_msg" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

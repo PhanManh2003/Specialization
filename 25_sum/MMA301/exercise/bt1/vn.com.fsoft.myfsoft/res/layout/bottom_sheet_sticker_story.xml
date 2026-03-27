@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/lyHeader" android:background="@drawable/background_boder_type_vioalation" android:padding="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/ivHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_bottom_discipline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_sticker" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintTop_toBottomOf="@id/lyHeader" app:spanCount="4" />
+    <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/lyHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

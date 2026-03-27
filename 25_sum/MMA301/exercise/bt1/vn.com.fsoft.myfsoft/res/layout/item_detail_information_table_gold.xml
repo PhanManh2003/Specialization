@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="@color/color_F3F5F7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/view_line_top" android:background="@color/color_EBEBEB" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" app:layout_constraintTop_toBottomOf="@id/divider" />
+    <TextView android:id="@id/tvTitleHistory" android:paddingTop="@dimen/_16dp" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:text="Thông tin chi tiết" android:drawablePadding="@dimen/_8dp" android:layout_marginHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_16dp" app:drawableEndCompat="@drawable/ic_common_arrow_right" app:drawableStartCompat="@null" app:layout_constraintTop_toBottomOf="@id/view_line_top" style="@style/TextInterSemiBold14Black" />
+    <View android:id="@id/view_line" android:background="@color/color_EBEBEB" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" app:layout_constraintTop_toBottomOf="@id/tvTitleHistory" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/tv_content" android:background="@drawable/bg_star_ave_email" android:paddingTop="@dimen/_4dp" android:paddingBottom="@dimen/_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:layout_marginBottom="@dimen/_4dp" android:fontFamily="@font/inter_medium" android:paddingStart="@dimen/_8dp" android:paddingEnd="@dimen/_8dp" android:layout_marginEnd="@dimen/_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

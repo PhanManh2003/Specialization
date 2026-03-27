@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/background_travel_mate_location" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/btnBack" android:background="@null" android:padding="@dimen/_10dp" android:layout_width="wrap_content" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back_gray" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_10dp" />
+        <TextView android:textSize="@dimen/_16sp" android:textStyle="normal" android:textColor="@color/colorBlack" android:layout_gravity="center" android:id="@id/tv_title" android:padding="@dimen/_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/travel_mate_instruction_map_label" android:includeFontPadding="false" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_10dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.github.barteksc.pdfviewer.PDFView android:id="@id/pdf_view" android:background="@drawable/background_travel_mate_location" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

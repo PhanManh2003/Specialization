@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lyMain" android:background="@drawable/meeting_room_enable_pick_time" android:layout_width="fill_parent" android:layout_height="@dimen/_40dp" android:layout_margin="@dimen/_2dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/colorBlackText" android:id="@id/tv_time_meeting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_medium" />
+    <TextView android:textSize="@dimen/_10sp" android:textColor="@color/color_8b8b8b" android:id="@id/tvNameUser" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_medium" />
+</LinearLayout>

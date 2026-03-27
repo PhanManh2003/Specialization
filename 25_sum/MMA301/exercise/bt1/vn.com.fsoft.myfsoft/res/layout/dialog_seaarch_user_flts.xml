@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/custom_bg_dialog_search_flts" android:paddingBottom="@dimen/_11dp" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_66dp" android:paddingStart="@dimen/_15dp" android:paddingEnd="@dimen/_15dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_account_title" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_dialog_accout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_4dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/tv_dialog_department_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fwalker_department_title" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_dialog_department" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_unknown_value" android:layout_marginStart="@dimen/_4dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/tv_dialog_planet_now_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fwalker_current_position_title" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_dialog_planet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_4dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fwalker_number_steps" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_dialog_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/_6dp" android:layout_marginStart="@dimen/_4dp" app:drawableEndCompat="@drawable/ic_step_dialog" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6dp" android:layout_marginBottom="@dimen/_15dp">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fwalker_ranking_title" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tv_dialog_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_4dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+            <View android:id="@id/view_search_flts" android:background="@color/colorLightGrey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dialog_search_flts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_11dp" />
+            <View android:id="@id/view_dialog_flts" android:background="@color/colorLightGrey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRockFLTS" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_11dp" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|top" android:id="@id/img_planeter" android:layout_width="@dimen/_80dp" android:layout_height="@dimen/_80dp" android:src="@null" android:scaleType="centerInside" />
+    </FrameLayout>
+</LinearLayout>

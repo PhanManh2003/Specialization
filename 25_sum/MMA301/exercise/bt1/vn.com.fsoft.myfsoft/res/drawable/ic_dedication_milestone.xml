@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="23.0dip" android:viewportWidth="23.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_dedication_milestone__0" android:pathData="M8.785,9.155V7.708H17.251V1.566H8.766V0.25H7.193L7.217,9.17C-0.036,27.144 -0.001,27.045 0.004,27.045C0.008,27.045 16.025,27.051 16.023,27.045C16.021,27.04 16.175,27.434 8.785,9.155Z" />
+    <path android:fillColor="@drawable/$ic_dedication_milestone__1" android:pathData="M16.196,9.315L13.654,15.511C18.629,27.82 17.924,26.076 18.319,27.049H22.508L16.196,9.315Z" />
+</vector>

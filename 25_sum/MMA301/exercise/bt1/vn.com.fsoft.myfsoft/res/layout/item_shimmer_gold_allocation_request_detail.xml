@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_16dp" android:elevation="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/shimmer_ticket_detail_approve_now_header" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+        <include layout="@layout/shimmer_ticket_detail" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_auto_start="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+            <include layout="@layout/item_dating_post_likes_shimmer" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvAccounts" android:paddingTop="@dimen/_6dp" android:paddingBottom="@dimen/_6dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingVertical="@dimen/_6dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</FrameLayout>

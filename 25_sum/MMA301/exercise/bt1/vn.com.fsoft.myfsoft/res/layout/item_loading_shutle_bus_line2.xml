@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_14sp" android:textStyle="bold" android:textColor="@color/colorBlack" android:gravity="start" android:background="@color/bg_shimmer" android:layout_width="@dimen/_297dp" android:layout_height="@dimen/_12dp" android:layout_marginTop="@dimen/_15dp" android:layout_marginStart="@dimen/_15dp" />
+    <View android:background="@color/newsBgColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/_14dp" android:layout_marginStart="@dimen/_15dp" android:layout_marginEnd="@dimen/_15dp" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+.class public abstract Lmz/h/a/e/j/s/y2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lmz/h/a/e/j/s/y2;
+
+.field public static final b:Lmz/h/a/e/j/s/y2;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lmz/h/a/e/j/s/a3;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lmz/h/a/e/j/s/a3;-><init>(Lmz/h/a/e/j/s/b3;)V
+
+    sput-object v0, Lmz/h/a/e/j/s/y2;->a:Lmz/h/a/e/j/s/y2;
+
+    .line 2
+    new-instance v0, Lmz/h/a/e/j/s/d3;
+
+    invoke-direct {v0, v1}, Lmz/h/a/e/j/s/d3;-><init>(Lmz/h/a/e/j/s/b3;)V
+
+    sput-object v0, Lmz/h/a/e/j/s/y2;->b:Lmz/h/a/e/j/s/y2;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lmz/h/a/e/j/s/b3;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/Object;Ljava/lang/Object;J)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<",
+            "L:Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Object;",
+            "Ljava/lang/Object;",
+            "J)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract b(Ljava/lang/Object;J)V
+.end method

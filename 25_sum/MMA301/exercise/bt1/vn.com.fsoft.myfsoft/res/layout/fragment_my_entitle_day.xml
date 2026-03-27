@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_entitle_day" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/toolbar_my_entitle_day" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/btn_back_my_entitle_day" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlack" android:id="@id/tv_toolbar_my_entitle_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/leaverequest_my_entitle_day_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_my_entitle_day" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_my_entitle_day" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_view_entitle_day" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_my_entitle_day" app:text_empty="@string/entitleday_empty_msg" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_entitle_day" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_my_entitle_day" app:layout_constraintVertical_bias="0.0">
+            <include layout="@layout/shimmer_entitle_day" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_content_entitle_day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_4dp" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_my_entitle_day" app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

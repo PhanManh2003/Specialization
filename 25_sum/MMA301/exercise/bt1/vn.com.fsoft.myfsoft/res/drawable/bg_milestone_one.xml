@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dip" android:width="351.0dip" android:viewportWidth="351.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M345,0H6C2.69,0 0,2.69 0,6V74C0,77.31 2.69,80 6,80H345C348.31,80 351,77.31 351,74V6C351,2.69 348.31,0 345,0Z" />
+        <path android:fillColor="#fffffbec" android:pathData="M345,0H6C2.69,0 0,2.69 0,6V74C0,77.31 2.69,80 6,80H345C348.31,80 351,77.31 351,74V6C351,2.69 348.31,0 345,0Z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M345,0H6C2.69,0 0,2.69 0,6V74C0,77.31 2.69,80 6,80H345C348.31,80 351,77.31 351,74V6C351,2.69 348.31,0 345,0Z" />
+        <path android:fillColor="@drawable/$bg_milestone_one__0" android:pathData="M345,0H6C2.69,0 0,2.69 0,6V74C0,77.31 2.69,80 6,80H345C348.31,80 351,77.31 351,74V6C351,2.69 348.31,0 345,0Z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,6C0,2.69 2.69,0 6,0H345C348.31,0 351,2.69 351,6V74C351,77.31 348.31,80 345,80H6C2.69,80 0,77.31 0,74V6Z" />
+        <path android:fillColor="@drawable/$bg_milestone_one__1" android:pathData="M120.64,-37.06C123.14,-36.78 125.14,-34.97 125.69,-32.51C133.44,2.14 128.26,24.35 102.84,35.54C76.42,47.16 26.67,32.9 34.72,87.04C42.78,141.19 -36.87,31.92 -37,18.47C-37.13,5.01 -28.92,-50.74 -17.75,-51C-7.77,-51.23 98.35,-39.53 120.64,-37.06Z" />
+        <path android:fillColor="@drawable/$bg_milestone_one__2" android:pathData="M234.63,92.78C231.93,91.43 230.73,88.33 231.77,85.51C246.31,46.16 266.86,24.98 302.43,23.37C339.47,21.7 385.09,56.55 412.31,-3.59C438.42,-61.26 453.58,71.22 446.99,94.72C446.54,96.35 446.32,98.12 446.75,99.75C466.45,174.93 390.72,166.59 378.33,162.46C367.19,158.74 258.52,104.68 234.63,92.78Z" />
+        <path android:fillColor="@drawable/$bg_milestone_one__3" android:pathData="M93.84,98.8C104.11,98.45 112.15,89.85 111.8,79.58C111.45,69.32 102.85,61.28 92.58,61.63C82.32,61.98 74.28,70.58 74.63,80.84C74.98,91.11 83.58,99.15 93.84,98.8Z" />
+        <path android:fillColor="@drawable/$bg_milestone_one__4" android:pathData="M263.97,5.16C266.68,-0.2 264.53,-6.75 259.17,-9.47C253.8,-12.18 247.25,-10.03 244.54,-4.66C241.82,0.7 243.97,7.25 249.34,9.97C254.7,12.68 261.26,10.53 263.97,5.16Z" />
+    </group>
+</vector>

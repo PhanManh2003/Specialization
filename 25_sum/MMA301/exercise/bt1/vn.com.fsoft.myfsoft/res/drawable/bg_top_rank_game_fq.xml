@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_top_rank_game_fq__0" android:pathData="M9,0L15,0A9,9 0,0 1,24 9L24,15A9,9 0,0 1,15 24L9,24A9,9 0,0 1,0 15L0,9A9,9 0,0 1,9 0z" android:strokeColor="#00000000" android:strokeWidth="0.6" />
+    <path android:fillColor="#00000000" android:pathData="M9,0.3L15,0.3A8.7,8.7 0,0 1,23.7 9L23.7,15A8.7,8.7 0,0 1,15 23.7L9,23.7A8.7,8.7 0,0 1,0.3 15L0.3,9A8.7,8.7 0,0 1,9 0.3z" android:strokeColor="#fff5a723" android:strokeWidth="0.6" />
+    <path android:fillColor="@drawable/$bg_top_rank_game_fq__1" android:pathData="M14.139,19.961L10.139,20.029A6.0009,6.0009 0,0 1,4.037 14.131L3.969,10.131A6.0009,6.0009 0,0 1,9.867 4.029L13.867,3.961A6.0009,6.0009 0,0 1,19.969 9.859L20.037,13.859A6.0009,6.0009 0,0 1,14.139 19.961z" />
+    <group>
+        <clip-path android:pathData="M9,0L15,0A9,9 0,0 1,24 9L24,15A9,9 0,0 1,15 24L9,24A9,9 0,0 1,0 15L0,9A9,9 0,0 1,9 0z" />
+        <path android:fillColor="@drawable/$bg_top_rank_game_fq__2" android:pathData="M8,13L2,13A9,9 0,0 1,-7 4L-7,-2A9,9 0,0 1,2 -11L8,-11A9,9 0,0 1,17 -2L17,4A9,9 0,0 1,8 13z" android:strokeAlpha="0.387" android:fillAlpha="0.387" />
+        <path android:fillColor="#ffffffff" android:pathData="M4,0m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:strokeAlpha="0.303" android:fillAlpha="0.303" />
+    </group>
+</vector>

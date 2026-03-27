@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:background="@color/color_F7F7F7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_commendation_proposal_history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/iv_banner_background" />
+        <View android:id="@id/toolbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_6dp" />
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetStart="@dimen/_0dp">
+            <ImageView android:layout_gravity="start|center" android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_10dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/_10dp" app:tint="@color/color_666666" />
+            <TextView android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commendation_title_list_proposal" style="@style/TextInterSemiBold16Black" />
+            <TextView android:layout_gravity="end|center" android:id="@id/tv_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/commendation_history" android:layout_marginEnd="@dimen/_16dp" style="@style/TextInterBold14Blue185ECE" />
+        </androidx.appcompat.widget.Toolbar>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recognition_fjp_approved_all" android:drawablePadding="@dimen/_12dp" app:drawableTopCompat="@null" style="@style/TextInterRegular14Grey666666" />
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/transition_learning" motion:constraintSetEnd="@layout/fragment_my_learning_end" motion:constraintSetStart="@layout/fragment_my_learning_start" motion:duration="400" motion:motionInterpolator="@android:anim/accelerate_interpolator">
+        <OnSwipe motion:dragDirection="dragUp" motion:touchAnchorId="@id/nest_my_learning" motion:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/card_view_header" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:framePosition="100" motion:motionTarget="@id/card_view_header" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:framePosition="100" motion:motionTarget="@id/toolbar_image" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

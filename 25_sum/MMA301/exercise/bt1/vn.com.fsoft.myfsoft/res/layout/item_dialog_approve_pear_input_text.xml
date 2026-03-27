@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/spaceTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_12dp" app:layout_constraintTop_toTopOf="parent" />
+    <vn.com.fsoft.myfsoft.base.view.CustomEditTextCountChar android:id="@id/etInputMessage" android:background="@drawable/bg_container_phase_info" android:paddingTop="@dimen/_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_24dp" android:layout_marginRight="@dimen/_24dp" android:hint="@string/epurchase_reason_title_require" android:lines="3" android:maxLength="200" android:paddingStart="@dimen/_12dp" android:paddingEnd="@dimen/_12dp" android:layout_marginHorizontal="@dimen/_24dp" app:isDisplayCountChar="true" app:layout_constraintTop_toBottomOf="@id/spaceTop" />
+</androidx.constraintlayout.widget.ConstraintLayout>

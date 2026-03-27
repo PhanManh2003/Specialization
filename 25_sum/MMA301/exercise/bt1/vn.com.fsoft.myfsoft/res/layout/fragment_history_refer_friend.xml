@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/_13sp" android:textColor="@color/color_8B8B8B" android:id="@id/tv_total_contract" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvHistoryRefer" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_total_contract" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_layout_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginBottom="@dimen/_38dp" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_total_contract">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/shimmer_date_time_history_heart" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+                <include layout="@layout/shimmer_history_refer_friend" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <RelativeLayout android:id="@id/empty_state_view_contract" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_24dp" android:paddingEnd="@dimen/_24dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/empty_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/empty_state_textview" android:text="@string/referfriend_no_contract_title" android:layout_below="@id/empty_state_image" android:layout_centerHorizontal="true" style="@style/StyleTextViewEmptyStateAkaLink" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

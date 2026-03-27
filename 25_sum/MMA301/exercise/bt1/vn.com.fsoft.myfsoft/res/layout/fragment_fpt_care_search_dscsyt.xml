@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout" android:background="@color/bg_chtg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/toolbar_search" android:layout_width="fill_parent" android:layout_height="@dimen/_84dp" android:elevation="@dimen/_1dp" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="bottom" android:id="@id/btnBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:visibility="visible" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/constrain_search" android:background="@drawable/bg_search_chtg" android:paddingTop="@dimen/_4dp" android:paddingBottom="@dimen/_4dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_40dp" android:layout_marginBottom="@dimen/_10dp" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_16dp">
+                <ImageView android:id="@id/img_search" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_grey" android:layout_marginStart="@dimen/_12dp" android:layout_marginEnd="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <AutoCompleteTextView android:textSize="@dimen/_14sp" android:textStyle="normal" android:textColor="@android:color/black" android:textColorHint="@color/color_8B8B8B" android:id="@id/edt_search_dscsyt" android:background="@color/colorTransparent" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:hint="@string/fptcare_find_hospital_title" android:maxLines="1" android:lines="1" android:inputType="text" android:imeOptions="actionDone" android:fontFamily="@font/inter_regular" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/img_search" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.core.widget.NestedScrollView android:id="@id/content" android:background="@color/bg_chtg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_search">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bg_chtg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/title_search_dscsyt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_search_dscsyt" android:background="@color/bg_chtg" android:paddingTop="@dimen/_4dp" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_search_dscsyt" />
+            <TextView android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tvLoadMore" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:text="@string/common_view_more_title" android:fontFamily="@font/inter_semibold" app:layout_constraintTop_toBottomOf="@id/rv_search_dscsyt" />
+            <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore_progress" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" app:layout_constraintTop_toBottomOf="@id/rv_search_dscsyt" style="?android:progressBarStyle" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_dscsyt_fpt_care" android:background="@color/bg_chtg" android:paddingTop="@dimen/_4dp" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/_11dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_search_dscsyt">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageView android:id="@id/img_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tv_empty" android:visibility="gone" android:layout_marginTop="@dimen/_8dp" android:text="@string/fptcare_search_empty_message" android:layout_below="@id/img_empty" android:layout_centerHorizontal="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/img_empty" style="@style/StyleTextViewEmptyStateAkaLink" />
+</androidx.constraintlayout.widget.ConstraintLayout>

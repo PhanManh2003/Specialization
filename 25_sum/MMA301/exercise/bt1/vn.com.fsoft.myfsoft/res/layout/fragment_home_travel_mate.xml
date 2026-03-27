@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/tb_travel_mate_home" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/btn_back" android:layout_width="@dimen/_20dp" android:layout_height="@dimen/_20dp" android:src="@drawable/ic_back_gray" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView android:textSize="@dimen/_24sp" android:textColor="@color/black_color_picker" android:id="@id/tv_travel_mate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/travel_mate_feature_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="@id/tb_travel_mate_home" app:layout_constraintTop_toBottomOf="@id/tb_travel_mate_home" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_travel_mate" android:paddingLeft="@dimen/_8dp" android:paddingRight="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_28dp" android:paddingHorizontal="@dimen/_8dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_travel_mate_title" app:spanCount="3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

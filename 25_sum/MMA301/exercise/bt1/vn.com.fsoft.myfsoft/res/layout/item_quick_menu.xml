@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vn.com.fsoft.myfsoft.base.view.LinearLayoutWithTapEffect android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/_23dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/_44dp" android:layout_height="@dimen/_44dp">
+        <ImageView android:id="@id/quick_menu_imv_icon" android:layout_width="@dimen/_44dp" android:layout_height="@dimen/_44dp" />
+        <View android:id="@id/v_circle_dots" android:background="@drawable/circle_dots" android:layout_width="@dimen/_44dp" android:layout_height="@dimen/_44dp" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_alignTop="@id/quick_menu_imv_icon" android:layout_alignBottom="@id/quick_menu_imv_icon" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" android:layout_alignStart="@id/quick_menu_imv_icon" android:layout_alignEnd="@id/quick_menu_imv_icon" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/quick_menu_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5dp" android:fontFamily="@font/inter_medium" />
+</vn.com.fsoft.myfsoft.base.view.LinearLayoutWithTapEffect>

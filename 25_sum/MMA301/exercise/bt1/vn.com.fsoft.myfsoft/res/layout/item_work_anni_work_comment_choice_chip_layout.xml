@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:textSize="@dimen/_14sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" app:chipBackgroundColor="@color/colorWhite" app:chipCornerRadius="@dimen/_4dp" app:chipStrokeColor="@color/color_EBEBEB" app:chipStrokeWidth="@dimen/_1dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

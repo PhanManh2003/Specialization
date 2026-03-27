@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        width: 500px;
+        padding: 20px;
+        background-color: rgb(230, 230, 222);
+        margin: auto;
+      }
+      #passage {
+        width: 100%;
+        height: 100px;
+        overflow-y: scroll;
+        background-color: rgb(245, 245, 245);
+      }
+
+      label {
+        font-weight: bold;
+      }
+      h2 {
+        text-align: center;
+      }
+      input[type="text"],
+      input[type="number"] {
+        width: 120px;
+        background-color: rgb(0, 208, 255);
+      }
+      input#vt,
+      input#substringInput,
+      input#startPos,
+      input#endPos {
+        background-color: rgb(230, 230, 222);
+      }
+      input hr {
+        margin: 20px 0;
+      }
+      button {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>ĐỐI TƯỢNG STRING</h2>
+
+      <!-- Text Input Section -->
+      <div>
+        <label for="passage">Nhập đoạn văn:</label><br /><br />
+        <textarea id="passage" cols="30" rows="50"></textarea>
+      </div>
+      <br />
+
+      <!-- Total Characters Section -->
+      <div class="kitu">
+        <label for="t">Tổng số ký tự:</label>
+        <input type="text" id="t" readonly />
+      </div>
+      <br />
+      <hr />
+      <br />
+
+      <!-- Character at Specific Position Section -->
+      <div>
+        <label for="vt">Nhập vị trí:</label>
+        <input type="number" id="vt" style="width: 50px" />
+        &nbsp;
+        <label for="charAtPos">Ký tự tương ứng:</label>
+        <input type="text" id="charAtPos" readonly style="width: 50px" />
+      </div>
+      <br />
+      <hr />
+
+      <!-- Find Position of Substring Section -->
+      <div>
+        <label for="substringInput">Nhập chuỗi:</label>
+        <input type="text" id="substringInput" style="width: 50px" />
+        &nbsp;
+        <label for="posOfSubstring">Vị trí tương ứng:</label>
+        <input type="number" id="posOfSubstring" readonly style="width: 50px" />
+      </div>
+      <br />
+      <hr />
+      <br />
+
+      <!-- Extract Substring Section -->
+      <div>
+        <label for="startPos">Nhập vị trí cần tách từ:</label>
+        <input type="number" id="startPos" style="width: 50px" />
+
+        <label for="endPos">Đến:</label>
+        <input type="number" id="endPos" style="width: 50px" />
+
+        <label for="extractedResult">Kết quả:</label>
+        <input type="text" id="extractedResult" readonly style="width: 100px" />
+      </div>
+      <br />
+
+      <!-- Buttons Section -->
+      <div style="margin-left: 30px">
+        <button type="button">Nhập lại</button>
+        <button type="button">Thoát</button>
+      </div>
+    </div>
+  </body>
+</html>

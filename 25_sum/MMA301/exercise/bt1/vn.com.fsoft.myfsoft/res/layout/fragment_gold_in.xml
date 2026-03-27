@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/gold_in_scroll" android:background="@color/achievment_history_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/gold_in_content" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_gold_in" android:paddingBottom="@dimen/_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_gold_in" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+                <include layout="@layout/item_gold_in_out_shimmer" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <TextView android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tvMoreGoldIn" android:background="?selectableItemBackground" android:paddingBottom="@dimen/_4dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_40dp" android:text="@string/game_view_more_title" android:fontFamily="@font/inter_semibold" app:layout_constraintTop_toBottomOf="@id/rv_gold_in" />
+        <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore" android:paddingBottom="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_40dp" app:layout_constraintTop_toBottomOf="@id/rv_gold_in" style="?android:progressBarStyle" />
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:gravity="center" android:id="@id/empty_state_view_his" android:paddingBottom="@dimen/_10dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:text_empty="@string/achievement_empty_message" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

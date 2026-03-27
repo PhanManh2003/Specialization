@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorTransparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_item_answer_question_game_fq" android:paddingLeft="@dimen/_8dp" android:paddingTop="@dimen/_4dp" android:paddingRight="@dimen/_8dp" android:paddingBottom="@dimen/_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_10dp" android:elevation="@dimen/_12dp" android:paddingHorizontal="@dimen/_8dp" android:paddingVertical="@dimen/_4dp">
+        <ImageView android:id="@id/ivLike" android:layout_width="@dimen/_24dp" android:layout_height="@dimen/_24dp" android:src="@drawable/ic_like_work_anniversary" />
+        <ImageView android:id="@id/ivLove" android:layout_width="@dimen/_24dp" android:layout_height="@dimen/_24dp" android:src="@drawable/ic_love_work_anniversary" android:layout_marginStart="@dimen/_8dp" />
+        <ImageView android:id="@id/ivWow" android:layout_width="@dimen/_24dp" android:layout_height="@dimen/_24dp" android:src="@drawable/ic_wow_work_anniversary" android:layout_marginStart="@dimen/_8dp" />
+        <ImageView android:id="@id/ivCongrat" android:layout_width="@dimen/_24dp" android:layout_height="@dimen/_24dp" android:src="@drawable/ic_congratulation_work_anni_enable" android:layout_marginStart="@dimen/_8dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="@color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_6dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/divider">
+        <TextView android:id="@id/tvExplain" android:paddingTop="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:text="@string/e_payment_explain" android:drawablePadding="@dimen/_8dp" android:layout_marginHorizontal="@dimen/_16dp" app:drawableStartCompat="@drawable/ic_epayment_explain" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterSemiBold16Black" />
+        <TextView android:id="@id/tvExplainContent" android:background="@drawable/background_proposal_explain_content" android:padding="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_8dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:layout_constraintTop_toBottomOf="@id/tvExplain" style="@style/TextInterMedium14Black" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/_16dp" app:layout_constraintTop_toBottomOf="@id/tvExplainContent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+# =====================
+# Tomcat
+# =====================
+apache-tomcat-*/
+**/apache-tomcat-*/
+
+# =====================
+# Node.js
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Tomcat runtime
+logs/
+work/
+temp/
+
+# =====================
+# Java build
+# =====================
+*.class
+target/
+build/
+out/
+pnpm-debug.log*
+.pnpm-store/
+bun.lockb
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+# NetBeans
+nbproject/private/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db

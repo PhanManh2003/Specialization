@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="0.0" android:type="linear" android:startX="305.0" android:startY="159.0" android:endX="0.0" android:endY="159.0">
+        <item android:color="#ffffe9b7" android:offset="0.0" />
+        <item android:color="#ffeda34d" android:offset="0.01" />
+        <item android:color="#ffffda88" android:offset="0.01" />
+        <item android:color="#ffefa852" android:offset="0.03" />
+        <item android:color="#ffffd179" android:offset="0.29" />
+        <item android:color="#ffffd179" android:offset="0.84" />
+        <item android:color="#ffefa852" android:offset="0.98" />
+        <item android:color="#ffffdb89" android:offset="0.99" />
+        <item android:color="#ffefa851" android:offset="0.99" />
+        <item android:color="#ffffe9b7" android:offset="1.0" />
+    </gradient>
+    <path android:fillColor="#ff8e4820" android:pathData="M28,14L294,14A8,8 0,0 1,302 22L302,325A8,8 0,0 1,294 333L28,333A8,8 0,0 1,20 325L20,22A8,8 0,0 1,28 14z" />
+</vector>

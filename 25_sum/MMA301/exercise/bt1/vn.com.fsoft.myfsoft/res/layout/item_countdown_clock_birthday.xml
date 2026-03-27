@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:alignedtextview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/backUpper" android:layout_width="wrap_content" android:layout_height="@dimen/_8dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomTextViewBirthday android:layout_gravity="center_horizontal" android:id="@id/backUpperText" android:layout_width="wrap_content" android:layout_height="wrap_content" alignedtextview:alignmentBirthday="2" style="@style/TextBungeeRegular20DP" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/backLower" android:layout_width="wrap_content" android:layout_height="@dimen/_8dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomTextViewBirthday android:layout_gravity="center_horizontal" android:id="@id/backLowerText" android:layout_width="wrap_content" android:layout_height="wrap_content" alignedtextview:alignmentBirthday="1" style="@style/TextBungeeRegular20DP" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/frontUpper" android:layout_width="wrap_content" android:layout_height="@dimen/_8dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomTextViewBirthday android:layout_gravity="center_horizontal" android:id="@id/frontUpperText" android:layout_width="wrap_content" android:layout_height="fill_parent" alignedtextview:alignmentBirthday="2" style="@style/TextBungeeRegular20DP" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/frontLower" android:layout_width="wrap_content" android:layout_height="@dimen/_8dp">
+            <vn.com.fsoft.myfsoft.base.view.clock.CustomTextViewBirthday android:layout_gravity="center_horizontal" android:id="@id/frontLowerText" android:layout_width="wrap_content" android:layout_height="wrap_content" alignedtextview:alignmentBirthday="1" style="@style/TextBungeeRegular20DP" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

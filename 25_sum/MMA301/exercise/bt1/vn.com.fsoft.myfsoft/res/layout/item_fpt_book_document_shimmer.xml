@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/_128dp" android:layout_marginBottom="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_6dp" app:cardCornerRadius="@dimen/_5dp" app:cardElevation="@dimen/_5dp">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:orientation="vertical" android:id="@id/lyImage" android:layout_width="@dimen/_65dp" android:layout_height="@dimen/_92dp" android:layout_marginTop="@dimen/_15dp" android:layout_marginStart="@dimen/_12dp" android:elevation="@dimen/_6dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <View android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+                    <vn.com.fsoft.myfsoft.base.view.RoundedCornerImageView android:id="@id/imCategory" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_10dp" android:scaleType="fitXY" app:viewRadius="@dimen/_4dp" />
+                </RelativeLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/lyText" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_14dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/lyImage" app:layout_constraintTop_toTopOf="parent">
+                    <View android:id="@id/tvNameDocument" android:background="@color/bg_shimmer" android:layout_width="@dimen/_250dp" android:layout_height="@dimen/_20dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <View android:id="@id/tvNameDocument1" android:background="@color/bg_shimmer" android:layout_width="@dimen/_250dp" android:layout_height="@dimen/_20dp" android:layout_marginTop="@dimen/_5dp" app:layout_constraintStart_toStartOf="@id/tvNameDocument" app:layout_constraintTop_toBottomOf="@id/tvNameDocument" />
+                    <View android:id="@id/tvDescription" android:background="@color/bg_shimmer" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_20dp" android:layout_marginTop="@dimen/_8dp" app:layout_constraintStart_toStartOf="@id/tvNameDocument" app:layout_constraintTop_toBottomOf="@id/tvNameDocument1" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

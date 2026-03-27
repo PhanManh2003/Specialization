@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="500" motion:motionInterpolator="@android:anim/accelerate_interpolator">
+        <OnSwipe motion:dragDirection="dragUp" motion:touchAnchorId="@id/view_pager_refer" motion:touchAnchorSide="top" />
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/container_lucky_draw">
+            <PropertySet motion:applyMotionScene="false" motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/toolbar_image" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:srcCompat="@null" />
+        <Constraint android:id="@id/desc" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" android:elevation="@dimen/_6dp" motion:cardCornerRadius="@dimen/_8dp" motion:cardElevation="@dimen/_6dp" motion:layout_constraintBottom_toBottomOf="@id/toolbar_image" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/toolbar_image" />
+        <Constraint android:layout_gravity="center_vertical" android:id="@id/ivBackRefer" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_18dp" android:alpha="1.0" android:layout_marginStart="@dimen/_10dp" android:elevation="@dimen/_100dp" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/v_header" />
+        <Constraint android:layout_gravity="center_vertical" android:id="@id/ivBackRefer_bottom" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_18dp" android:alpha="0.0" android:layout_marginStart="@dimen/_10dp" android:elevation="@dimen/_100dp" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/v_header" />
+        <Constraint android:textSize="@dimen/_16sp" android:layout_gravity="center" android:id="@id/tvHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/referfriend_feature_title" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_semibold" android:elevation="@dimen/_100dp" motion:layout_constraintBottom_toBottomOf="@id/ivBackRefer" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="@id/ivBackRefer">
+            <CustomAttribute motion:attributeName="textColor" motion:customColorValue="@color/colorWhite" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/container_lucky_draw">
+            <PropertySet motion:applyMotionScene="false" motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/toolbar_image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@null" android:alpha="0.0" motion:layout_constraintBottom_toTopOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="@dimen/_136dp" motion:cardCornerRadius="@dimen/_0dp" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/toolbar_refer" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:layout_gravity="center_vertical" android:id="@id/ivBackRefer" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_18dp" android:alpha="0.0" android:layout_marginStart="@dimen/_10dp" android:elevation="@dimen/_100dp" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/v_header" />
+        <Constraint android:layout_gravity="center_vertical" android:id="@id/ivBackRefer_bottom" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_18dp" android:alpha="1.0" android:layout_marginStart="@dimen/_10dp" android:elevation="@dimen/_100dp" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/v_header" />
+        <Constraint android:textSize="@dimen/_16sp" android:layout_gravity="center" android:id="@id/tvHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/referfriend_feature_title" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.18" android:fontFamily="@font/inter_semibold" android:elevation="@dimen/_100dp" motion:layout_constraintBottom_toBottomOf="@id/ivBackRefer" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="@id/ivBackRefer">
+            <CustomAttribute motion:attributeName="textColor" motion:customColorValue="#ff000000" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

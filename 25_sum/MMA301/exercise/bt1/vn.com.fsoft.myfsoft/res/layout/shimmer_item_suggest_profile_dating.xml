@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_6dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bg_shimmer_item_suggest_profile_dating" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_265dp" android:layout_weight="1.0" android:layout_marginEnd="@dimen/_6dp" />
+    <View android:background="@drawable/bg_shimmer_item_suggest_profile_dating" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_265dp" android:layout_weight="1.0" android:layout_marginStart="@dimen/_6dp" />
+</LinearLayout>

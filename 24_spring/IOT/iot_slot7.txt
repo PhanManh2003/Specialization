@@ -1,0 +1,15 @@
+- thực chất có 8 led tính cả DP
+- Các chân  abcdefg đều nối với 0 (GND) còn 
+các chân còn lại nối với 1
+- chân 3 hoặc 8 làm chân dương(value 1) chung
+ của các led 
+được 
+nối tiếp với 1 trở 330 ôm
+
+- trên tinker cần dòng c++ code
+
+- không đấu nguồn liên tục nữa 
+mà có điều khiển nguồn, để tránh 2 led cùng 
+hiển thị 1 số như nhau ? 
+
+như vậy chỉ led1 sáng, led2 không sáng

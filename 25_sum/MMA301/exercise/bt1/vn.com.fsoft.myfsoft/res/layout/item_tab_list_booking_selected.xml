@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/_8dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/tvTitleToday" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_item_tab_list_booking" android:includeFontPadding="false" style="@style/TextInterBold14Blue185ECE" />
+    <TextView android:gravity="center" android:id="@id/tvSubTitleToday" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sub_title_item_tab_list_booking" android:includeFontPadding="false" style="@style/TextInterMedium12Blue185ECE" />
+</LinearLayout>

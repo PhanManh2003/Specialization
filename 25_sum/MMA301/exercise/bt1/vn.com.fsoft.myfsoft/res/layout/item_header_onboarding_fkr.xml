@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/color_F7F7F7" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:paddingHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_total_results" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="8.0" style="@style/TextInterBold14666666" />
+    <TextView android:gravity="end" android:id="@id/tv_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_fkr_filter_title" android:drawablePadding="@dimen/_4dp" android:layout_weight="2.0" app:drawableEndCompat="@drawable/ic_arrow_down_blue" style="@style/TextInterSemiBold14Blue185ECE" />
+</LinearLayout>

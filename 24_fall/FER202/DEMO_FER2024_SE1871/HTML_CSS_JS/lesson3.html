@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 3</title>
+  </head>
+  <body>
+    <style>
+      #wrapper {
+        width: 400px;
+        border: 1px solid #c21f1f;
+      }
+
+      h1 {
+        color: blue;
+        font-size: 20px;
+        padding-left: 60px;
+      }
+      tr td:first-child {
+        font-weight: 600;
+        color: blue;
+      }
+
+      tr td {
+        padding: 10px 0 10px 10px;
+      }
+      tr.result td {
+        padding-top: 50px;
+      }
+      td.entity {
+        padding-left: 0;
+        font-weight: bold;
+      }
+    </style>
+    <div id="wrapper">
+      <h1>THỰC HIỆN PHÉP TOÁN</h1>
+      <form action="">
+        <table>
+          <tr>
+            <td>Nhập n</td>
+            <td>
+              <input type="text" name="" id="n" class="input-box" />
+            </td>
+            <td class="entity">(1&lt; n &lt; 100)</td>
+          </tr>
+          <tr>
+            <td>Chọn phép toán</td>
+            <td>
+              <select name="" id="operation">
+                <option value="1">Tổng n số liên tiếp</option>
+                <option value="2">Tính n!</option>
+                <option value="3">In dãy lẻ</option>
+                <option value="4">In dãy số chẵn</option>
+                <option value="5">Kiểm tra số nguyên tố</option>
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr class="result">
+            <td>Kết quả</td>
+            <td>
+              <input type="text" name="" id="n" class="input-box" />
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

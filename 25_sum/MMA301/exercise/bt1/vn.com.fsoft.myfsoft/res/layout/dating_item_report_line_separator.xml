@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/separator" android:background="@drawable/bg_divider_big_my_profile_detail" android:layout_width="fill_parent" android:layout_height="@dimen/_8dp" android:layout_marginTop="@dimen/_4dp" android:layout_marginBottom="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

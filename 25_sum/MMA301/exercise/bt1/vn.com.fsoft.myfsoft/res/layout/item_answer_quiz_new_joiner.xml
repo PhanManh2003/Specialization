@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="@dimen/_52dp" android:layout_marginBottom="@dimen/_16dp" app:cardBackgroundColor="@color/color_D3CA86" app:cardCornerRadius="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardviewTop" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:elevation="@dimen/_0dp" app:cardCornerRadius="@dimen/_10dp" />
+    <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:layout_gravity="center_vertical" android:id="@id/tvAnswerQuiz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingStart="@dimen/_0dp" android:paddingEnd="@dimen/_12dp" android:layout_marginStart="@dimen/_24dp" android:elevation="@dimen/_2dp" />
+</androidx.cardview.widget.CardView>

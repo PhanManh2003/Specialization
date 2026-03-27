@@ -1,0 +1,56 @@
+0-Course introduction
+https://youtu.be/yW9w6LxyGlY
+
+1A-List data structure
+https://youtu.be/0QWAzxz7Sbk
+
+1B-Singly linked list implementation
+https://youtu.be/Mjlj-GMQ9rU
+
+1C-Linked list exs solution
+https://youtu.be/U2SNI3qT9hs
+
+2A-Stack
+https://youtu.be/-3wvFzqeedU
+
+2B-Queue
+https://youtu.be/24ri7Shr7v4
+
+4A-testBSTree1 (insert,traverse)
+https://youtu.be/GsxzuPrsI-Y
+
+4B-testBSTree1 (Person)
+https://youtu.be/C0t2v2oECpY
+
+4C-Deletion by copying on BSTree
+https://youtu.be/iZ3N8Vk0K6Y
+
+4D-Simple balancing and rotation
+https://youtu.be/dh_qPNf80Wc
+
+4E-AVL tree, heap, expression tree
+https://youtu.be/xuTDGj_qRg0
+
+5A-Graph definition and traversal
+https://youtu.be/KZdCYa3kehk
+
+5B-Graph traversal implementation
+https://youtu.be/oTasAOqHwZU
+
+5C-Graph Dijkstra's shortest path algorithm
+https://youtu.be/yEGHkQ87nS4
+
+5D-MST,Euler&Hamilton Cycle, graph coloring
+https://youtu.be/peiKGu3poI8
+
+5E-Euler's cycle implementation
+https://youtu.be/f-C--2FIyYc
+
+6-Sorting
+https://youtu.be/R7IuSVCQZTM
+
+7-Hashing
+https://youtu.be/Rw08B8k5B4o
+
+8-Text processing
+https://youtu.be/vhIKomons94

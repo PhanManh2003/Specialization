@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_bot_nav_home" android:id="@id/item_news" android:title="@string/common_home_title" />
+    <item android:icon="@drawable/icon_bot_nav_allapp" android:id="@id/item_wiki" android:title="@string/allapps_feature_title" />
+    <item android:icon="@drawable/ic_icon_bot_nav_gold" android:id="@id/item_work" android:title="@string/common_gold_title" />
+    <item android:icon="@drawable/icon_bot_nav_game" android:id="@id/item_game" android:title="@string/common_tab_game_name" />
+    <item android:icon="@drawable/ic_icon_bot_nav_profile" android:id="@id/item_profile" android:title="@string/profile_bot_nav_title" />
+</menu>

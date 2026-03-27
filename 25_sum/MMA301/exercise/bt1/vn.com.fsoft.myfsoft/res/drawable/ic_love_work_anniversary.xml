@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_love_work_anniversary__0" android:pathData="M12,0.5L12,0.5A11.5,11.5 0,0 1,23.5 12L23.5,12A11.5,11.5 0,0 1,12 23.5L12,23.5A11.5,11.5 0,0 1,0.5 12L0.5,12A11.5,11.5 0,0 1,12 0.5z" />
+    <path android:fillColor="#ffffffff" android:pathData="M15.255,6C14.634,5.998 14.02,6.136 13.458,6.403C12.896,6.67 12.4,7.061 12.006,7.546C11.614,7.058 11.118,6.665 10.556,6.397C9.993,6.13 9.378,5.994 8.757,6C8.193,6.005 7.636,6.122 7.116,6.345C6.597,6.568 6.127,6.892 5.732,7.3C5.336,7.707 5.024,8.189 4.813,8.718C4.602,9.247 4.495,9.813 4.5,10.384C4.5,14.533 11.531,18.584 11.816,18.741C11.872,18.78 11.938,18.801 12.006,18.801C12.074,18.801 12.14,18.78 12.196,18.741C12.482,18.584 19.512,14.592 19.512,10.384C19.517,9.813 19.411,9.247 19.199,8.718C18.988,8.188 18.676,7.706 18.28,7.299C17.885,6.892 17.414,6.568 16.895,6.345C16.376,6.122 15.819,6.005 15.255,6Z" />
+    <path android:fillColor="#00000000" android:pathData="M12,0.5L12,0.5A11.5,11.5 0,0 1,23.5 12L23.5,12A11.5,11.5 0,0 1,12 23.5L12,23.5A11.5,11.5 0,0 1,0.5 12L0.5,12A11.5,11.5 0,0 1,12 0.5z" android:strokeColor="#ffffffff" android:strokeWidth="1.0" />
+</vector>

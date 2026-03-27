@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_history" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view_history" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_content_history" android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/_12sp" android:textStyle="bold" android:textColor="@color/hintTextColor" android:id="@id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:text="@string/eshake_shake_with_title" android:layout_marginStart="@dimen/_36dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline18" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline20" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.8" />
+                <TextView android:textSize="@dimen/_12sp" android:textStyle="bold" android:textColor="@color/hintTextColor" android:id="@id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meetingroom_duration_title" app:layout_constraintStart_toStartOf="@id/guideline18" app:layout_constraintTop_toTopOf="@id/textView13" />
+                <TextView android:textSize="@dimen/_12sp" android:textStyle="bold" android:textColor="@color/hintTextColor" android:id="@id/textView19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eshake_result_title" android:layout_marginEnd="23.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/guideline20" app:layout_constraintTop_toTopOf="@id/textView15" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_eshake_history" android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_8dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView13" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/view_more" android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/rv_eshake_history">
+                    <TextView android:id="@id/tvMoreHistory" android:visibility="gone" style="@style/TextViewMore" />
+                    <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore" android:paddingTop="@dimen/_1dp" android:paddingBottom="@dimen/_15dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_centerInParent="true" android:paddingStart="@dimen/_8dp" android:paddingEnd="@dimen/_8dp" style="?android:progressBarStyle" />
+                </RelativeLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:text_empty="@string/eshake_history_empty_title" />
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

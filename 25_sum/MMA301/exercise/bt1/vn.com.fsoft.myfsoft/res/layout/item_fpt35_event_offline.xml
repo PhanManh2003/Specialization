@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="end" android:gravity="center" android:id="@id/tvSite" android:background="@drawable/bg_corner100_gradientblue" android:paddingTop="@dimen/_8dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingVertical="@dimen/_8dp" style="@style/TextInterSemiBold12DPBrown71450E"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

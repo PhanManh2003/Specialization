@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/_40dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lyAvatar" android:background="@drawable/bg_avatar_rv_group_fts" android:layout_width="@dimen/_93dp" android:layout_height="@dimen/_93dp" android:layout_centerInParent="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imAvatarItem" android:layout_width="@dimen/_72dp" android:layout_height="@dimen/_72dp" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="@id/lyAvatar" app:layout_constraintEnd_toEndOf="@id/lyAvatar" app:layout_constraintStart_toStartOf="@id/lyAvatar" app:layout_constraintTop_toTopOf="@id/lyAvatar" />
+    <CheckBox android:id="@id/imRadioButton" android:layout_width="wrap_content" android:layout_height="@dimen/_24dp" android:layout_marginTop="@dimen/_8dp" android:button="@drawable/bg_radio_button_avatar_fts" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lyAvatar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

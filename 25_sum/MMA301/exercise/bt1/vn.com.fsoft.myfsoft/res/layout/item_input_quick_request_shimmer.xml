@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <vn.com.fsoft.myfsoft.base.view.MyFPTInputView android:id="@id/til_input" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" android:layout_marginRight="@dimen/_16dp" android:maxLines="1" android:lines="1" android:inputType="text" android:layout_marginHorizontal="@dimen/_16dp" app:isIconDisplay="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/bg_shimmer" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="@id/til_input" app:layout_constraintEnd_toEndOf="@id/til_input" app:layout_constraintStart_toStartOf="@id/til_input" app:layout_constraintTop_toTopOf="@id/til_input" />
+</androidx.constraintlayout.widget.ConstraintLayout>

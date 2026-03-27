@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dip" android:width="351.0dip" android:viewportWidth="351.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M6,0L345,0A6,6 0,0 1,351 6L351,74A6,6 0,0 1,345 80L6,80A6,6 0,0 1,0 74L0,6A6,6 0,0 1,6 0z" />
+        <path android:fillColor="@drawable/$bg_milestone_five__0" android:pathData="M0,0h351v80h-351z" />
+        <group>
+            <clip-path android:pathData="M0,0h351v80h-351z" />
+            <path android:fillColor="@drawable/$bg_milestone_five__1" android:pathData="M124.73,-36.6C133.81,0.41 129.25,23.92 102.84,35.54C76.42,47.16 26.67,32.9 34.72,87.04C42.78,141.19 -36.87,31.92 -37,18.47C-37.13,5.01 -28.92,-50.74 -17.75,-51C-6.59,-51.26 124.73,-36.6 124.73,-36.6Z" />
+            <path android:fillColor="@drawable/$bg_milestone_five__2" android:pathData="M230,90.47C244.64,47.94 265.4,25.05 302.43,23.37C339.47,21.7 385.09,56.55 412.31,-3.59C439.54,-63.73 454.86,82.92 446.03,97.12C468.2,175.13 390.86,166.64 378.33,162.46C365.8,158.27 230,90.47 230,90.47Z" />
+            <path android:fillColor="@drawable/$bg_milestone_five__3" android:pathData="M93.84,98.8C104.11,98.45 112.15,89.85 111.8,79.58C111.45,69.32 102.85,61.28 92.58,61.63C82.32,61.98 74.28,70.58 74.63,80.84C74.98,91.11 83.58,99.15 93.84,98.8Z" />
+            <path android:fillColor="@drawable/$bg_milestone_five__4" android:pathData="M263.97,5.16C266.68,-0.2 264.53,-6.75 259.17,-9.47C253.8,-12.18 247.25,-10.03 244.54,-4.66C241.82,0.7 243.97,7.25 249.34,9.97C254.7,12.68 261.26,10.53 263.97,5.16Z" />
+        </group>
+    </group>
+</vector>

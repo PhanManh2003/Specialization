@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_4dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="start|center" android:id="@id/cb_select_all" android:padding="@dimen/_4dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/custom_checkbox_new_joiner" android:text="@string/approve_plus_select_all" style="@style/TextInterMedium14Black" />
+    <TextView android:layout_gravity="start|center" android:id="@id/tv_total_request" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextInterSemiBold12Grey666666" />
+    <TextView android:layout_gravity="end|center" android:id="@id/tv_action_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:layout_marginBottom="@dimen/_4dp" android:text="@string/approve_plus_select_request" android:layout_marginVertical="@dimen/_4dp" style="@style/TextInterBold14Blue185ECE" />
+</FrameLayout>

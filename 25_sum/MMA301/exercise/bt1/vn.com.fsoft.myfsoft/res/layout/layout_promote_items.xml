@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/img_item_first" android:layout_width="@dimen/_64dp" android:layout_height="@dimen/_64dp" android:src="@null" app:lottie_autoPlay="true" app:lottie_loop="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/img_item_second" android:layout_width="@dimen/_64dp" android:layout_height="@dimen/_64dp" android:src="@null" android:layout_marginStart="@dimen/_8dp" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_EC6608" android:gravity="center" android:id="@id/tv_promote_item_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:text="@string/commendation_star_ave_tap_item_to_priview" android:fontFamily="@font/inter" />
+    <TextView android:textSize="@dimen/_20sp" android:textColor="@color/colorBlackText" android:gravity="center" android:id="@id/coin_promote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:includeFontPadding="@dimen/_0dp" android:drawablePadding="@dimen/_4dp" android:fontFamily="@font/inter_bold" app:drawableEndCompat="@null" />
+</LinearLayout>

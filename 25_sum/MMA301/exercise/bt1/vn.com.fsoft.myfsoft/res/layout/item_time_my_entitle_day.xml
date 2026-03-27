@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/bg_quick_menu_pin" android:id="@id/tv_type_entitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/leaverequest_type_entitle_title" android:includeFontPadding="false" android:layout_weight="0.6" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_16dp" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/bg_quick_menu_pin" android:id="@id/tv_max_title" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:text="@string/leaverequest_max_entitle_title" android:includeFontPadding="false" android:layout_weight="0.2" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/bg_quick_menu_pin" android:id="@id/tv_remain_title" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:text="@string/leaverequest_remain_entitle_title" android:includeFontPadding="false" android:layout_weight="0.2" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_16dp" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cv" android:background="@android:color/transparent" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:backgroundTint="@color/color_bg_rock" app:cardCornerRadius="@dimen/_18dp" app:cardElevation="@dimen/_0dp" app:layout_constraintEnd_toStartOf="@id/space_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/img_rock" android:background="@android:color/transparent" android:layout_width="@dimen/_30dp" android:layout_height="@dimen/_30dp" />
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/space_view" android:layout_width="@dimen/_8dp" android:layout_height="@dimen/_1dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cv" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

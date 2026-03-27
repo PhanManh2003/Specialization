@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M27.8,16C27.8,22.517 22.517,27.8 16,27.8C9.483,27.8 4.2,22.517 4.2,16C4.2,9.483 9.483,4.2 16,4.2C22.517,4.2 27.8,9.483 27.8,16Z" android:strokeColor="#ff2663e2" android:strokeWidth="2.4" />
+    <path android:fillColor="@drawable/$clock_welcome_blt__0" android:pathData="M16.05,7L16.05,7A1.05,1.05 0,0 1,17.1 8.05L17.1,14.95A1.05,1.05 0,0 1,16.05 16L16.05,16A1.05,1.05 0,0 1,15 14.95L15,8.05A1.05,1.05 0,0 1,16.05 7z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="@drawable/$clock_welcome_blt__1" android:pathData="M20.932,21.313L20.932,21.313A1.05,1.05 90.009,0 1,19.448 21.313L16.212,18.073A1.05,1.05 90.009,0 1,16.212 16.587L16.212,16.587A1.05,1.05 90.009,0 1,17.697 16.588L20.933,19.828A1.05,1.05 90.009,0 1,20.932 21.313z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="#ff1e5ce0" android:pathData="M15.998,18C17.103,18 17.999,17.104 17.999,16C17.999,14.895 17.103,14 15.998,14C14.894,14 13.998,14.895 13.998,16C13.998,17.104 14.894,18 15.998,18Z" />
+</vector>

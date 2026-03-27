@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:background="@color/fpt_care_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/img_header" android:layout_width="fill_parent" android:layout_height="235.0dip" android:src="@null" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_24dp" android:layout_below="@id/img_header" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_qtsl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ImageView android:id="@id/img_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_150dp" android:src="@null" />
+                    <TextView android:id="@id/tv_empty" android:visibility="gone" android:layout_marginTop="@dimen/_8dp" android:text="@string/fsbook_insurance_benifit_empty_message" android:layout_below="@id/img_empty" android:layout_centerHorizontal="true" style="@style/StyleTextViewEmptyStateAkaLink" />
+                </RelativeLayout>
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20dp" android:layout_below="@id/img_header" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                        <include layout="@layout/shimmer_chtg_fpt_care" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

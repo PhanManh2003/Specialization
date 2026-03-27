@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <vn.com.fsoft.myfsoft.base.view.AkaLinkInputView android:textColor="@color/color_666666" android:id="@id/avTypeSelect" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/_60dp" app:backgroundItemView="@drawable/background_textview_discipline" app:isIconDisplay="true" app:layout_constraintBottom_toTopOf="@id/wvSelectNote" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:rightIcon="@drawable/ic_common_arrow_down" app:textTitle="@string/discipline_minus_bonus_type_require_title" />
+    <WebView android:id="@id/wvSelectNote" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/avTypeSelect" />
+</androidx.constraintlayout.widget.ConstraintLayout>

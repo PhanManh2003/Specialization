@@ -1,0 +1,27 @@
+.class public final Lxz/a/a/a/u2/c5;
+.super Lxz/a/a/a/t1/u0;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lxz/a/a/a/t1/u0;-><init>()V
+
+    .line 2
+    new-instance v0, Lkz/s/y;
+
+    invoke-direct {v0}, Lkz/s/y;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public s()V
+    .locals 0
+
+    return-void
+.end method

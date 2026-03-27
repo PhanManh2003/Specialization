@@ -1,0 +1,92 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Steve Job",
+      "dob": "25/05/2000",
+      "qualityId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "dob": "12/04/1999",
+      "qualityId": "4"
+    },
+    {
+      "id": "3",
+      "name": "Mary Monroe",
+      "dob": "01/09/1995",
+      "qualityId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Bill Gate",
+      "dob": "29/10/2024",
+      "qualityId": "1"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Java"
+    },
+    {
+      "id": "2",
+      "name": "English"
+    },
+    {
+      "id": "3",
+      "name": "Japanese"
+    }
+  ],
+  "qualities": [
+    {
+      "id": "1",
+      "name": "Very good"
+    },
+    {
+      "id": "2",
+      "name": "Good"
+    },
+    {
+      "id": "3",
+      "name": "Normal"
+    },
+    {
+      "id": "4",
+      "name": "Bad"
+    }
+  ],
+  "teachers_courses": [
+    {
+      "id": "1",
+      "teacherId": "1",
+      "courseId": "1"
+    },
+    {
+      "id": "2",
+      "teacherId": "1",
+      "courseId": "2"
+    },
+    {
+      "id": "3",
+      "teacherId": "2",
+      "courseId": "3"
+    },
+    {
+      "id": "4",
+      "teacherId": "3",
+      "courseId": "3"
+    },
+    {
+      "id": "5",
+      "teacherId": "3",
+      "courseId": "2"
+    },
+    {
+      "id": "6",
+      "teacherId": "4",
+      "courseId": "1"
+    }
+  ]
+}

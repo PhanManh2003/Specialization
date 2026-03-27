@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10dp" android:layout_marginBottom="@dimen/_10dp" android:minHeight="@dimen/_55dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/colorBlack" android:id="@id/tvTime" android:background="@color/bg_shimmer" android:layout_width="@dimen/_163dp" android:layout_height="@dimen/_20dp" android:layout_marginStart="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_editor_absoluteX="@dimen/_30dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

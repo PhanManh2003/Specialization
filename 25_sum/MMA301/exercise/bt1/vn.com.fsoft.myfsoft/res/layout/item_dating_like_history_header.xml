@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/_12sp" android:gravity="center_vertical" android:id="@id/tv_header_like_history" android:background="@color/bg_color_header_fpt_care_history" android:layout_width="fill_parent" android:layout_height="@dimen/_28dp" android:fontFamily="@font/inter_semibold" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

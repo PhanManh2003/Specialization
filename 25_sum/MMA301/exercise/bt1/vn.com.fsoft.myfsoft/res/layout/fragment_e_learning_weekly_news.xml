@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_news" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/toolbar_background" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="1.0dip" android:elevation="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toBottomOf="@id/toolbar_background">
+            <ImageButton android:layout_gravity="start|center" android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:tint="@color/color_666666" android:contentDescription="@string/contentDescription" android:layout_marginStart="@dimen/_10dp" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e_learning2_weekly_news_title" style="@style/TextInterSemiBold16Black" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_weekly_news" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/view_empty_state_weekly_newsfeed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:text_empty="@string/fsbook_insurance_benifit_empty_message" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_weekly_news" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginBottom="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" android:layout_marginVertical="@dimen/_16dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_24dp" layout="@layout/item_e_learning_weekly_news_shimmer" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_24dp" layout="@layout/item_e_learning_weekly_news_shimmer" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_24dp" layout="@layout/item_e_learning_weekly_news_shimmer" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_24dp" layout="@layout/item_e_learning_weekly_news_shimmer" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

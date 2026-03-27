@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/container_button_yes_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15dp" android:layout_marginBottom="@dimen/_24dp">
+        <Button android:textColor="@color/color_introduction_new_joiner" android:gravity="center" android:id="@id/btn_previous" android:background="@drawable/bg_button_no_dialog_challenge" android:layout_width="@dimen/_118dp" android:layout_height="@dimen/_40dp" android:text="@string/new_joiner_previous" android:layout_marginEnd="@dimen/_10dp" style="?buttonBarButtonStyle" />
+        <Button android:textColor="@color/colorWhite" android:gravity="center" android:id="@id/btn_next" android:background="@drawable/bg_button_challenge_new_joiner" android:layout_width="@dimen/_118dp" android:layout_height="@dimen/_40dp" android:text="@string/new_joiner_introduction_next" android:layout_marginStart="@dimen/_10dp" style="?buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

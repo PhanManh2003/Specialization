@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/colorWhite" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_64dp" android:paddingEnd="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_185ECE" android:id="@id/tvViewMore" android:background="@drawable/bg_selectable_corner" android:padding="@dimen/_4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.ContentLoadingProgressBar android:id="@id/progressLoading" android:visibility="visible" android:layout_width="@dimen/_28dp" android:layout_height="@dimen/_28dp" android:layout_marginStart="@dimen/_30dp" style="?android:progressBarStyle" />
+</LinearLayout>

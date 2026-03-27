@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <vn.com.fsoft.myfsoft.base.view.ToolBar android:id="@id/appToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_20dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <vn.com.fsoft.myfsoft.cropiwa.CropIwaView android:id="@id/crop_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" app:ci_crop_scale="1.0" app:ci_crop_shape="oval" app:ci_dynamic_aspect_ratio="false" app:ci_max_scale="20.0" app:ci_scale_enabled="true" app:ci_translation_enabled="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <com.google.android.material.button.MaterialButton android:textSize="@dimen/_14sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnFinish" android:layout_width="@dimen/_160dp" android:layout_height="wrap_content" android:layout_margin="@dimen/_16dp" android:text="@string/common_save_button" android:layout_centerInParent="true" android:textAllCaps="false" app:backgroundTint="@color/themeColor" app:cornerRadius="@dimen/_20dp" app:rippleColor="@color/colorWhite" style="@style/Widget.MaterialComponents.Button.TextButton" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/flLoadingProgress" android:background="@color/colorWhiteAlpha30" android:paddingBottom="@dimen/_44dp" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:padding="@dimen/_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@anim/anim_loading_rotate" style="?android:progressBarStyle" />
+    </FrameLayout>
+</FrameLayout>

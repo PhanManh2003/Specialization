@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout_sendOnline" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/fragment_send_info" android:background="@color/item_search_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cv_send_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_send_info" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ln_time" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_20dp" android:layout_marginEnd="@dimen/_20dp" app:layout_constraintBottom_toBottomOf="@id/iv_send_info" app:layout_constraintTop_toBottomOf="@id/iv_send_info">
+                    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_bg_anniversary_end" android:id="@id/thoi_gian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_13dp" android:layout_marginBottom="@dimen/_13dp" android:text="@string/onboarding_due_date_msg" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_bg_anniversary_end" android:id="@id/tv_time_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_13dp" android:layout_marginBottom="@dimen/_13dp" android:singleLine="true" android:fontFamily="@font/inter_bold" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_data" android:paddingBottom="@dimen/_15dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ln_time" />
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_sendOnlineInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20dp" app:layout_constraintTop_toBottomOf="@id/ln_time">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include layout="@layout/shimmer_send_online_info_onboard" />
+                        <include layout="@layout/shimmer_send_online_info_onboard" />
+                        <include layout="@layout/shimmer_send_online_info_onboard" />
+                        <include layout="@layout/shimmer_send_online_info_onboard" />
+                        <include layout="@layout/shimmer_send_online_info_onboard" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/order_fragment_content_color_text" android:layout_gravity="center|top" android:id="@id/tv_title_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_send_info_online_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

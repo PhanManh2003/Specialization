@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeWFOHistory" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerWFOHistory" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/containerToolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/_8dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/_10dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ivBackWFOHistory" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:contentDescription="@string/contentDescription" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlackText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wfo_history_title" android:layout_centerHorizontal="true" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/ivBackWFOHistory" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ivBackWFOHistory" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/containerToolbar">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvWFOHistory" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tvViewMoreHistory" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_marginBottom="@dimen/_6dp" android:text="@string/wfo_view_more" android:fontFamily="@font/inter_semibold" app:layout_constraintTop_toBottomOf="@id/rvWFOHistory" />
+                <androidx.core.widget.ContentLoadingProgressBar android:id="@id/progressBarHistory" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_marginBottom="@dimen/_6dp" app:layout_constraintTop_toBottomOf="@id/rvWFOHistory" style="?android:progressBarStyle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerHistory" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/containerToolbar">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+                <include layout="@layout/shimmer_item_reminder" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/emptyState" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/containerToolbar" app:text_empty="@string/no_event" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

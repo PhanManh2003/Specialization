@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/layout_task_details_container" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:fillViewport="true" android:layout_alignParentBottom="true" app:layout_constrainedHeight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/bg_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_97dp" android:layout_marginTop="@dimen/_20dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@color/bg_loading" android:layout_width="218.0dip" android:layout_height="@dimen/_19dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <View android:background="@color/bg_loading" android:layout_width="@dimen/_42dp" android:layout_height="@dimen/_24dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View android:background="@color/bg_loading" android:layout_width="fill_parent" android:layout_height="@dimen/_61dp" android:layout_marginTop="@dimen/_12dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/bg_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_62dp" android:layout_marginTop="@dimen/_12dp">
+                <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+                <View android:background="@color/bg_loading" android:layout_width="@dimen/_67dp" android:layout_height="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" />
+                <View android:background="@color/bg_loading" android:layout_width="@dimen/_124dp" android:layout_height="@dimen/_19dp" android:layout_marginBottom="@dimen/_12dp" />
+                <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/bg_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_70dp" android:layout_marginTop="@dimen/_12dp">
+                <TextView android:background="@color/bg_loading" android:layout_width="@dimen/_65dp" android:layout_height="@dimen/_16dp" />
+                <View android:id="@id/tv_opp" android:background="@color/bg_loading" android:layout_width="fill_parent" android:layout_height="@dimen/_39dp" android:layout_marginBottom="@dimen/_12dp" />
+                <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/bg_shimmer_home" android:layout_width="fill_parent" android:layout_height="@dimen/_50dp" android:layout_marginTop="@dimen/_12dp">
+                <View android:background="@color/bg_loading" android:layout_width="@dimen/_44dp" android:layout_height="@dimen/_16dp" />
+                <View android:id="@id/tv_acc" android:background="@color/bg_loading" android:layout_width="@dimen/_81dp" android:layout_height="@dimen/_19dp" android:layout_marginBottom="@dimen/_12dp" />
+                <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="69.0dip" android:width="88.0dip" android:viewportWidth="88.0" android:viewportHeight="69.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_leaderboard_third_place_column__0" android:pathData="M0,23L88,23L85,69L0,69Z" />
+    <path android:fillColor="#ff8beaff" android:pathData="M0,0h68l20,23L0,23Z" />
+</vector>

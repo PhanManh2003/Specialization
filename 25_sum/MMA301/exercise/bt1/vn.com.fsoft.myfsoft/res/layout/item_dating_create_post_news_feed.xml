@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/_6dp" android:paddingTop="@dimen/_12dp" android:paddingRight="@dimen/_6dp" android:paddingBottom="@dimen/_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_6dp" android:paddingVertical="@dimen/_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <vn.com.fsoft.myfsoft.news.starave.view.CustomCircleImage android:id="@id/circle" android:layout_width="@dimen/_32dp" android:layout_height="@dimen/_32dp" app:layout_constraintLeft_toLeftOf="parent" app:strokeColor="#ffe7eefa" />
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/_14dp" android:layout_height="@dimen/_14dp" android:src="@drawable/ic_pen" />
+</FrameLayout>

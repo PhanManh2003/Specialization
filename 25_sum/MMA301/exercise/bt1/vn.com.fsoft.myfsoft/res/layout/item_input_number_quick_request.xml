@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vn.com.fsoft.myfsoft.base.view.MyFPTInputView android:id="@id/til_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:maxLines="1" android:lines="1" android:inputType="number" android:layout_marginHorizontal="@dimen/_16dp" app:isEnableEdt="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

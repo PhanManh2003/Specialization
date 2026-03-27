@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/employee_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:cardCornerRadius="@dimen/_8dp" app:cardElevation="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/view_shimmer_avatar" android:background="@drawable/background_circle_shimmer_home" android:layout_width="@dimen/_32dp" android:layout_height="@dimen/_32dp" app:layout_constraintBottom_toBottomOf="@id/view_shimmer_department" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/view_shimmer_account_name" />
+            <View android:id="@id/view_shimmer_account_name" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_150dp" android:layout_height="@dimen/_16dp" android:layout_marginStart="@dimen/_8dp" app:layout_constraintStart_toEndOf="@id/view_shimmer_avatar" app:layout_constraintTop_toTopOf="parent" />
+            <View android:id="@id/view_shimmer_department" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_16dp" android:layout_marginTop="@dimen/_2dp" android:layout_marginStart="@dimen/_8dp" app:layout_constraintStart_toEndOf="@id/view_shimmer_avatar" app:layout_constraintTop_toBottomOf="@id/view_shimmer_account_name" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/tv_birthday" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_150dp" android:layout_height="@dimen/_20dp" android:layout_marginTop="@dimen/_16dp" android:layout_marginStart="@dimen/_16dp" />
+    <View android:id="@id/view_shimmer_birthday_time" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_300dp" android:layout_height="@dimen/_24dp" android:layout_marginTop="@dimen/_15dp" android:layout_marginStart="@dimen/_16dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_shimmer_total_comment" android:background="@color/colorWhite" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_4dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30dp" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_4dp" app:layout_constraintTop_toBottomOf="@id/view_shimmer_birthday_time">
+        <View android:id="@id/view_shimmer_total_comment" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_116dp" android:layout_height="@dimen/_20dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/view_shimmer_action_love" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_20dp" android:layout_marginEnd="@dimen/_4dp" app:layout_constraintEnd_toStartOf="@id/view_shimmer_action_cake" app:layout_constraintTop_toTopOf="@id/view_shimmer_action_beer" />
+        <View android:id="@id/view_shimmer_action_cake" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_20dp" android:layout_marginEnd="@dimen/_4dp" app:layout_constraintEnd_toStartOf="@id/view_shimmer_action_beer" app:layout_constraintTop_toTopOf="@id/view_shimmer_action_beer" />
+        <View android:id="@id/view_shimmer_action_beer" android:background="@drawable/custom_bg_shimmer" android:layout_width="@dimen/_50dp" android:layout_height="@dimen/_20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/item_loading_comment" />
+    <include layout="@layout/item_loading_reply" />
+    <include layout="@layout/item_loading_comment" />
+    <include layout="@layout/item_loading_reply" />
+</LinearLayout>

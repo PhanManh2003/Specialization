@@ -1,0 +1,30 @@
+1. show databases
+2. use db_name
+3. show collections
+
+4. db.students.find() // hiển thị tất cả document
+4.1 db.students.find({gender:"Female"})
+4.2 db.students.find({gender: "Male", age: 20}) 
+4.3 db.students.find({$and:[{gender: "Male"},{age:20}]}) //array of conditions
+4.4 db.students.find({age: {$ne:20}}) // eq, lt, lte, gt, gte
+4.5 db.students.find({subjects: {$in : ["English", "Japanese"]}})
+4.6 db.students.findOne({ name: "Phan" })
+	-> find chỉ nhận 1 object t
+
+5. db.students.insertOne({"id" : "1", "name": "Nguyen Van A", "age": 21, "gender": "Male", "subjects": ["Math", "English", "Japanese"]})
+5.1 db.students.insertMany([
+    { name: "Alice", age: 20, major: "Math" },
+    { name: "Bob", age: 21, major: "Physics" }
+])
+
+
+
+6. db.students.updateMany({gender: "Male"}, {$set : {subjects:["English"]}}) // sửa thuộc tính nhiều người dựa trên dk
+6.1 db.students.updateOne({ name: "Phan" }, { $set: { age: 23 }})
+6.2. db.students.updateMany({}, {$set : {address: "Unknown"}}) // thêm thuộc tính
+
+
+
+7. db.students.deleteMany({}) // xoá toàn bộ collection
+7.1. db.students.deleteMany({ age: { $lt: 20 } })
+7.2. db.students.deleteOne({ name: "Alice" }) // xoá 1 

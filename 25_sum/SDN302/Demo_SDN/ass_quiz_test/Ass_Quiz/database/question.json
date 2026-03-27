@@ -1,0 +1,30 @@
+[
+  {
+    "_id": { "$oid": "665f305c6b449f0d1437b6fb" },
+    "text": "What is the synonym of 'happy'?",
+    "options": ["Sad", "Angry", "Joyful", "Tired"],
+    "correctAnswer": "Joyful",
+    "testId": { "$oid": "665f30016b449f0d1437b6fa" }
+  },
+  {
+    "_id": { "$oid": "665f305c6b449f0d1437b6fc" },
+    "text": "Which one is a fruit?",
+    "options": ["Carrot", "Potato", "Apple", "Lettuce"],
+    "correctAnswer": "Apple",
+    "testId": { "$oid": "665f30016b449f0d1437b6fa" }
+  },
+  {
+    "_id": { "$oid": "665f305c6b449f0d1437b6fd" },
+    "text": "He ___ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "correctAnswer": "goes",
+    "testId": { "$oid": "665f30016b449f0d1437b6fb" }
+  },
+  {
+    "_id": { "$oid": "665f305c6b449f0d1437b6fe" },
+    "text": "She ___ playing tennis now.",
+    "options": ["is", "are", "was", "be"],
+    "correctAnswer": "is",
+    "testId": { "$oid": "665f30016b449f0d1437b6fb" }
+  }
+]

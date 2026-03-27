@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_666666" android:id="@id/tv_detail_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_4dp" android:includeFontPadding="false" android:layout_weight="0.6" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_4dp" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_666666" android:id="@id/tv_time_max_detail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="0.2" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_4dp" android:layout_marginEnd="@dimen/_4dp" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_666666" android:id="@id/tv_time_remain_detail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="0.2" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_4dp" android:layout_marginEnd="@dimen/_4dp" />
+</LinearLayout>

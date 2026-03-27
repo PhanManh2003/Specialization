@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_6dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/background_circle_shimmer_home" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_40dp" />
+    <View android:layout_gravity="center_vertical" android:background="@drawable/background_button_disable_register" android:layout_width="@dimen/_240dp" android:layout_height="@dimen/_20dp" android:layout_marginStart="@dimen/_8dp" />
+</LinearLayout>

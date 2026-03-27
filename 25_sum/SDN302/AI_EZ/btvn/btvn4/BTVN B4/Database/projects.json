@@ -1,0 +1,33 @@
+[
+    {
+      "_id": { "$oid": "660c057b766198f0e43c6001" },
+      "name": "Website E-Commerce",
+      "description": "Build a full-stack e-commerce website",
+      "manager": "John Doe",
+      "duration": "6 months",
+      "category": "Web Development",
+      "teamSize": 5,
+      "imageId": { "$oid": "660c057b766198f0e43c9001" }
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c6002" },
+      "name": "AI Chatbot",
+      "description": "Develop an AI-powered chatbot for customer support",
+      "manager": "Eleanor White",
+      "duration": "8 months",
+      "category": "Artificial Intelligence",
+      "teamSize": 7,
+      "imageId": { "$oid": "660c057b766198f0e43c9002" }
+    },
+    {
+      "_id": { "$oid": "660c057b766198f0e43c6003" },
+      "name": "Cybersecurity Dashboard",
+      "description": "Create a security monitoring dashboard for enterprise",
+      "manager": "Michael Smith",
+      "duration": "10 months",
+      "category": "Cybersecurity",
+      "teamSize": 4,
+      "imageId": { "$oid": "660c057b766198f0e43c9003" }
+    }
+  ]
+  

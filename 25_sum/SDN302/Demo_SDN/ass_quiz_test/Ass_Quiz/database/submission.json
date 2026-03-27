@@ -1,0 +1,19 @@
+{
+  "_id": { "$oid": "665f30b06b449f0d1437b6fd" },
+  "userId": { "$oid": "665f2fcb6b449f0d1437b6f9" },
+  "testId": { "$oid": "665f30016b449f0d1437b6fa" },
+  "score": 4,
+  "submittedAt": "2025-07-11T10:00:00Z",
+  "answers": [
+    {
+      "questionId": { "$oid": "665f305c6b449f0d1437b6fb" },
+      "userAnswer": "Joyful",
+      "isCorrect": true
+    },
+    {
+      "questionId": { "$oid": "665f305c6b449f0d1437b6fc" },
+      "userAnswer": "Potato",
+      "isCorrect": false
+    }
+  ]
+}

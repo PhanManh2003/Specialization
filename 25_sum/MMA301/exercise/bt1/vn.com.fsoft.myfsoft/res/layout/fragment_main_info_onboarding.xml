@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/toolbar_input_info" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_12dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/btn_back_input_info" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorBlack" android:id="@id/tv_toolbar_input_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_fill_info_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_input_info" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_input_info" />
+            <TextView android:textSize="@dimen/_12sp" android:textColor="@color/cursor_color" android:id="@id/tvSupport" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_support_title" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="@id/tv_toolbar_input_info" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_toolbar_input_info" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerViewInputInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_8dp" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="@id/vpShowInfoOnboard" app:layout_constraintTop_toTopOf="@id/vpShowInfoOnboard">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+            <include layout="@layout/shimmer_chtg_fpt_care" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <ViewStub android:id="@id/viewStubViewInfo" android:layout="@layout/fragment_main_view_info_onboarding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/viewStubEditInfo" android:layout="@layout/fragment_main_edit_info_onboarding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

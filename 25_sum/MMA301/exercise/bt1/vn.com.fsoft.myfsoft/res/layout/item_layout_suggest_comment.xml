@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/_14sp" android:textColor="@color/item_search_account_color" android:id="@id/tv_suggest_comment" android:background="@drawable/background_item_un_select_suggest_comment" android:paddingLeft="@dimen/_8dp" android:paddingTop="@dimen/_6dp" android:paddingRight="@dimen/_8dp" android:paddingBottom="@dimen/_6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_medium" android:layout_marginEnd="@dimen/_8dp" android:paddingHorizontal="@dimen/_8dp" android:paddingVertical="@dimen/_6dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

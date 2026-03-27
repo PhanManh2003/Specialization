@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/transition_history" motion:constraintSetEnd="@layout/fragment_learning_history_end" motion:constraintSetStart="@layout/fragment_learning_history" motion:duration="1000" motion:motionInterpolator="@android:anim/accelerate_interpolator">
+        <OnSwipe motion:dragDirection="dragUp" motion:touchAnchorId="@id/scroll_view" motion:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.5" android:scaleY="0.8" motion:framePosition="100" motion:motionTarget="@id/card_view_header" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8" motion:framePosition="100" motion:motionTarget="@id/toolbar_image" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

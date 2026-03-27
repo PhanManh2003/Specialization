@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="54.0dip" android:width="54.0dip" android:viewportWidth="54.0" android:viewportHeight="54.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_item_bingo_checked__0" android:pathData="M4,0L50,0A4,4 0,0 1,54 4L54,50A4,4 0,0 1,50 54L4,54A4,4 0,0 1,0 50L0,4A4,4 0,0 1,4 0z" />
+</vector>

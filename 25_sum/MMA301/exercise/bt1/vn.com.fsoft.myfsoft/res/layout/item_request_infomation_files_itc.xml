@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginBottom="@dimen/_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/salehub_files" android:layout_marginStart="@dimen/_12dp" style="@style/TextInterSemiBold14Gray8B8B8B" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_list_files_images" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_list_files_attachment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12dp" android:layout_marginTop="@dimen/_8dp" android:layout_marginRight="@dimen/_12dp" android:layout_marginHorizontal="@dimen/_12dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

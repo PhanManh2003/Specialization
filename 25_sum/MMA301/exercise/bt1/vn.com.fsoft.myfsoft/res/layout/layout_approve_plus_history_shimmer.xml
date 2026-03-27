@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/main" android:background="@color/color_f5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/item_approve_plus_history_shimmer" />
+        <include layout="@layout/item_approve_plus_history_shimmer" />
+        <include layout="@layout/item_approve_plus_history_shimmer" />
+        <include layout="@layout/item_approve_plus_history_shimmer" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

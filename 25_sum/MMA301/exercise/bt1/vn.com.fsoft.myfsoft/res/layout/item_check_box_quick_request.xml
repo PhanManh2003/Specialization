@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_14dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginBottom="@dimen/_14dp" android:layout_marginHorizontal="@dimen/_16dp" android:layout_marginVertical="@dimen/_14dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/img_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:contentDescription="@string/contentDescription" android:layout_marginEnd="@dimen/_8dp" />
+    <TextView android:id="@id/tv_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextInterMedium12Black" />
+</LinearLayout>

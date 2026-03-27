@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z" />
+        <path android:fillColor="@drawable/$icon_contract_info__0" android:pathData="M4.5,1L15.5,1A2,2 0,0 1,17.5 3L17.5,18A2,2 0,0 1,15.5 20L4.5,20A2,2 0,0 1,2.5 18L2.5,3A2,2 0,0 1,4.5 1z" />
+        <path android:fillColor="#ffffffff" android:pathData="M5.18,11.241h6.37v2.02h-6.37Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M14.276,16.359L5.658,16.359a0.478,0.478 0,1 1,0 -0.956h8.617a0.478,0.478 0,1 1,0 0.956Z" />
+    </group>
+</vector>

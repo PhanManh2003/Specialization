@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="45.0dip" android:width="110.0dip" android:viewportWidth="110.0" android:viewportHeight="45.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_count_down_timer_game_bingo__0" android:pathData="M22,0.25L88,0.25A21.75,21.75 0,0 1,109.75 22L109.75,22A21.75,21.75 0,0 1,88 43.75L22,43.75A21.75,21.75 0,0 1,0.25 22L0.25,22A21.75,21.75 0,0 1,22 0.25z" android:strokeColor="#ffd54e04" android:strokeWidth="0.5" />
+    <path android:fillColor="@drawable/$bg_count_down_timer_game_bingo__1" android:pathData="M23.17,3.83L86.83,3.83A18.17,18.17 0,0 1,105 22L105,22A18.17,18.17 0,0 1,86.83 40.17L23.17,40.17A18.17,18.17 0,0 1,5 22L5,22A18.17,18.17 0,0 1,23.17 3.83z" />
+    <path android:fillColor="#ffffffff" android:pathData="M12.33,12.25C13.55,13.52 14.11,10.6 17.09,9.53C18.16,9.01 21.67,8.27 20.33,7.28C19.32,5.93 16.37,7.25 15,7.94C13.62,8.63 11.1,10.99 12.33,12.25Z" />
+    <path android:fillColor="#ff7a2f06" android:pathData="M109,31.27C107.37,39.04 99.02,44.96 88.97,44.96H21.03C10.98,44.96 2.63,39.04 1,31.27C5.85,26.21 13.43,22.96 21.95,22.96H88.05C96.57,22.96 104.15,26.21 109,31.27Z" android:strokeAlpha="0.03" android:fillAlpha="0.03" />
+    <path android:fillColor="#fff8f4e5" android:pathData="M11.25,14.25m-1.25,0a1.25,1.25 0,1 1,2.5 0a1.25,1.25 0,1 1,-2.5 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M92.12,34.58C92.73,35.76 95.28,35.52 96.58,34.94C97.88,34.36 99.51,33.13 98.65,31.87C97.78,30.6 95.45,31.46 94.42,32.1C93.39,32.74 91.51,33.4 92.12,34.58Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+</vector>

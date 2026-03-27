@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/containerNewFriend" android:background="@drawable/background_dating_explore_selected" android:paddingTop="@dimen/_8dp" android:paddingBottom="@dimen/_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:id="@id/tvNewFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dating_tab_new_friend_title" android:fontFamily="@font/inter_semibold" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewParent" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivTable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_marginStart="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="@id/tvTitleTable" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tvTitleTable" />
+    <TextView android:id="@id/tvTitleTable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginBottom="@dimen/_16dp" android:layout_marginStart="@dimen/_8dp" android:layout_marginVertical="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/ivTable" app:layout_constraintTop_toTopOf="parent" style="@style/TextInterSemiBold14Black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/overlay_avatar" android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/_20dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <vn.com.fsoft.myfsoft.base.view.ZoomableImageView android:id="@id/iv_full_view" android:background="@color/colorTransparent" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/btn_back_img" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_4dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginTop="@dimen/_16dp" android:src="@drawable/ic_cancel_galley" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/_12dp" android:layout_alignParentEnd="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

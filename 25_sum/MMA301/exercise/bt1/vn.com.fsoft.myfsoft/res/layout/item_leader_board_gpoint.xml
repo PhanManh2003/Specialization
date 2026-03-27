@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_8dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="bottom" android:background="@drawable/shadow_item_gpoint" android:layout_width="fill_parent" android:layout_height="@dimen/_30dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/background_leader_board_gpoint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_4dp">
+        <ImageView android:id="@id/iv_cup_leader_board" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:src="@null" android:layout_marginStart="@dimen/_6dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+        <ImageView android:id="@id/iv_background_leader_board_gpoint" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:src="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="343:64" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="#ffec6608" android:id="@id/tv_leaderboard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gst_leaderboards" android:fontFamily="@font/inter_bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_marginEnd="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

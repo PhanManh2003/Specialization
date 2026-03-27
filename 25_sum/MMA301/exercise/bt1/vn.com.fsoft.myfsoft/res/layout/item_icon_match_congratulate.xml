@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/background_icon_match_congratulate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/colorBlack" android:layout_gravity="center" android:id="@id/imvIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/contentDescription" />
+</LinearLayout>

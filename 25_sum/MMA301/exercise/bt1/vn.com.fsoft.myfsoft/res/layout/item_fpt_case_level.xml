@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_fpt_care_level" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/background_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_12sp" android:textColor="@color/fpt_care_qlbh_color_title_level" android:id="@id/title_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_98dp" android:text="@string/fptcare_employee_level_title" android:fontFamily="@font/inter_bold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_32sp" android:textColor="@color/fpt_care_qlbh_color_content_level" android:id="@id/tv_content_level_qlbh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_bold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_level" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/background_header">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:id="@id/tv_general_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp" android:text="@string/fptcare_general_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGeneral" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_general_info" />
+                <View android:id="@id/view_line" android:background="@color/fpt_care_qlbh_color_view_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_6dp" android:layout_marginTop="@dimen/_20dp" app:layout_constraintTop_toBottomOf="@id/rvGeneral" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@android:color/black" android:id="@id/tv_insurance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:text="@string/fptcare_insurance_benifit_title" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_line" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_fpt_care_qlbh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" app:layout_constraintTop_toBottomOf="@id/tv_insurance" />
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_history_settlement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_16dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                        <include layout="@layout/shimmer_fpt_care_history_settlement" />
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+                <RelativeLayout android:id="@id/empty_state_view_cast_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_150dp" android:paddingStart="@dimen/_24dp" android:paddingEnd="@dimen/_24dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_insurance">
+                    <ImageView android:id="@id/empty_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerHorizontal="true" />
+                    <TextView android:id="@id/empty_state_textview" android:text="@string/fpt_care_empty_state_qlbh" android:layout_below="@id/empty_state_image" android:layout_centerHorizontal="true" style="@style/StyleTextViewEmptyStateAkaLink" />
+                </RelativeLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

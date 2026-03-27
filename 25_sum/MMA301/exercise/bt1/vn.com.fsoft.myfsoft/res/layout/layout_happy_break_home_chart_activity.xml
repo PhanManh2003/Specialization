@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginHorizontal="@dimen/_16dp" app:cardCornerRadius="@dimen/_12dp" app:cardElevation="@dimen/_0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/data" android:background="@color/color_CCDBF2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/colorWhite" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:background="@color/color_5289F7" android:paddingLeft="@dimen/_12dp" android:paddingTop="@dimen/_6dp" android:paddingRight="@dimen/_12dp" android:paddingBottom="@dimen/_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/happy_break_label_chart_activity" android:lines="1" android:includeFontPadding="false" android:fontFamily="@font/rowdies_light" android:paddingHorizontal="@dimen/_12dp" android:paddingVertical="@dimen/_6dp" />
+        <View android:background="@color/color_6387D5" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" />
+        <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/bg_happy_break_home_wrapper_item_body" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/_2dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/_8sp" android:textColor="@color/color_666666" android:id="@id/tv_measurement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6dp" android:text="@string/happy_break_label_unit_minute" android:fontFamily="@font/rowdies_light" />
+            <com.github.mikephil.charting.charts.BarChart android:gravity="center" android:id="@id/chart_activity" android:layout_width="fill_parent" android:layout_height="223.0dip" android:layout_marginLeft="@dimen/_12dp" android:layout_marginTop="@dimen/_17dp" android:layout_marginRight="@dimen/_12dp" android:layout_marginBottom="@dimen/_17dp" android:layout_marginHorizontal="@dimen/_12dp" android:layout_marginVertical="@dimen/_17dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp">
+        <View android:background="@color/bg_shimmer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.cardview.widget.CardView>

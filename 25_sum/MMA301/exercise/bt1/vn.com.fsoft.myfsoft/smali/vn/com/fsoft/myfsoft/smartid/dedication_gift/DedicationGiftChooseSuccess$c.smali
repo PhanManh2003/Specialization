@@ -1,0 +1,61 @@
+.class public final Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess;->y3()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic t:Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess;
+
+.field public final synthetic u:Landroid/os/Bundle;
+
+
+# direct methods
+.method public constructor <init>(Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess;Landroid/os/Bundle;)V
+    .locals 0
+
+    iput-object p1, p0, Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess$c;->t:Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess;
+
+    iput-object p2, p0, Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess$c;->u:Landroid/os/Bundle;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 1
+    iget-object p1, p0, Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess$c;->t:Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess;
+
+    invoke-virtual {p1}, Lxz/a/a/a/t1/m;->k3()Landroidx/navigation/NavController;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    const v0, 0x7f0a08c5
+
+    iget-object v1, p0, Lvn/com/fsoft/myfsoft/smartid/dedication_gift/DedicationGiftChooseSuccess$c;->u:Landroid/os/Bundle;
+
+    invoke-static {p1, v0, v1}, Lxz/a/a/a/r2/d/c/c/a/c;->m0(Landroidx/navigation/NavController;ILandroid/os/Bundle;)V
+
+    :cond_0
+    return-void
+.end method

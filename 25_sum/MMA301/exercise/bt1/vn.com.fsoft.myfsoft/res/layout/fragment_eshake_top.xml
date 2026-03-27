@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:layout_marginBottom="@dimen/_1dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabGravity="fill" app:tabMode="fixed" app:tabPaddingEnd="@dimen/_10dp" app:tabPaddingStart="@dimen/_10dp" style="@style/EshakeTabLayout" />
+    <View android:id="@id/view_tab" android:background="@color/bg_logwork_devider" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+    <vn.com.fsoft.myfsoft.game.run4green.view.CustomViewPagerRunForGreen android:id="@id/viewPager" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" android:animateLayoutChanges="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_tab" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_666666" android:id="@id/tv_date" android:background="@color/ebus_history_color_background" android:paddingLeft="@dimen/_16dp" android:paddingTop="@dimen/_8dp" android:paddingRight="@dimen/_16dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingHorizontal="@dimen/_16dp" android:paddingVertical="@dimen/_8dp" />
+</LinearLayout>

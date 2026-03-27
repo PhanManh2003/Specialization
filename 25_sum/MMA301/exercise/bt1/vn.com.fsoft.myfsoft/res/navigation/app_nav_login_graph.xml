@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/app_nav_login_graph" app:startDestination="@id/LoginFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="LoginFragment" android:name="vn.com.fsoft.myfsoft.login.LoginFragment" android:id="@id/LoginFragment">
+        <action android:id="@id/action_loginFragment_to_EbusPermissionFragment" app:destination="@id/EbusPermissionFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+        <action android:id="@id/action_loginFragment_to_EBusEnableBluetoothLocationFragment" app:destination="@id/EbusEnableBluetoothLocationFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+        <action android:id="@id/action_loginFragment_to_CheckinFragment" app:destination="@id/CheckinFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+        <action android:id="@id/action_loginFragment_to_LoginSupportFragment" app:destination="@id/loginSupportFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+        <action android:id="@id/action_LoginFragment_to_newsGuestModeFragment" app:destination="@id/newsGuestModeFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment android:label="EBusPermissionFragment" android:name="vn.com.fsoft.myfsoft.smartid.ebus.view.EBusPermissionFragment" android:id="@id/EbusPermissionFragment" />
+    <fragment android:label="EBusEnableBluetoothLocationFragment" android:name="vn.com.fsoft.myfsoft.smartid.ebus.view.EBusEnableBluetoothLocationFragment" android:id="@id/EbusEnableBluetoothLocationFragment" />
+    <fragment android:label="CheckinFragment" android:name="vn.com.fsoft.myfsoft.smartid.ebus.view.CheckinFragment" android:id="@id/CheckinFragment">
+        <action android:id="@id/action_LoginFragment_CheckinFragment_to_historyFragment" app:destination="@id/historyFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <action android:id="@id/globalActionLoginFragmentEbusPermissionFragment" app:destination="@id/EbusPermissionFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:launchSingleTop="true" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" app:popUpTo="@id/LoginFragment" />
+    <action android:id="@id/globalActionLoginFragmentCheckinFragment" app:destination="@id/CheckinFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:launchSingleTop="true" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" app:popUpTo="@id/LoginFragment" />
+    <action android:id="@id/globalActionLoginFragmentEbusEnableBluetoothLocationFragment" app:destination="@id/EbusEnableBluetoothLocationFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:launchSingleTop="true" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" app:popUpTo="@id/LoginFragment" />
+    <fragment android:label="HistoryFragment" android:name="vn.com.fsoft.myfsoft.smartid.ebus.view.EBusHistoryFragment" android:id="@id/historyFragment" />
+    <fragment android:label="loginSupportFragment" android:name="vn.com.fsoft.myfsoft.setting.support.NewSupportFragment" android:id="@id/loginSupportFragment" />
+    <fragment android:label="loginSupportFragment" android:name="vn.com.fsoft.myfsoft.setting.support.NewSupportFragment" android:id="@id/loginOnBoardingFragment" />
+    <fragment android:label="loginSupportFragment" android:name="vn.com.fsoft.myfsoft.onboarding.view." android:id="@id/welcomeOnboardingFragment" />
+</navigation>

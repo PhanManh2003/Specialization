@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/_55dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineLine2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.25" />
+    <TextView android:textStyle="bold" android:textColor="@color/colorBlack" android:id="@id/tvTimeLine2" android:background="@color/bg_shimmer" android:layout_width="@dimen/_328dp" android:layout_height="@dimen/_12dp" app:layout_constraintBottom_toTopOf="@id/viewSeparatorLine2" app:layout_constraintTop_toTopOf="parent" app:layout_editor_absoluteX="@dimen/_30dp" />
+    <View android:id="@id/viewSeparatorLine2" android:background="@color/newsBgColor" android:layout_width="0.0dip" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/guidelineLine2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

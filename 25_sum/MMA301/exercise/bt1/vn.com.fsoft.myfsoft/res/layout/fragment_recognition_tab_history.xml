@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_history" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:text_empty="@string/reward_history_emptystate_text" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_layout" android:paddingLeft="@dimen/_16dp" android:paddingRight="@dimen/_16dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/_16dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/shimmer_history_honors_received" />
+            <include layout="@layout/shimmer_history_honors_received" />
+            <include layout="@layout/shimmer_history_honors_received" />
+            <include layout="@layout/shimmer_history_honors_received" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

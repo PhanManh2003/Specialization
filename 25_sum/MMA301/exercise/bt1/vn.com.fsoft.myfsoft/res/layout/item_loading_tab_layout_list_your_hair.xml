@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/colorWhite" android:paddingTop="@dimen/_8dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:paddingVertical="@dimen/_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/_14sp" android:gravity="center" android:background="@color/bg_shimmer" android:layout_width="@dimen/_104dp" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:ellipsize="end" android:gravity="center" android:background="@color/bg_shimmer" android:layout_width="@dimen/_111dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2dp" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/_14sp" android:gravity="center" android:background="@color/bg_shimmer" android:layout_width="@dimen/_104dp" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:ellipsize="end" android:gravity="center" android:background="@color/bg_shimmer" android:layout_width="@dimen/_111dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2dp" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

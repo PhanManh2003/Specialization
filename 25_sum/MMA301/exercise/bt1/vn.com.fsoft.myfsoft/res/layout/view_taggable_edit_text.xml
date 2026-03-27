@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout" android:hint="" style="@style/AppTextInputStyle">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:id="@id/editText" android:singleLine="true" android:maxLength="100" android:inputType="textCapWords" android:imeOptions="actionDone" android:dropDownHeight="wrap_content" style="@style/AppTextInputEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.chip.ChipGroup android:id="@id/chipGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5dp" app:chipSpacingHorizontal="@dimen/_10dp" app:chipSpacingVertical="@dimen/_5dp" />
+</LinearLayout>

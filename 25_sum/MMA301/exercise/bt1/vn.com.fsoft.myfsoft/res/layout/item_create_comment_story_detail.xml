@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_create_comment_detail_story_dating" android:paddingLeft="@dimen/_12dp" android:paddingTop="@dimen/_8dp" android:paddingRight="@dimen/_12dp" android:paddingBottom="@dimen/_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15dp" android:layout_marginBottom="@dimen/_15dp" android:layout_marginStart="@dimen/_16dp" android:layout_marginVertical="@dimen/_15dp" android:paddingHorizontal="@dimen/_12dp" android:paddingVertical="@dimen/_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tvTotalComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" />
+    <ImageView android:layout_width="@dimen/_16dp" android:layout_height="@dimen/_16dp" android:src="@drawable/ic_common_arrow_down" android:rotation="180.0" android:layout_marginStart="@dimen/_10dp" />
+</LinearLayout>

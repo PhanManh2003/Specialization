@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/view_background" android:background="@color/item_loading_bus_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/item_loading_bus_detail" android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:id="@id/service_list_header_background" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_24sp" android:textStyle="bold" android:textColor="@color/colorWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toollist_header_title" app:layout_constraintBottom_toBottomOf="@id/service_list_header_background" app:layout_constraintEnd_toEndOf="@id/service_list_header_background" app:layout_constraintStart_toStartOf="@id/service_list_header_background" app:layout_constraintTop_toTopOf="@id/service_list_header_background" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/service_list_rv" android:paddingTop="@dimen/_16dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/_24dp" android:paddingEnd="@dimen/_24dp" android:nestedScrollingEnabled="false" app:layout_constraintTop_toBottomOf="@id/service_list_header_background" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/service_list_shimmer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/service_list_header_background">
+                    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/service_list_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <include layout="@layout/item_service_list_shimmer" />
+                            <include layout="@layout/item_service_list_shimmer" />
+                            <include layout="@layout/item_service_list_shimmer" />
+                            <include layout="@layout/item_service_list_shimmer" />
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state_view_his" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_56dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/service_list_header_background" app:text_empty="@string/toollist_search_empty_msg" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

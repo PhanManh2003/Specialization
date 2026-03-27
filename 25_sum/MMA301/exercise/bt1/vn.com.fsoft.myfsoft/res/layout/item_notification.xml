@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/item_notification_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bg" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="?selectableItemBackground" android:padding="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivNotiCategory" android:tag="binding_2" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_40dp" android:src="@drawable/icon_noti_news" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/layout_noti_content" />
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/layout_noti_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_12dp" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/llGoldGroup" app:layout_constraintStart_toEndOf="@id/ivNotiCategory" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:ellipsize="end" android:id="@id/tvNotiContent" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:fontFamily="@font/inter_regular" />
+                <TextView android:textSize="@dimen/_12sp" android:textColor="@color/recognition_description_color" android:id="@id/tvNotiDate" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:fontFamily="@font/inter_medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutRecog" android:tag="binding_5" android:background="@drawable/bg_thanks_notification" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_40dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/layout_noti_content">
+                <ImageView android:id="@id/ivRecogMedal" android:tag="binding_6" android:layout_width="@dimen/_16dp" android:layout_height="@dimen/_16dp" android:src="@null" />
+            </LinearLayout>
+            <ImageView android:id="@id/layoutNews" android:tag="binding_7" android:layout_width="@dimen/_40dp" android:layout_height="@dimen/_40dp" android:src="@null" app:layout_constraintEnd_toStartOf="@id/layoutRecog" app:layout_constraintTop_toTopOf="@id/layout_noti_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llGoldGroup" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/layoutNews" app:layout_constraintTop_toTopOf="@id/layout_noti_content">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:ellipsize="end" android:id="@id/tvNotiGoldCount" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/inter_bold" />
+                <ImageView android:tag="binding_10" android:paddingTop="@dimen/_2dp" android:layout_width="wrap_content" android:layout_height="@dimen/_16dp" android:src="@null" android:paddingStart="@dimen/_2dp" android:paddingEnd="@dimen/_0dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <View android:id="@id/separator" android:background="@drawable/bg_divider_big_my_profile_detail" android:layout_width="fill_parent" android:layout_height="@dimen/_8dp" android:layout_marginStart="@dimen/_2_am_dp" android:layout_marginEnd="@dimen/_2_am_dp" />
+</LinearLayout>

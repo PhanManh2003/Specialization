@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:background="@color/bg_chtg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/header_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+            <androidx.cardview.widget.CardView android:id="@id/container_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-25.0dip" android:layout_below="@id/header_background" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:cardCornerRadius="@dimen/_8dp" app:cardElevation="@dimen/_6dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/item_search_account_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginBottom="@dimen/_16dp" android:text="@string/fptcare_find_hospital_title" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/img_search" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@id/img_search" android:layout_width="@dimen/_24dp" android:layout_height="@dimen/_24dp" android:src="@drawable/ic_common_search_blue" android:layout_marginEnd="@dimen/_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/container_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" android:layout_below="@id/container_search" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:cardCornerRadius="@dimen/_8dp" app:cardElevation="@dimen/_6dp">
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/fpt_care_color_city" android:id="@id/title_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_7dp" android:text="@string/fptcare_province_title" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_12dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/title_city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1dp" android:layout_marginBottom="@dimen/_9dp" android:text="@string/common_all_title" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_location" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_31dp" android:layout_below="@id/container_location" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" android:layout_alignParentStart="true">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/title_dscsyt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fptcare_list_hospital_guarantee_title" android:fontFamily="@font/inter_semibold" app:layout_constraintEnd_toStartOf="@id/searchCSYTLT" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <vn.com.fsoft.myfsoft.base.view.UnderlineTextView android:textSize="@dimen/_12sp" android:textColor="@color/color_185ECE" android:id="@id/searchCSYTLT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fptcare_excluded_list_title" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_16dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/title_dscsyt" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_dscsyt" android:paddingTop="@dimen/_4dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_12dp" android:layout_below="@id/container_text" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_dscsyt_fpt_care" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20dp" android:layout_below="@id/container_text">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                    <include layout="@layout/shimmer_chtg_fpt_care" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <TextView android:textColor="@color/color_185ECE" android:gravity="center" android:id="@id/tvLoadMore" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:text="@string/common_view_more_title" android:layout_below="@id/rv_dscsyt" android:fontFamily="@font/inter_semibold" />
+            <androidx.core.widget.ContentLoadingProgressBar android:id="@id/loadingMore_progress" android:padding="@dimen/_8dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_48dp" android:layout_below="@id/rv_dscsyt" style="?android:progressBarStyle" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/container_empty_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/container_text">
+                <ImageView android:id="@id/img_empty" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20dp" android:src="@null" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_empty" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:text="@string/fpt_care_empty_state_qlbh" android:layout_below="@id/img_empty" android:layout_centerHorizontal="true" app:layout_constraintTop_toBottomOf="@id/img_empty" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="21.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="21.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$icon_celeb_gold_transfer__0" android:pathData="M17.813,9.477C17.813,5.295 15.238,1.762 11.964,1.544H9.246C5.862,1.653 4.693,5.338 4.693,9.587C4.693,13.836 5.853,17.161 9.236,17.358L9.277,17.369H11.896C15.169,17.042 17.813,13.66 17.813,9.477Z" />
+    <path android:fillColor="#ffffd6ac" android:pathData="M9.098,17.306C12.466,17.306 15.196,13.768 15.196,9.403C15.196,5.038 12.466,1.5 9.098,1.5C5.73,1.5 3,5.038 3,9.403C3,13.768 5.73,17.306 9.098,17.306Z" />
+    <path android:fillColor="@drawable/$icon_celeb_gold_transfer__1" android:pathData="M8.784,17.042C11.978,17.042 14.568,13.65 14.568,9.465C14.568,5.28 11.978,1.888 8.784,1.888C5.59,1.888 3,5.28 3,9.465C3,13.65 5.59,17.042 8.784,17.042Z" />
+    <path android:fillColor="@drawable/$icon_celeb_gold_transfer__2" android:pathData="M8.207,15.353C10.557,15.353 12.462,12.759 12.462,9.559C12.462,6.359 10.557,3.765 8.207,3.765C5.857,3.765 3.952,6.359 3.952,9.559C3.952,12.759 5.857,15.353 8.207,15.353Z" />
+    <path android:fillColor="@drawable/$icon_celeb_gold_transfer__3" android:pathData="M8.471,15.161C10.675,15.161 12.462,12.683 12.462,9.627C12.462,6.571 10.675,4.093 8.471,4.093C6.267,4.093 4.48,6.571 4.48,9.627C4.48,12.683 6.267,15.161 8.471,15.161Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M3.366,9.027C3.564,9.067 3.767,9.069 3.966,9.033C4.132,5.883 6.098,3.396 8.5,3.396C10.922,3.396 12.9,5.925 13.038,9.113C13.253,9.142 13.472,9.137 13.685,9.097C13.899,9.099 14.112,9.065 14.315,8.997C14.033,4.978 11.692,1.997 8.55,1.997C5.408,1.997 3.314,4.797 3.028,8.809C3.113,8.918 3.232,8.995 3.366,9.027V9.027Z" android:strokeAlpha="0.1" android:fillAlpha="0.1" />
+    <path android:fillColor="#ffffffff" android:pathData="M11.888,9.226C11.781,6.549 10.219,4.426 8.307,4.426C6.395,4.426 4.807,6.582 4.724,9.288C7.082,9.847 9.54,9.826 11.888,9.226Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="#ff000000" android:pathData="M14.411,19.118C14.411,19.329 12.611,19.5 10.384,19.5C8.157,19.5 6.357,19.329 6.357,19.118C6.357,18.907 8.157,18.736 10.384,18.736C12.611,18.736 14.411,18.907 14.411,19.118Z" android:strokeAlpha="0.1" android:fillAlpha="0.1" />
+</vector>

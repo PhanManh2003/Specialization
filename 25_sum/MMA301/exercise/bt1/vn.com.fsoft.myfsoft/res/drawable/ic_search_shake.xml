@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="120.25098dip" android:width="120.328dip" android:viewportWidth="120.328" android:viewportHeight="120.251"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_search_shake__0" android:pathData="M114.547,120.001a5.436,5.436 0,0 1,-3.856 -1.6l-30,-30A5.454,5.454 0,1 1,88.404 80.692l30,30a5.455,5.455 0,0 1,-3.856 9.311Z" android:strokeColor="#ffdff2fc" android:strokeWidth="0.5" />
+    <path android:fillColor="#ff43a6dd" android:pathData="M80.693,88.405A5.453,5.453 0,0 1,88.402 80.692l11.443,11.44a49.39,49.39 0,0 1,-8.016 7.406Z" android:strokeAlpha="0.1" android:fillAlpha="0.1" />
+    <path android:fillColor="@drawable/$ic_search_shake__1" android:pathData="M51.818,51.818m-49.091,0a49.091,49.091 0,1 1,98.182 0a49.091,49.091 0,1 1,-98.182 0" android:strokeColor="#ffdff2fc" android:strokeWidth="0.5" />
+    <path android:fillColor="@drawable/$ic_search_shake__2" android:pathData="M51.819,103.637a51.819,51.819 0,1 1,51.819 -51.819A51.876,51.876 0,0 1,51.819 103.637ZM51.819,5.454A46.364,46.364 0,1 0,98.183 51.819,46.416 46.416,0 0,0 51.819,5.455Z" />
+    <path android:fillColor="@drawable/$ic_search_shake__3" android:pathData="M25.093,49.091a2.727,2.727 0,0 1,-2.675 -3.273,29.91 29.91,0 0,1 23.4,-23.4A2.727,2.727 0,1 1,46.906 27.763,24.467 24.467,0 0,0 27.763,46.901a2.727,2.727 0,0 1,-2.67 2.187Z" />
+</vector>

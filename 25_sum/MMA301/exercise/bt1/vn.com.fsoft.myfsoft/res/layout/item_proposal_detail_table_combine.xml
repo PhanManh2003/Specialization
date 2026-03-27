@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewParent" android:background="@color/colorWhite" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:scrollbarSize="@dimen/_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvTableCombine" android:paddingBottom="@dimen/_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvTableFixed" android:background="@color/colorWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" android:elevation="@dimen/_8dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

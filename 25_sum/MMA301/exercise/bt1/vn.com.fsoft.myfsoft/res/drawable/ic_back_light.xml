@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="699.0dip" android:width="699.0dip" android:viewportWidth="699.0" android:viewportHeight="699.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_back_light__0" android:pathData="M335.55,0.67H398.06L373.05,350.06H359.66L335.55,0.67Z" />
+    <path android:fillColor="@drawable/$ic_back_light__1" android:pathData="M363.45,698.33L300.94,698.33L325.95,348.94L339.34,348.94L363.45,698.33Z" />
+    <path android:fillColor="@drawable/$ic_back_light__2" android:pathData="M698.33,335.55L698.33,398.06L348.94,373.05L348.94,359.66L698.33,335.55Z" />
+    <path android:fillColor="@drawable/$ic_back_light__3" android:pathData="M0.67,363.45L0.67,300.94L350.06,325.95L350.06,339.34L0.67,363.45Z" />
+    <path android:fillColor="@drawable/$ic_back_light__4" android:pathData="M586.26,92.94L630.46,137.14L365.9,366.34L356.43,356.87L586.26,92.94Z" />
+    <path android:fillColor="@drawable/$ic_back_light__5" android:pathData="M112.74,606.06L68.54,561.86L333.1,332.66L342.57,342.13L112.74,606.06Z" />
+    <path android:fillColor="@drawable/$ic_back_light__6" android:pathData="M606.06,586.26L561.86,630.46L332.66,365.9L342.13,356.43L606.06,586.26Z" />
+    <path android:fillColor="@drawable/$ic_back_light__7" android:pathData="M92.94,112.74L137.14,68.54L366.34,333.1L356.87,342.57L92.94,112.74Z" />
+    <path android:fillColor="@drawable/$ic_back_light__8" android:pathData="M511.79,40.4L565.92,71.66L369.7,361.52L358.1,354.82L511.79,40.4Z" />
+    <path android:fillColor="@drawable/$ic_back_light__9" android:pathData="M187.21,658.6L133.08,627.34L329.3,337.48L340.9,344.18L187.21,658.6Z" />
+    <path android:fillColor="@drawable/$ic_back_light__10" android:pathData="M658.6,511.79L627.34,565.92L337.48,369.7L344.18,358.1L658.6,511.79Z" />
+    <path android:fillColor="@drawable/$ic_back_light__11" android:pathData="M40.4,187.21L71.66,133.08L361.52,329.3L354.82,340.9L40.4,187.21Z" />
+    <path android:fillColor="@drawable/$ic_back_light__12" android:pathData="M682.82,245.69L699,306.07L355.28,372.28L351.82,359.34L682.82,245.69Z" />
+    <path android:fillColor="@drawable/$ic_back_light__13" android:pathData="M16.18,453.31L-0,392.93L343.72,326.72L347.18,339.66L16.18,453.31Z" />
+    <path android:fillColor="@drawable/$ic_back_light__14" android:pathData="M453.31,682.82L392.93,699L326.72,355.28L339.66,351.82L453.31,682.82Z" />
+    <path android:fillColor="@drawable/$ic_back_light__15" android:pathData="M245.69,16.18L306.07,-0L372.28,343.72L359.34,347.18L245.69,16.18Z" />
+    <path android:fillColor="@drawable/$ic_back_light__16" android:pathData="M644.59,162.96L675.85,217.09L360.98,370.01L354.28,358.41L644.59,162.96Z" />
+    <path android:fillColor="@drawable/$ic_back_light__17" android:pathData="M54.4,536.04L23.15,481.91L338.02,328.99L344.72,340.59L54.4,536.04Z" />
+    <path android:fillColor="@drawable/$ic_back_light__18" android:pathData="M536.04,644.59L481.91,675.85L328.99,360.98L340.59,354.28L536.04,644.59Z" />
+    <path android:fillColor="@drawable/$ic_back_light__19" android:pathData="M162.96,54.4L217.09,23.15L370.01,338.02L358.41,344.72L162.96,54.4Z" />
+    <path android:fillColor="@drawable/$ic_back_light__20" android:pathData="M690.07,426.26L673.89,486.64L343.12,372.12L346.58,359.18L690.07,426.26Z" />
+    <path android:fillColor="@drawable/$ic_back_light__21" android:pathData="M8.93,272.74L25.11,212.36L355.88,326.88L352.42,339.82L8.93,272.74Z" />
+    <path android:fillColor="@drawable/$ic_back_light__22" android:pathData="M272.74,690.07L212.36,673.89L326.88,343.12L339.82,346.58L272.74,690.07Z" />
+    <path android:fillColor="@drawable/$ic_back_light__23" android:pathData="M426.26,8.93L486.64,25.11L372.12,355.88L359.18,352.42L426.26,8.93Z" />
+</vector>

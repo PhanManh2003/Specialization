@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/container_outter" android:background="@drawable/background_step_progress_outter" android:layout_width="fill_parent" android:layout_height="@dimen/_14dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/container_inner" android:background="@drawable/background_step_progress_inner" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/_2dp" android:layout_marginBottom="@dimen/_2dp" android:layout_marginStart="@dimen/_2dp" android:layout_marginEnd="@dimen/_2dp" app:layout_constraintBottom_toBottomOf="@id/container_outter" app:layout_constraintEnd_toEndOf="@id/glPrize" app:layout_constraintStart_toStartOf="@id/container_outter" app:layout_constraintTop_toTopOf="@id/container_outter" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/glPrize" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/container_inner" app:layout_constraintGuide_percent="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

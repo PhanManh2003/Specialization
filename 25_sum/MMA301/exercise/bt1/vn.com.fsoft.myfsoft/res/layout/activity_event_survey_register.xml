@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lyMainContent" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/layoutSearchHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/_0dp" app:cardElevation="@dimen/_15dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <vn.com.fsoft.myfsoft.base.view.ToolBar android:id="@id/appToolBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_20dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/container_survey" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_42dp" android:elevation="@dimen/_10dp" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_survey" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_10dp" android:contentInsetStart="@dimen/_0dp" android:contentInsetEnd="@dimen/_0dp" android:contentInsetLeft="@dimen/_0dp" android:contentInsetRight="@dimen/_0dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetLeft="@dimen/_0dp" app:contentInsetRight="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_collapseMode="pin" app:layout_constraintTop_toTopOf="parent">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyToolBar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/imBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <TextView android:textSize="@dimen/_16sp" android:textColor="@android:color/black" android:id="@id/tv_title_survey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_survey_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <WebView android:id="@id/wvRegisterSurvey" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/flLoadingProgress" android:background="@color/colorWhiteAlpha30" android:paddingBottom="@dimen/_44dp" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:padding="@dimen/_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@anim/anim_loading_rotate" style="?android:progressBarStyle" />
+    </FrameLayout>
+</FrameLayout>

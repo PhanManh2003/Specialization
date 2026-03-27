@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:cardCornerRadius="@dimen/_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_30dp" android:layout_marginBottom="@dimen/_30dp" style="?android:progressBarStyle" />
+        <TextView android:textSize="@dimen/_17sp" android:textColor="@color/colorBlack" android:id="@id/dialogContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_15dp" android:layout_marginEnd="@dimen/_15dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

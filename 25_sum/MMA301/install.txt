@@ -1,0 +1,21 @@
+npx expo install 
+expo-image-picker 
+expo-location 
+react-native-maps 
+@react-native-async-storage/async-storage
+
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "expo": "~53.0.15",
+    "expo-dev-client": "~5.2.2",
+    "expo-image-picker": "~16.1.4",
+    "expo-location": "~18.1.6",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.4",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-geolocation-service": "^5.3.1",
+    "react-native-maps": "1.20.1"
+  },

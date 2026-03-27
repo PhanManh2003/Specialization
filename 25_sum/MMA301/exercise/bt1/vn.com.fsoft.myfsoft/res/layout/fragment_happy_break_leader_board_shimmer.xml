@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:layout_marginTop="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/viewTabLayoutShimmer" android:background="@drawable/background_tab_layout_happy_break" android:paddingLeft="@dimen/_4dp" android:paddingRight="@dimen/_4dp" android:layout_width="fill_parent" android:layout_height="@dimen/_42dp" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_4dp" android:layout_marginRight="@dimen/_16dp" android:elevation="@dimen/_0dp" android:layout_marginHorizontal="@dimen/_16dp" android:paddingHorizontal="@dimen/_4dp">
+                    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayoutTypeShimmer" android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_0dp" app:tabIndicatorColor="@android:color/transparent" app:tabPaddingBottom="@dimen/_4dp" app:tabPaddingEnd="@dimen/_0dp" app:tabPaddingStart="@dimen/_0dp" app:tabPaddingTop="@dimen/_4dp" app:tabRippleColor="@android:color/transparent">
+                        <com.google.android.material.tabs.TabItem android:background="@color/bg_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <com.google.android.material.tabs.TabItem android:background="@color/bg_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <com.google.android.material.tabs.TabItem android:background="@color/bg_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </com.google.android.material.tabs.TabLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/rvMedalPodiumShimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_50dp">
+                    <include layout="@layout/item_medal_podium_happy_break_shimmer" />
+                    <include layout="@layout/item_medal_podium_happy_break_shimmer" />
+                    <include layout="@layout/item_medal_podium_happy_break_shimmer" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bg_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_8dp" android:layout_marginTop="-116.0dip" android:layout_marginRight="@dimen/_8dp" android:layout_marginHorizontal="@dimen/_8dp">
+                    <ImageView android:id="@id/headerShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/background_image_shimmer_home" android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@id/bodyShimmer" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:src="@drawable/background_image_shimmer_home" android:scaleType="fitXY" app:layout_constraintBottom_toTopOf="@id/footerShimmer" app:layout_constraintTop_toBottomOf="@id/headerShimmer" />
+                    <ImageView android:id="@id/footerShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-14.0dip" android:src="@drawable/background_image_shimmer_home" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="@id/rvRankingShimmer" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/rvRankingShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                        <include layout="@layout/item_individual_ranking_happy_break_shimmer" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_32dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="21.0dip" android:viewportWidth="21.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_love_20__0" android:pathData="M5.039,5.867C7.597,3.104 9.786,6.077 10.456,6.073C11.125,6.068 14.138,3.061 16.115,6.202C18.091,9.343 11.53,15.323 10.516,15.33C9.502,15.336 2.482,8.629 5.039,5.867Z" />
+</vector>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:paddingTop="@dimen/_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:background="@color/commentBgColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_vi_name" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_vi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:layout_marginStart="@dimen/_14dp">
+                    <ImageView android:id="@id/iv_vi_name_indicator" style="@style/StyleImageViewDotOrganizationChartDetail" />
+                    <TextView android:id="@id/tv_title_vi_namne" android:text="@string/organizationchart_vnname_title" android:layout_toEndOf="@id/iv_vi_name_indicator" style="@style/StyleTextViewOrganizationChartDetail" />
+                </RelativeLayout>
+                <TextView android:id="@id/tv_content_vi_name" style="@style/StyleTextViewContentOrganizationChartDetail" />
+                <View style="@style/StyleViewDivideOrganizationChartDetail" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_function" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_vi_name">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_function" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:layout_marginStart="@dimen/_14dp">
+                    <ImageView android:id="@id/iv_indicato1" style="@style/StyleImageViewDotOrganizationChartDetail" />
+                    <TextView android:id="@id/tv_title_function" android:text="@string/organizationchart_function_title" android:layout_toEndOf="@id/iv_indicato1" style="@style/StyleTextViewOrganizationChartDetail" />
+                </RelativeLayout>
+                <TextView android:id="@id/tv_content_function" style="@style/StyleTextViewContentOrganizationChartDetail" />
+                <View style="@style/StyleViewDivideOrganizationChartDetail" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_product" android:background="@color/colorWhite" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_function">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_product" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:layout_marginStart="@dimen/_14dp">
+                    <ImageView android:id="@id/iv_indicato2" style="@style/StyleImageViewDotOrganizationChartDetail" />
+                    <TextView android:id="@id/tv_title_product" android:text="@string/organizationchart_product_title" android:layout_toEndOf="@id/iv_indicato2" style="@style/StyleTextViewOrganizationChartDetail" />
+                </RelativeLayout>
+                <TextView android:id="@id/tv_content_product" style="@style/StyleTextViewContentOrganizationChartDetail" />
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/et_content_product" android:visibility="gone" android:text="Banking Finance" style="@style/StyleEditTextOrganizationChartDetail" />
+                <View style="@style/StyleViewDivideOrganizationChartDetail" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_technology" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_product">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_technology" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:layout_marginStart="@dimen/_14dp">
+                    <ImageView android:id="@id/iv_indicato3" style="@style/StyleImageViewDotOrganizationChartDetail" />
+                    <TextView android:id="@id/tv_title_technology" android:text="@string/organizationchart_technology_title" android:layout_toEndOf="@id/iv_indicato3" style="@style/StyleTextViewOrganizationChartDetail" />
+                </RelativeLayout>
+                <TextView android:id="@id/tv_content_technology" style="@style/StyleTextViewContentOrganizationChartDetail" />
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/et_content_technology" android:visibility="gone" android:text="Banking Finance" style="@style/StyleEditTextOrganizationChartDetail" />
+                <View style="@style/StyleViewDivideOrganizationChartDetail" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@id/layout_manager" android:background="@color/colorWhite" android:paddingBottom="@dimen/_18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_technology">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_manager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:layout_marginStart="@dimen/_14dp">
+                    <ImageView android:id="@id/iv_indicator5" style="@style/StyleImageViewDotOrganizationChartDetail" />
+                    <TextView android:text="@string/organizationchart_manager_title" android:layout_toEndOf="@id/iv_indicator5" style="@style/StyleTextViewOrganizationChartDetail" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/tv_prime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_14dp" android:text="@string/organization_detail_prime" android:layout_below="@id/rl_manager" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/_28dp" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_prime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_50dp" android:layout_marginStart="@dimen/_108dp">
+                    <ImageView android:id="@id/iv_prime" android:layout_width="@dimen/_32dp" android:layout_height="@dimen/_32dp" />
+                    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/wiki_accent_color" android:layout_gravity="center_vertical" android:id="@id/tv_prime_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5dp" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlack" android:id="@id/tv_seconday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_23dp" android:text="@string/organization_detail_secondary" android:layout_below="@id/tv_prime" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/_28dp" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_manager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_prime" android:layout_marginStart="@dimen/_108dp" />
+            </RelativeLayout>
+            <View android:id="@id/rl_divide_view" android:layout_below="@id/layout_manager" style="@style/StyleViewDivideOrganizationChartDetail" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/rl_employee" android:background="@color/colorWhite" android:paddingTop="@dimen/_18dp" android:paddingBottom="@dimen/_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_divide_view">
+                <ImageView android:id="@id/iv_indicator2" android:paddingTop="@dimen/_4dp" android:layout_width="@dimen/_6dp" android:layout_height="wrap_content" android:src="@drawable/ic_indicate_organization_chart" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_14sp" android:textStyle="bold" android:textColor="@color/colorBlack" android:paddingTop="@dimen/_4dp" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:text="@string/organizationchart_employee_title" android:fontFamily="sans-serif" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/iv_indicator2" app:layout_constraintBottom_toBottomOf="@id/iv_indicator2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_indicator2" app:layout_constraintTop_toTopOf="@id/iv_indicator2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_employee_info_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_employee" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/org_chart_detail_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/item_org_chart_detail_loading" />
+                    <View android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="@dimen/_10dp" />
+                    <include layout="@layout/item_org_chart_detail_loading" />
+                    <View android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="@dimen/_10dp" />
+                    <include layout="@layout/item_org_chart_detail_loading" />
+                    <View android:background="@color/colorGreyBus" android:layout_width="fill_parent" android:layout_height="@dimen/_10dp" />
+                    <include layout="@layout/item_org_chart_detail_loading" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

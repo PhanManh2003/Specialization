@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_detail" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/toolbar_background" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="1.0dip" android:elevation="@dimen/_6dp" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="@dimen/_56dp" android:elevation="@dimen/_6dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toBottomOf="@id/toolbar_background">
+            <ImageButton android:layout_gravity="start|center" android:id="@id/btnBack" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:contentDescription="@string/contentDescription" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" />
+            <TextView android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_12dp" android:text="@string/e_learning2_course_details" style="@style/TextInterSemiBold16Black" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toTopOf="@id/llFooter" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_detail" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toTopOf="@id/llFooter" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <include layout="@layout/shimmer_e_learning_course_detail" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/llFooter" android:background="@drawable/bg_footer_tss_detail" android:paddingTop="@dimen/_12dp" android:paddingBottom="@dimen/_12dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="parent">
+            <Button android:textSize="@dimen/_14sp" android:textColor="@color/colorWhite" android:id="@id/btn_register" android:background="@drawable/bg_button_approve_ticket_detail" android:layout_width="0.0dip" android:layout_height="@dimen/_50dp" android:layout_marginLeft="@dimen/_16dp" android:layout_marginRight="@dimen/_16dp" android:text="@string/ebus_register_title" android:layout_weight="1.0" android:textAllCaps="true" android:fontFamily="@font/inter_semibold" android:layout_marginHorizontal="@dimen/_16dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

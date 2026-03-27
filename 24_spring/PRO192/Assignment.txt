@@ -1,0 +1,25 @@
+Assignment: Managing a Student List using ArrayList
+
+Assignment Description:
+
+Create a Java program to manage a list of students in a class.
+Each student has the following information: Name, Age, and Score.
+Requirements:
+
+Use an ArrayList to store the list of students.
+Implement the following functionalities:
+Add Student: Add a new student to the list.
+Remove Student: Remove a student from the list based on their name.
+Update Score: Update the score for a student.
+Display List: Display the entire list of students.
+Search for Student: Search for a student by name.
+Sort List: Sort the list of students by their scores in ascending order.
+Implementation Suggestions:
+
+Create a Student class with properties: name, age, score.
+Create a StudentManager class containing an ArrayList<Student> and methods to perform the above functionalities.
+Use methods of ArrayList such as add(), remove(), set(), sort(), etc., to fulfill the requirements.
+Extended Problem:
+
+Add functionality to filter the list of students who have scores above a certain threshold.
+Write and read the student list from a file.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M2,2h20v20h-20z" />
+        <path android:fillColor="@drawable/$ic_milestone_six__0" android:pathData="M5.992,10.335L7.6,14.094L4.65,21.094H2L5.992,10.335Z" />
+        <path android:fillColor="@drawable/$ic_milestone_six__1" android:pathData="M12.225,8.346V7.315H18.257V2.936H12.213V2H11.092L11.109,8.356C5.941,21.163 5.966,21.093 5.969,21.093C5.972,21.093 17.385,21.093 17.384,21.093C17.383,21.093 17.487,21.37 12.225,8.346Z" />
+        <path android:fillColor="@drawable/$ic_milestone_six__2" android:pathData="M17.281,10.335L15.731,14.094L18.576,21.094H21.131L17.281,10.335Z" />
+    </group>
+</vector>

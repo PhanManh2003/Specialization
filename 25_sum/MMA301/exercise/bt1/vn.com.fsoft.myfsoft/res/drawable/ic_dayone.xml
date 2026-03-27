@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffe6edf7" android:pathData="M32.0002,16.0002a16,16 0,1 1,-16 -16A16,16 0,0 1,32.0002 16.0002Z" />
+    <group>
+        <clip-path android:pathData="M32,16a16,16 0,1 1,-16 -16A16,16 0,0 1,32 16Z" />
+        <path android:fillColor="@drawable/$ic_dayone__0" android:pathData="M5.69,30.815a2.019,2.019 0,0 0,2.015 2.017L24.29,32.832a2.019,2.019 0,0 0,2.015 -2.017L26.305,18.221L5.69,18.221Z" />
+        <path android:fillColor="@drawable/$ic_dayone__1" android:pathData="M26.31,16.973L26.31,15.051a2.019,2.019 0,0 0,-2.015 -2.017L12.559,13.034v1.12a0.623,0.623 0,1 1,-1.246 0v-1.12L10.086,13.034v1.12a0.623,0.623 0,1 1,-1.246 0v-1.12L7.705,13.034A2.019,2.019 0,0 0,5.686 15.051v1.922ZM26.31,16.973" />
+        <path android:fillColor="@drawable/$ic_dayone__2" android:pathData="M12.56,11.914a0.623,0.623 0,1 0,-1.246 0v1.12h1.246ZM12.56,11.914" />
+        <path android:fillColor="@drawable/$ic_dayone__3" android:pathData="M10.089,11.914A0.623,0.623 0,1 0,8.847 11.914v1.12h1.246ZM10.089,11.914" />
+        <path android:fillColor="@drawable/$ic_dayone__4" android:pathData="M20.199,18.966a4.976,4.976 0,1 0,-4.971 -4.976A4.979,4.979 0,0 0,20.199 18.966Z" />
+        <path android:fillColor="#ffe6edf7" android:pathData="M19.01,16.226a0.334,0.334 0,0 1,-0.382 -0.375q0,-0.361 0.382,-0.361h0.777v-3.145l-0.59,0.354a0.351,0.351 0,0 1,-0.3 0.049,0.37 0.37,0 0,1 -0.2,-0.174 0.4,0.4 0,0 1,-0.042 -0.274,0.365 0.365,0 0,1 0.194,-0.246l0.957,-0.576a2.251,2.251 0,0 1,0.277 -0.142,0.66 0.66,0 0,1 0.257,-0.059 0.37,0.37 0,0 1,0.243 0.08,0.319 0.319,0 0,1 0.1,0.26v3.874h0.708q0.382,0 0.382,0.361a0.334,0.334 0,0 1,-0.382 0.375Z" />
+    </group>
+</vector>

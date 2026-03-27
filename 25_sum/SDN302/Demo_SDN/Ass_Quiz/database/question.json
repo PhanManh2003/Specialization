@@ -1,0 +1,91 @@
+[
+  {
+    "text": "What is the synonym of 'happy'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Joyful",
+      "Tired"
+    ],
+    "correctAnswer": "Joyful",
+    "testIds": [
+      {
+        "$oid": "665f30016b449f0d1437b6fa"
+      },
+      {
+        "$oid": "665f30016b449f0d1437b6fb"
+      }
+    ]
+  },
+  {
+    "text": "Which one is a fruit?",
+    "options": [
+      "Carrot",
+      "Potato",
+      "Apple",
+      "Lettuce"
+    ],
+    "correctAnswer": "Apple",
+    "testIds": [
+      {
+        "$oid": "665f30016b449f0d1437b6fa"
+      }
+    ]
+  },
+  {
+    "text": "He ___ to school every day.",
+    "options": [
+      "go",
+      "goes",
+      "gone",
+      "going"
+    ],
+    "correctAnswer": "goes",
+    "testIds": [
+      {
+        "$oid": "665f30016b449f0d1437b6fb"
+      }
+    ]
+  },
+  {
+    "text": "Choose the correct spelling:",
+    "options": [
+      "definately",
+      "definitely",
+      "definatly",
+      "definete"
+    ],
+    "correctAnswer": "definitely",
+    "testIds": []
+  },
+  {
+    "text": "What is the antonym of 'hot'?",
+    "options": [
+      "Warm",
+      "Cold",
+      "Boiling",
+      "Cool"
+    ],
+    "correctAnswer": "Cold",
+    "testIds": [
+      {
+        "$oid": "665f30016b449f0d1437b6fa"
+      }
+    ]
+  },
+  {
+    "text": "Select the correct form: She ___ playing tennis now.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "correctAnswer": "is",
+    "testIds": [
+      {
+        "$oid": "665f30016b449f0d1437b6fb"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/item_search_account_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_banner_dayone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/iv_merit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_84dp" android:src="@null" android:layout_marginEnd="@dimen/_20dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.cardview.widget.CardView android:id="@id/cv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:cardCornerRadius="@dimen/_6dp" app:cardElevation="@dimen/_6dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_merit">
+                <TextView android:textSize="@dimen/_14sp" android:textColor="@color/order_fragment_content_color_text" android:id="@id/tv_main_title_dayone_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginBottom="@dimen/_36dp" android:fontFamily="@font/inter_medium" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_dayone_offline_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_back_dayone_cancel" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/_18dp" android:layout_height="@dimen/_18dp" android:layout_marginBottom="@dimen/_12dp" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/_16dp" app:layout_constraintStart_toStartOf="parent" app:tint="@color/item_search_account_color" />
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/order_fragment_content_color_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_12dp" android:text="@string/onboarding_dayone_offline_title" android:fontFamily="@font/inter_semibold" app:layout_constraintEnd_toEndOf="parent" />
+        <TextView android:textSize="@dimen/_12sp" android:textColor="@color/fpt_care_qlbh_color_level_selected" android:layout_gravity="end" android:padding="@dimen/_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_12dp" android:text="@string/onboarding_support_title" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_12dp" />
+    </androidx.appcompat.widget.Toolbar>
+</FrameLayout>

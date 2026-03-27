@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/layout_empty_epayment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:text_empty="@string/epayment_text_empty"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

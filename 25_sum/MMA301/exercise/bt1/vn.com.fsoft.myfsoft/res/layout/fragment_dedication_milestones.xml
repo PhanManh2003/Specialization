@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/dedication_milestones_scroller" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dedication_milestones_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_background" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" android:src="@null" app:layout_constraintDimensionRatio="375:4284" app:layout_constraintTop_toTopOf="parent" />
+            <vn.com.fsoft.myfsoft.workanniversary.view.DedicationMilestonesView android:id="@id/roadmap_milestones" android:layout_width="@dimen/_0dp" android:layout_height="@dimen/_0dp" app:isOverlapMilestoneAndStar="true" app:layout_constraintBottom_toBottomOf="@id/iv_background" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_background" app:layout_constraintWidth_percent="0.375" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/colorBlackAlpha15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btn_back_work_anni_view_reaction" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back_white" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@id/tv_toolbar_work_anni_view_reaction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/work_anniversary_your_milestone" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_work_anni_view_reaction" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_work_anni_view_reaction" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

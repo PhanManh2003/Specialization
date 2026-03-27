@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_8B8B8B" android:id="@id/tv_current_address_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_current_address_title" android:fontFamily="@font/inter_bold" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_current_address_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:fontFamily="@font/inter_regular" />
+    <View android:id="@id/view_divider_current_address_permanent_address" android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_10dp" android:layout_marginBottom="@dimen/_12dp" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_8B8B8B" android:id="@id/tv_permanent_address_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_permanent_address_title" android:fontFamily="@font/inter_bold" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_permanent_address_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:fontFamily="@font/inter_regular" />
+    <View android:id="@id/view_divider_permanent_address_phone_number" android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_10dp" android:layout_marginBottom="@dimen/_12dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_telephone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_8B8B8B" android:id="@id/tv_phone_number_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_telephone_title" android:fontFamily="@font/inter_bold" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_phone_number_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:layout_marginBottom="@dimen/_10dp" android:fontFamily="@font/inter_regular" />
+    </LinearLayout>
+    <View android:id="@id/view_divider_permanent_address_email" android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginBottom="@dimen/_12dp" />
+    <TextView android:textSize="@dimen/_12sp" android:textColor="@color/color_8B8B8B" android:id="@id/tv_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_email_title" android:fontFamily="@font/inter_bold" />
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:id="@id/tv_email_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" android:fontFamily="@font/inter_regular" />
+    <View android:id="@id/view_divider_email" android:background="@color/colorBlackAlpha10" android:layout_width="fill_parent" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_10dp" />
+</LinearLayout>

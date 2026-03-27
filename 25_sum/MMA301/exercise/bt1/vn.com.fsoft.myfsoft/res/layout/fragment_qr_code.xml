@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.camera.view.PreviewView android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <vn.com.fsoft.myfsoft.home.view.CropRectangleScanQR android:id="@id/cropScanQR" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:text_scan_guide="@string/scanqr_guide_msg" app:text_scan_guide_color="@color/colorWhite" />
+    <ImageView android:id="@id/btn_back_scan_qr_code" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:layout_marginBottom="@dimen/_10dp" android:src="@drawable/ic_back_white" android:alpha="0.7" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@id/tv_scan_qr_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scanqr_feature_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back_scan_qr_code" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back_scan_qr_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorTransparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/_20dp" app:contentInsetEnd="@dimen/_0dp" app:contentInsetStart="@dimen/_0dp" app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/btn_back" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/_10dp" android:layout_width="@dimen/_36dp" android:layout_height="@dimen/_36dp" android:src="@drawable/ic_back" android:scaleType="fitCenter" android:alpha="0.65" android:layout_marginStart="@dimen/_10dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/order_fragment_content_color_text" android:layout_gravity="center|top" android:id="@id/tv_title_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_register_bus_route_title" android:fontFamily="@font/inter_semibold" app:layout_constraintBottom_toBottomOf="@id/btn_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back" />
+                <TextView android:textSize="@dimen/_12sp" android:textColor="@color/fpt_care_qlbh_color_level_selected" android:layout_gravity="end|center|top" android:id="@id/tv_support" android:padding="@dimen/_4dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboarding_support_title" android:fontFamily="@font/inter_semibold" android:layout_marginEnd="@dimen/_12dp" app:layout_constraintBottom_toBottomOf="@id/btn_back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/btn_back" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <ViewStub android:id="@id/view_sub_not_register_bus" android:layout="@layout/layout_bus_not_register" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ViewStub android:id="@id/view_sub_register_bus" android:layout="@layout/layout_bus_register" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+        <vn.com.fsoft.myfsoft.base.view.EmptyStateView android:id="@id/empty_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/toolbar" app:text_empty="@string/txt_empty_state_list_bus_route" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_view_container_bus_detail" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/shimmer_header_register_bus_route" />
+                <include layout="@layout/item_loading_bus_detail_line4" />
+                <include layout="@layout/item_loading_bus_detail_line1" />
+                <include layout="@layout/item_loading_bus_detail_line2" />
+                <include layout="@layout/item_loading_bus_detail_line3" />
+                <include layout="@layout/item_loading_bus_detail_line4" />
+                <include layout="@layout/item_loading_bus_detail_line4" />
+                <include layout="@layout/item_loading_bus_detail_line4" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

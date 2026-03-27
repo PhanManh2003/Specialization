@@ -1,0 +1,67 @@
+public class Motor {
+
+    public int speed;
+
+    public Motor(int speed) {
+        if (speed <= 0) {
+            throw new IllegalArgumentException("Speed must be a positive integer");
+        }
+        this.speed = speed;
+    }
+
+    public void rotateClockWise() {
+        System.out.println("Motor is rotating clockwise at speed " + speed);
+    }
+
+    public void rotateCounterClockWise() {
+        System.out.println("Motor is rotating counter-clockwise at speed " + speed);
+    }
+}
+
+
+
+public class Car {
+
+    private Motor leftMotor;
+    private Motor rightMotor;
+
+    public Car(Motor leftMotor, Motor rightMotor) {
+        this.leftMotor = leftMotor;
+        this.rightMotor = rightMotor;
+    }
+
+    public void goStraight() {
+        System.out.println("Car is moving straight");
+        leftMotor.rotateClockWise();
+        rightMotor.rotateClockWise();
+    }
+
+    public void turnLeft() {
+        System.out.println("Car is turning left");
+        leftMotor.rotateCounterClockWise();
+        rightMotor.rotateClockWise();
+    }
+
+    public void turnRight() {
+        System.out.println("Car is turning right");
+        leftMotor.rotateClockWise();
+        rightMotor.rotateCounterClockWise();
+    }
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Lớp Main để chạy thử
+
+        Motor leftMotor = new Motor(10);
+        Motor rightMotor = new Motor(10);
+        Car car = new Car(leftMotor, rightMotor);
+
+        car.goStraight();
+        car.turnLeft();
+        car.turnRight();
+    }
+
+}

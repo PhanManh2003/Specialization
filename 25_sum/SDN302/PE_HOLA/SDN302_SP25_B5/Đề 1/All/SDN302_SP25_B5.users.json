@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19ab"
+  },
+  "name": "Alice1",
+  "email": "alice1@example.com",
+  "passwordHash": "$2b$10$qP4o784M3v/w7vEOFSJcs./GTeqovXhMnnzyDeoQypgcTAaTjBzO6",
+  "role": "student",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680844c7ac18e6f01b7f19ac"
+  },
+  "name": "Bob",
+  "email": "bob@example.com",
+  "passwordHash": "$2b$10$qP4o784M3v/w7vEOFSJcs./GTeqovXhMnnzyDeoQypgcTAaTjBzO6",
+  "role": "librarian",
+  "__v": 0
+}]

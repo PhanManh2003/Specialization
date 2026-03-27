@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cvTypeDoc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_12dp" android:layout_marginRight="@dimen/_16dp" android:elevation="@dimen/_6dp" android:layout_marginHorizontal="@dimen/_16dp" app:cardCornerRadius="@dimen/_8dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|center" android:id="@id/ivTypeDoc" android:layout_width="@dimen/_52dp" android:layout_height="@dimen/_52dp" android:src="@null" android:contentDescription="@null" />
+            <TextView android:textColor="@color/colorBlackText" android:id="@id/tvTitleDoc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/_8dp" android:layout_marginEnd="@dimen/_16dp" style="@style/TextInterSemiBold16White" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/icArrowDoc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_common_arrow_right" android:contentDescription="@null" app:tint="@color/color_text_gray" style="@style/TextInterSemiBold14Black" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_16dp" android:layout_marginTop="@dimen/_4dp" android:layout_marginRight="@dimen/_16dp" android:layout_marginBottom="@dimen/_4dp" android:layout_marginHorizontal="@dimen/_16dp" app:cardCornerRadius="@dimen/_8dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cvTypeDoc">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_list_my_doc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

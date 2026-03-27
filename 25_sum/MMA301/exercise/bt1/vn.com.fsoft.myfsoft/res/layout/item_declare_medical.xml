@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:layout_marginBottom="@dimen/_8dp" android:layout_marginStart="@dimen/_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="6.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorBlackText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvCity" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="2.0" android:fontFamily="@font/inter_semibold" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/metal_amazing_spirit" android:gravity="center" android:id="@id/tvCN" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_code_share" android:gravity="center" android:id="@id/tvDDT" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/color_button_recognize" android:gravity="center" android:id="@id/tvLife" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+        <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorGrey707070" android:gravity="center" android:id="@id/tvDie" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/inter_semibold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
